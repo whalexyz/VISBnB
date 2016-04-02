@@ -28,7 +28,6 @@ fetch_shots_by_player_id_and_season = function(player_id, season) {
   )
   
   stop_for_status(request)
-  
   data = content(request)
   
   raw_shots_data = data$resultSets[[1]]$rowSet
@@ -84,9 +83,9 @@ shots_2014_15 = do.call(rbind,
                                function(i) fetch_shots_by_player_id_and_season(player_id[i],season)$player))
 
 
-league_average_2014_15 = unique(do.call(rbind,
+league_average_2014_15 = do.call(rbind,
                                  lapply(1:length(player_id), 
-                                        function(i) fetch_shots_by_player_id_and_season(player_id[i],season)$league_average)))
+                                        function(i) fetch_shots_by_player_id_and_season(player_id[i],season)$league_average))
 
 write.csv(shots_2014_15, file = "shots_2014_15.csv")
-write.csv(league_average_2014_15, file = "league_average_2014_15.csv")
+write.csv(unique(league_average_2014_15), file = "league_average_2014_15.csv")
