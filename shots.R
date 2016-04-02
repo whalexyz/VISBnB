@@ -1,4 +1,5 @@
 ## Extracting shooting data for each players in 2014-15
+hoop_center_y = 5.25
 fetch_shots_by_player_id_and_season = function(player_id, season) {
   request = GET(
     "http://stats.nba.com/stats/shotchartdetail",

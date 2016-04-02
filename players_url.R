@@ -20,9 +20,11 @@ players = mutate(players,
 players$name = sapply(players$display_last_comma_first, function(s) {
   paste(rev(strsplit(s, ", ")[[1]]), collapse = " ")
 })
+
 ## Filter players that still played in 2014-2015
 players = players %>%
   filter(to_year>2014)
+
 first_year_of_data = 1996
 last_year_of_data = max(players$to_year)
 season_strings = paste(first_year_of_data:last_year_of_data,
