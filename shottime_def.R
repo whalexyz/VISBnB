@@ -11,8 +11,8 @@ fetch_shottime_def = function(season ,shotclockrange, closedefdistrange) {
       PerMode="Totals",
       Season= season,
       SeasonType="Regular Season",
-      ShotClockRange = shotclockrange[1],
-      CloseDefDistRange = closedefdistrange[1]
+      ShotClockRange = shotclockrange,
+      CloseDefDistRange = closedefdistrange
     )
   )
   
@@ -23,8 +23,8 @@ fetch_shottime_def = function(season ,shotclockrange, closedefdistrange) {
   
   raw_shottime_def = data$resultSets[[1]]$rowSet
   col_names = tolower(as.character(data$resultSets[[1]]$headers))
-  # lapply(raw_shottime_def, function(i) {lapply(i, function(j){class(j)=="NULL"})})
-  raw_shottime_def[unlist(lapply(raw_shottime_def, function(i) {lapply(i, function(j){is.null(class(j))})}))] <- NA
+  raw_shottime_def = lapply(raw_shottime_def, function(i) {lapply(i, function(j){j = ifelse(is.null(j),NA,j)})})
+  
   
   if (length(raw_shottime_def) == 0) {
     shottime_def = data.frame(
