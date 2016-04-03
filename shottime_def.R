@@ -3,7 +3,7 @@ library(jsonlite)
 library(dplyr)
 library(httr)
 library(hexbin)
-fetch_shottime_def = function(player_id, season ,shotclockrange) {
+fetch_shottime_def = function(season ,shotclockrange, closedefdistrange) {
   request = GET(
     "http://stats.nba.com/stats/leaguedashplayerptshot",
     query = list(
@@ -12,7 +12,7 @@ fetch_shottime_def = function(player_id, season ,shotclockrange) {
       Season= season,
       SeasonType="Regular Season",
       ShotClockRange = shotclockrange,
-      ClockDefDistRange = ""
+      CloseDefDistRange = closedefdistrange
     )
   )
   
@@ -41,18 +41,15 @@ fetch_shottime_def = function(player_id, season ,shotclockrange) {
 }
 
 
-player_id = unique(players$person_id)
 season = "2014-15"
-shotclockrange = c("24-22", "22-18%20Very%20Early", "18-15%20Early", "15-7%20Average", "7-4%20Late", "4-0%20Very%20Late")
-# closedefdistrange =c("0-2 FT Very Tight", "2-4", "4-6", "6+")
+shotclockrange = c("24-22", "22-18 Very Early", "18-15 Early", "15-7 Average", "7-4 Late", "4-0 Very Late")
+closedefdistrange =c("0-2 Feet - Very Tight", "2-4 Feet - Tight", "4-6 Feet - Open", "6+ Feet - Wide Open")
 # fetch_shottime_def(player_id, season, shotclockrange, closedefdistrange)
 
-# shottime_2014_15 = 
-#   do.call(rbind,lapply(1:length(closedefdistrange), 
-#                                         function(k) {do.call(rbind, lapply(1:length(shotclockrange), 
-#                                                                            function(j){lapply(1:length(player_id), 
-#                                                                                               function(i){
-#                                                                                                 fetch_shottime_def(player_id[i], season ,shotclockrange[j], closedefdistrange[k])
-#                                                                                               })}))}))
-#                            
-fetch_shottime_def(201566, season, shotclockrange[2])                       
+shottime_2014_15 = 
+  do.call(rbind,lapply(1:length(closedefdistrange), 
+                                        function(k) {do.call(rbind, lapply(1:length(shotclockrange), 
+                                                                           function(j){fetch_shottime_def(season ,shotclockrange[j], closedefdistrange[k])
+                                                                                              }))}))
+                           
+                       

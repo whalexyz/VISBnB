@@ -62,4 +62,5 @@ player_photo_url = function(player_id) {
   paste0("http://stats.nba.com/media/players/230x185/", player_id, ".png")
 }
 
+save(players, file = "player.RData")
 
