@@ -63,4 +63,5 @@ player_photo_url = function(player_id) {
 }
 
 save(players, file = "player.RData")
+write.csv(players, file = "player_info.csv")
 

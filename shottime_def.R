@@ -41,6 +41,8 @@ fetch_shottime_def = function(season ,shotclockrange, closedefdistrange) {
   
   shottime_def = tbl_df(shottime_def)
   names(shottime_def) = col_names
+  shottime_def = shottime_def %>% 
+    mutate(shotclockrange = shotclockrange, closedefdistrange = closedefdistrange)
   return(shottime_def)
 }
 
