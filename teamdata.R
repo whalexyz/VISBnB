@@ -53,6 +53,8 @@ if (length(raw_overallteamdashboard_data) == 0) {
 
 overallteamdashboard = tbl_df(overallteamdashboard)
 names(overallteamdashboard) = col_names
+overallteamdashboard = overallteamdashboard %>%
+  mutate(team_id = team_id)
 
 raw_Shot5ftteamdashboard_data = data$resultSets[[2]]$rowSet
 Shot5ftteamdashboard_names = tolower(as.character(data$resultSets[[2]]$headers))
@@ -60,6 +62,8 @@ Shot5ftteamdashboard = tbl_df(data.frame(
   matrix(unlist(raw_Shot5ftteamdashboard_data), ncol = length(Shot5ftteamdashboard_names), byrow = TRUE)
 ))
 names(Shot5ftteamdashboard) = Shot5ftteamdashboard_names
+Shot5ftteamdashboard = Shot5ftteamdashboard %>%
+  mutate(team_id = team_id)
 
 return(list(overallteamdashboard = overallteamdashboard, Shot5ftteamdashboard = Shot5ftteamdashboard))
 }
@@ -76,5 +80,5 @@ team_Shot5ftteamdashboard_2014_15 = do.call(rbind,
                                  lapply(1:length(TeamID), 
                                         function(i) fetch_shots_by_team_id_and_season(TeamID[i],season)$Shot5ftteamdashboard))
 
-write.csv(shots_2014_15, file = "overallteamdashboard_2014_15.csv")
+write.csv(team_overallteamdashboard_2014_15, file = "overallteamdashboard_2014_15.csv")
 write.csv(team_Shot5ftteamdashboard_2014_15, file = "Shot5ftteamdashboard_2014_15.csv")
