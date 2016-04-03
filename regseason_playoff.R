@@ -1,8 +1,9 @@
+fetch_playoff_reg = function(season,measuretype){
 regularseason = GET(
   "http://stats.nba.com/stats/leaguedashteamstats",
   query = list(
     Season = season,
-    MeasureType = "Advanced",
+    MeasureType = measuretype,
     PerMode = "Totals",
     DateFrom = "",
     DateTo = "",
@@ -48,15 +49,25 @@ if (length(raw_playoff) == 0) {
 
 playoff_reg = tbl_df(playoff_reg)
 names(playoff_reg) = col_names
+playoff_reg = playoff_reg %>%
+  mutate(measuretype = measuretype)
 
-write.csv(playoff_reg, file = "playoff_reg.csv")
+return(playoff_reg)
+}
 
-fetch_playoff = function(season, poround){
+measuretype = c("Base","Advanced")
+playoff_reg_2014_15_base = fetch_playoff_reg(season, measuretype[1])
+playoff_reg_2014_15_advanced = fetch_playoff_reg(season, measuretype[2])
+
+write.csv(playoff_reg_2014_15_base, file = "playoff_2014_15_reg_base.csv")
+write.csv(playoff_reg_2014_15_advanced, file = "playoff_2014_15_reg_advanced.csv")
+
+fetch_playoff = function(season, poround, measuretype){
   request = GET(
     "http://stats.nba.com/stats/leaguedashteamstats",
     query = list(
       Season = season,
-      MeasureType = "Advanced",
+      MeasureType = measuretype,
       PerMode = "Totals",
       DateFrom = "",
       DateTo = "",
@@ -107,7 +118,13 @@ fetch_playoff = function(season, poround){
 }
 
 poround = seq(1,4,1)
-playoff_2014_15 = do.call(rbind,
-                         lapply(1:length(poround), function(i) fetch_playoff(season, poround[i])))
+measuretype = c("Base", "Advanced")
+playoff_2014_15_base = do.call(rbind, lapply(1:length(poround),
+                                             function(i) {fetch_playoff(season, poround[i], measuretype[1])
+                                                                            }))
 
-write.csv(playoff_2014_15, file = "playoff_2014_15_round.csv")
+playoff_2014_15_advanced = do.call(rbind, lapply(1:length(poround),
+                                             function(i) {fetch_playoff(season, poround[i], measuretype[2])
+                                             }))
+write.csv(playoff_2014_15_base, file = "playoff_2014_15_round_base.csv")
+write.csv(playoff_2014_15_advanced, file = "playoff_2014_15_round_advanced.csv")
