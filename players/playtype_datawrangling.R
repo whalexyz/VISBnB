@@ -36,7 +36,7 @@ Player_info = select(players, display_first_last, team_id, team_abbreviation, pe
 player_playtype = Player_info %>%
   full_join(player_playtype, by = "Player")
 
-save(player_playtype, file = "player_playtype.csv")
+write.csv(player_playtype, file = "player_playtype.csv")
 
 ### Team play type: ###
 setwd("/Users/achchg/Desktop/nba/VISBnB/teams")
@@ -79,4 +79,4 @@ team_info = select(players, team_id, team_abbreviation, team_city, team_name)%>%
 team_playtype =  team_playtype%>%
   left_join(team_info, by = "Team")
 
-save(team_playtype, file = "team_playtype.csv")
+write.csv(team_playtype, file = "team_playtype.csv")
