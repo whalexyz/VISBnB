@@ -1,0 +1,1280 @@
+"","player_id","player_name","team_id","team_name","period","minutes_remaining","seconds_remaining","shot_zone_basic","shot_zone_area","shot_zone_range","shot_distance","loc_x","loc_y","shot_made_numeric","shot_value","time","shot_type","shot_zone"
+"1",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,20,"Mid-Range","Right Side Center(RC)","16-24 ft.",18,11.4,20.05,0,2,40,"Jump",3
+"2",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,30,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.7,5.25,1,2,330,"Layup",1
+"3",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,4,45,"Mid-Range","Left Side(L)","8-16 ft.",12,-10.5,11.55,0,2,435,"Jump",2
+"4",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,31,"Right Corner 3","Right Side(R)","24+ ft.",22,22.7,3.65,0,3,569,"Jump",4
+"5",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,51,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,9.1,29.85,0,3,609,"Jump",4
+"6",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,18,"In The Paint (Non-RA)","Right Side(R)","8-16 ft.",9,7,11.05,0,2,882,"Jump",2
+"7",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,16,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,12.2,28.75,0,3,1244,"Jump",4
+"8",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,55,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.8,5.25,0,2,1325,"Layup",1
+"9",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,16,"Mid-Range","Right Side(R)","8-16 ft.",13,13.5,7.45,0,2,1364,"Jump",2
+"10",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,54,"Above the Break 3","Center(C)","24+ ft.",25,2.6,30.15,1,3,1746,"Jump",4
+"11",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,50,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.2,4.95,1,2,1930,"Layup",1
+"12",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,38,"Mid-Range","Left Side(L)","8-16 ft.",11,-10.3,9.45,0,2,2122,"Jump",2
+"13",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,28,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-12.7,28.25,0,3,2432,"Jump",4
+"14",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,34,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.8,5.55,1,2,2606,"Layup",1
+"15",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,44,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.1,5.55,1,2,2836,"Layup",1
+"16",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,54,"Mid-Range","Center(C)","16-24 ft.",19,5.6,23.85,1,2,66,"Jump",3
+"17",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,31,"Mid-Range","Center(C)","16-24 ft.",21,-0.2,26.85,1,2,329,"Jump",3
+"18",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,3,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,5,6.75,1,2,357,"Jump",1
+"19",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,4,38,"Mid-Range","Right Side(R)","8-16 ft.",10,9.5,8.85,0,2,442,"Jump",2
+"20",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,4,11,"Mid-Range","Right Side Center(RC)","16-24 ft.",18,11.4,19.45,0,2,469,"Jump",3
+"21",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,3,35,"Mid-Range","Left Side(L)","8-16 ft.",11,-11.6,6.45,1,2,505,"Jump",2
+"22",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,52,"Mid-Range","Left Side(L)","8-16 ft.",14,-14.6,4.15,0,2,548,"Jump",2
+"23",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,23,"Mid-Range","Center(C)","16-24 ft.",21,-1.5,26.85,0,2,577,"Jump",3
+"24",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,18,"Left Corner 3","Left Side(L)","24+ ft.",23,-23.5,6.65,1,3,582,"Jump",4
+"25",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,23,"Restricted Area","Center(C)","Less Than 8 ft.",2,-2.9,5.35,0,2,637,"Layup",1
+"26",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,16,"Restricted Area","Center(C)","Less Than 8 ft.",3,2,7.85,0,2,1064,"Layup",1
+"27",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,36,"Restricted Area","Center(C)","Less Than 8 ft.",2,-2.3,5.95,1,2,1104,"Layup",1
+"28",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,6,"Restricted Area","Center(C)","Less Than 8 ft.",2,-0.8,7.55,0,2,1134,"Layup",1
+"29",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,4,19,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.4,5.55,1,2,1181,"Layup",1
+"30",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,5,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1255,"Others",1
+"31",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,29,"Mid-Range","Left Side(L)","8-16 ft.",11,-11.7,7.55,1,2,1351,"Bank",2
+"32",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,0,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,2.6,10.55,0,2,1440,"Jump",1
+"33",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,34,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1706,"Others",1
+"34",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,52,"Mid-Range","Left Side(L)","16-24 ft.",19,-19,10.45,1,2,1748,"Jump",3
+"35",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,33,"Restricted Area","Center(C)","Less Than 8 ft.",2,-0.2,7.85,0,2,2307,"Layup",1
+"36",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,4,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-18.8,23.95,0,3,2336,"Jump",4
+"37",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,33,"Restricted Area","Center(C)","Less Than 8 ft.",2,0.2,7.25,0,2,2487,"Layup",1
+"38",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,30,"Restricted Area","Center(C)","Less Than 8 ft.",2,-0.4,7.55,1,2,2490,"Layup",1
+"39",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,24,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-10.6,28.55,0,3,2556,"Jump",4
+"40",2544,"LeBron James",1610612739,"Cleveland Cavaliers",5,4,43,"Restricted Area","Center(C)","Less Than 8 ft.",2,-1.9,6.05,1,2,3317,"Layup",1
+"41",2544,"LeBron James",1610612739,"Cleveland Cavaliers",5,3,43,"Restricted Area","Center(C)","Less Than 8 ft.",2,2,6.65,1,2,3377,"Layup",1
+"42",2544,"LeBron James",1610612739,"Cleveland Cavaliers",5,3,6,"Mid-Range","Left Side(L)","8-16 ft.",14,-9,16.75,0,2,3414,"Jump",2
+"43",2544,"LeBron James",1610612739,"Cleveland Cavaliers",5,2,47,"Restricted Area","Center(C)","Less Than 8 ft.",2,1.2,7.55,0,2,3433,"Layup",1
+"44",2544,"LeBron James",1610612739,"Cleveland Cavaliers",5,0,51,"Mid-Range","Left Side(L)","16-24 ft.",16,-14.2,13.55,0,2,3549,"Jump",3
+"45",2544,"LeBron James",1610612739,"Cleveland Cavaliers",5,0,24,"Mid-Range","Left Side(L)","16-24 ft.",16,-16.4,5.65,0,2,3576,"Jump",3
+"46",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,46,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,74,"Others",1
+"47",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,37,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,14.7,24.45,1,3,383,"Jump",4
+"48",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,4,55,"Above the Break 3","Right Side Center(RC)","24+ ft.",28,9.7,32.45,1,3,425,"Jump",4
+"49",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,17,"Restricted Area","Center(C)","Less Than 8 ft.",2,-1.8,6.15,0,2,583,"Layup",1
+"50",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,41,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.3,5.25,0,2,619,"Layup",1
+"51",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,58,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,18.2,21.65,0,3,1022,"Jump",4
+"52",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,39,"Mid-Range","Left Side(L)","8-16 ft.",9,-8.9,7.15,1,2,1041,"Others",2
+"53",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,50,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-9.2,28.25,0,3,1330,"Jump",4
+"54",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,42,"Restricted Area","Center(C)","Less Than 8 ft.",2,1.2,6.95,0,2,1698,"Layup",1
+"55",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,22,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-5.7,6.35,0,2,1778,"Jump",1
+"56",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,52,"Mid-Range","Left Side(L)","8-16 ft.",8,-8.2,7.85,0,2,2408,"Others",2
+"57",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,19,"In The Paint (Non-RA)","Left Side(L)","8-16 ft.",13,-7,16.45,0,2,2501,"Jump",2
+"58",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,43,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,0.4,12.15,0,2,17,"Jump",1
+"59",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,8,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1,5.65,0,2,52,"Layup",1
+"60",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,22,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.5,5.65,1,2,338,"Layup",1
+"61",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,1,"In The Paint (Non-RA)","Center(C)","8-16 ft.",9,-2.6,14.85,1,2,599,"Jump",2
+"62",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,5,"Mid-Range","Left Side(L)","16-24 ft.",19,-19,9.75,0,2,655,"Jump",3
+"63",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,4,40,"Restricted Area","Center(C)","Less Than 8 ft.",3,-0.2,8.85,1,2,1160,"Jump",1
+"64",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,2,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.2,5.65,1,2,1318,"Layup",1
+"65",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,26,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.4,4.75,0,2,1354,"Layup",1
+"66",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,31,"Restricted Area","Center(C)","Less Than 8 ft.",3,-3.5,6.75,0,2,1409,"Jump",1
+"67",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,13,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-11.6,26.65,1,3,1607,"Jump",4
+"68",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,32,"Above the Break 3","Center(C)","24+ ft.",24,6.1,29.15,0,3,1888,"Jump",4
+"69",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,57,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,16.6,23.35,1,3,1983,"Jump",4
+"70",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,10,"Restricted Area","Center(C)","Less Than 8 ft.",2,-1.6,6.45,0,2,2150,"Layup",1
+"71",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,32,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,-4.9,9.65,0,2,2368,"Jump",1
+"72",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,43,"Mid-Range","Left Side Center(LC)","16-24 ft.",16,-8.7,19.85,1,2,2597,"Jump",3
+"73",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,1,53,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-20.5,20.95,0,3,2767,"Jump",4
+"74",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,27,"Restricted Area","Center(C)","Less Than 8 ft.",3,-3.2,6.75,0,2,2853,"Jump",1
+"75",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,13,"Left Corner 3","Left Side(L)","24+ ft.",23,-23.2,3.95,1,3,2867,"Jump",4
+"76",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,51,"Right Corner 3","Right Side(R)","24+ ft.",24,24.1,5.25,0,3,189,"Jump",4
+"77",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,23,"Mid-Range","Left Side(L)","8-16 ft.",15,-15.3,9.65,0,2,997,"Others",2
+"78",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,39,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-12,27.95,0,3,1101,"Jump",4
+"79",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,11,"Mid-Range","Left Side(L)","16-24 ft.",20,-18.3,14.65,0,2,1129,"Jump",3
+"80",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,6,"In The Paint (Non-RA)","Center(C)","8-16 ft.",9,1,14.55,0,2,1134,"Jump",2
+"81",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,51,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1,5.25,0,2,1269,"Layup",1
+"82",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,41,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.9,5.35,1,2,1339,"Layup",1
+"83",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,30,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-20.2,19.25,1,3,1350,"Jump",4
+"84",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,24,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-19,20.55,0,3,1536,"Jump",4
+"85",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,10,"Mid-Range","Left Side Center(LC)","16-24 ft.",20,-15.3,19.45,0,2,1790,"Jump",3
+"86",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,16,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-4.8,8.65,1,2,1964,"Bank",1
+"87",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,47,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,4.2,5.95,1,2,1993,"Bank",1
+"88",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,13,"Mid-Range","Left Side(L)","16-24 ft.",16,-15.8,9.75,1,2,2327,"Jump",3
+"89",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,41,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.7,5.65,1,2,2359,"Layup",1
+"90",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,59,"Mid-Range","Center(C)","16-24 ft.",17,-3.8,22.25,0,2,2401,"Jump",3
+"91",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,43,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-20.5,20.55,0,3,2597,"Jump",4
+"92",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,52,"Restricted Area","Center(C)","Less Than 8 ft.",2,-2.3,5.35,1,2,2828,"Layup",1
+"93",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,32,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.8,5.05,1,2,2848,"Layup",1
+"94",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,18,"Restricted Area","Center(C)","Less Than 8 ft.",2,-1.6,7.25,0,2,42,"Layup",1
+"95",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,0,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.7,5.05,1,2,60,"Layup",1
+"96",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,46,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,22,19.25,0,3,134,"Jump",4
+"97",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,6,"Mid-Range","Right Side Center(RC)","16-24 ft.",21,14.1,21.45,0,2,654,"Jump",3
+"98",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,1,"Mid-Range","Left Side(L)","8-16 ft.",9,-9.2,8.25,1,2,1079,"Bank",2
+"99",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,12,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1308,"Others",1
+"100",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,41,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.2,6.45,0,2,1339,"Layup",1
+"101",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,56,"In The Paint (Non-RA)","Right Side(R)","8-16 ft.",8,6.9,9.75,1,2,1504,"Jump",2
+"102",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,19,"Restricted Area","Center(C)","Less Than 8 ft.",1,0,3.65,1,2,1541,"Layup",1
+"103",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,25,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.4,4.75,1,2,1595,"Layup",1
+"104",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,55,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.7,6.35,0,2,1625,"Layup",1
+"105",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,38,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,14.7,25.35,1,3,1762,"Jump",4
+"106",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,2,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2158,"Others",1
+"107",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,9,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-12.5,27.45,0,3,2451,"Jump",4
+"108",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,1,53,"Mid-Range","Left Side Center(LC)","16-24 ft.",16,-9.8,17.95,1,2,2767,"Jump",3
+"109",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,1,22,"Restricted Area","Center(C)","Less Than 8 ft.",3,-1.3,8.05,0,2,2798,"Jump",1
+"110",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,45,"Mid-Range","Right Side Center(RC)","16-24 ft.",18,11.1,19.85,0,2,2835,"Jump",3
+"111",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,21,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,-3.7,7.85,0,2,39,"Jump",1
+"112",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,7,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-15.7,23.65,1,3,53,"Jump",4
+"113",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,36,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,144,"Others",1
+"114",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,47,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-10.5,26.95,0,3,193,"Jump",4
+"115",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,5,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.5,5.25,0,2,355,"Layup",1
+"116",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,0,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,0.4,10.05,1,2,420,"Jump",1
+"117",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,3,5,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.1,5.55,0,2,535,"Layup",1
+"118",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,23,"Right Corner 3","Right Side(R)","24+ ft.",23,23.4,7.45,0,3,577,"Jump",4
+"119",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,19,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.25,1,2,881,"Layup",1
+"120",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,37,"In The Paint (Non-RA)","Right Side(R)","8-16 ft.",8,6.2,10.75,1,2,923,"Jump",2
+"121",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,1,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.7,5.65,0,2,959,"Layup",1
+"122",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,8,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-3.2,9.35,1,2,1012,"Jump",1
+"123",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,39,"Mid-Range","Center(C)","16-24 ft.",17,2.9,22.55,1,2,1041,"Jump",3
+"124",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,50,"Above the Break 3","Center(C)","24+ ft.",24,2.6,29.85,1,3,1330,"Jump",4
+"125",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,30,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,11,27.65,0,3,1350,"Jump",4
+"126",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,48,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1392,"Others",1
+"127",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,20,"Mid-Range","Left Side(L)","16-24 ft.",20,-20.9,5.25,0,2,1480,"Jump",3
+"128",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,2,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-21.5,19.85,0,3,1558,"Jump",4
+"129",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,14,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.6,5.25,1,2,1666,"Layup",1
+"130",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,46,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-16.1,24.25,1,3,1694,"Jump",4
+"131",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,52,"Mid-Range","Left Side(L)","8-16 ft.",14,-11.9,13.55,0,2,1928,"Jump",2
+"132",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,30,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.2,5.25,1,2,1950,"Layup",1
+"133",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,42,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,9.7,29.85,0,3,2478,"Jump",4
+"134",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,42,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.4,5.55,1,2,2538,"Layup",1
+"135",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,2,"In The Paint (Non-RA)","Center(C)","8-16 ft.",11,-0.5,16.55,1,2,2758,"Others",2
+"136",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,1,39,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,-7.1,6.15,1,2,2781,"Jump",1
+"137",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,1,11,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.35,1,2,2809,"Layup",1
+"138",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,30,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,13.3,25.75,1,3,90,"Jump",4
+"139",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,29,"Above the Break 3","Right Side Center(RC)","24+ ft.",27,14.3,29.15,1,3,151,"Jump",4
+"140",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,6,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,174,"Others",1
+"141",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,16,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-22.6,15.75,1,3,224,"Jump",4
+"142",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,58,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.2,5.65,0,2,362,"Layup",1
+"143",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,26,"In The Paint (Non-RA)","Left Side(L)","8-16 ft.",8,-4.5,12.45,0,2,874,"Jump",2
+"144",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,23,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.4,5.25,1,2,937,"Layup",1
+"145",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,4,25,"In The Paint (Non-RA)","Left Side(L)","8-16 ft.",8,-7.6,7.75,0,2,1175,"Jump",2
+"146",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,39,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-13,26.15,1,3,1341,"Jump",4
+"147",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,26,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-19.3,22.25,0,3,1414,"Jump",4
+"148",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,7,"Mid-Range","Left Side(L)","16-24 ft.",18,-18.3,10.25,1,2,1553,"Jump",3
+"149",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,39,"Mid-Range","Right Side(R)","16-24 ft.",18,16.2,15.15,1,2,1581,"Jump",3
+"150",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,54,"Mid-Range","Right Side Center(RC)","16-24 ft.",17,13.6,16.05,0,2,1626,"Jump",3
+"151",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,46,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.2,5.25,1,2,1634,"Layup",1
+"152",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,23,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.7,4.75,1,2,1657,"Layup",1
+"153",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,46,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.1,6.15,0,2,1694,"Layup",1
+"154",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,29,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.4,5.25,0,2,1711,"Layup",1
+"155",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,29,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.2,5.25,1,2,1771,"Layup",1
+"156",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,10,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.35,1,2,1910,"Layup",1
+"157",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,36,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.6,5.85,1,2,2004,"Others",1
+"158",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,6,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.55,0,2,54,"Layup",1
+"159",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,16,"Mid-Range","Left Side(L)","8-16 ft.",14,-13.9,8.95,0,2,224,"Jump",2
+"160",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,38,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,14,27.45,0,3,262,"Jump",4
+"161",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,26,"Mid-Range","Right Side(R)","8-16 ft.",13,12.2,9.75,0,2,274,"Jump",2
+"162",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,48,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,4.2,8.95,0,2,372,"Jump",1
+"163",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,4,34,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,446,"Others",1
+"164",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,50,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.65,1,2,970,"Layup",1
+"165",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,9,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.4,5.25,1,2,1311,"Layup",1
+"166",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,35,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-14.7,25.55,0,3,1405,"Jump",4
+"167",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,8,"Above the Break 3","Center(C)","24+ ft.",26,0.4,31.25,1,3,1672,"Jump",4
+"168",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,19,"Mid-Range","Right Side(R)","8-16 ft.",9,8.3,9.35,1,2,1901,"Bank",2
+"169",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,2,"Mid-Range","Right Side Center(RC)","16-24 ft.",16,11.9,17.05,1,2,1918,"Jump",3
+"170",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,32,"Mid-Range","Center(C)","16-24 ft.",18,-5.1,22.55,0,2,1948,"Jump",3
+"171",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,37,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-4,9.45,0,2,2423,"Jump",1
+"172",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,46,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-13.1,26.15,0,3,2534,"Jump",4
+"173",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,24,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2556,"Others",1
+"174",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,24,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.95,1,2,2736,"Layup",1
+"175",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,40,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1,6.45,0,2,2840,"Layup",1
+"176",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,34,"Above the Break 3","Center(C)","24+ ft.",25,6.4,30.25,1,3,146,"Jump",4
+"177",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,47,"Mid-Range","Left Side(L)","8-16 ft.",14,-13.9,8.55,0,2,253,"Jump",2
+"178",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,28,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,14.4,26.15,1,3,272,"Jump",4
+"179",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,4,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.2,6.15,1,2,356,"Layup",1
+"180",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,4,25,"Mid-Range","Right Side(R)","8-16 ft.",14,12.9,11.95,0,2,455,"Jump",2
+"181",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,5,"Mid-Range","Right Side Center(RC)","16-24 ft.",18,9.9,21.15,0,2,955,"Jump",3
+"182",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,16,"Mid-Range","Left Side(L)","16-24 ft.",17,-15.2,14.35,0,2,1004,"Jump",3
+"183",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,52,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.2,4.95,0,2,1088,"Layup",1
+"184",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,4,4,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1,5.65,1,2,1196,"Layup",1
+"185",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,53,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-13,27.15,0,3,1267,"Jump",4
+"186",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,19,"Mid-Range","Left Side(L)","8-16 ft.",12,-11.4,9.35,0,2,1661,"Jump",2
+"187",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,35,"Mid-Range","Left Side(L)","8-16 ft.",15,-14.7,10.05,0,2,1885,"Jump",2
+"188",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,34,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.2,5.95,1,2,1946,"Layup",1
+"189",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,54,"Mid-Range","Left Side(L)","8-16 ft.",11,-11.6,7.15,0,2,2406,"Jump",2
+"190",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,15,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.4,6.65,0,2,2685,"Others",1
+"191",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,13,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.4,5.95,0,2,2747,"Layup",1
+"192",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,1,9,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.5,5.95,1,2,2811,"Layup",1
+"193",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,36,"Above the Break 3","Center(C)","24+ ft.",25,-1.3,30.65,0,3,24,"Jump",4
+"194",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,35,"Mid-Range","Left Side(L)","8-16 ft.",14,-14.9,6.15,1,2,265,"Jump",2
+"195",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,22,"Restricted Area","Center(C)","Less Than 8 ft.",2,-1.5,6.65,0,2,278,"Layup",1
+"196",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,51,"Restricted Area","Center(C)","Less Than 8 ft.",2,-2.4,4.65,1,2,309,"Layup",1
+"197",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,36,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.1,5.65,1,2,324,"Others",1
+"198",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,33,"Mid-Range","Right Side Center(RC)","16-24 ft.",20,11,22.05,0,2,387,"Jump",3
+"199",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,4,47,"Above the Break 3","Center(C)","24+ ft.",26,6.4,31.05,1,3,433,"Jump",4
+"200",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,40,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.3,5.55,1,2,560,"Layup",1
+"201",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,39,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,5.3,9.95,0,2,621,"Jump",1
+"202",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,3,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-5.6,7.15,0,2,657,"Jump",1
+"203",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,30,"Above the Break 3","Center(C)","24+ ft.",24,1.7,30.15,1,3,1290,"Jump",4
+"204",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,52,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-12,27.95,0,3,1388,"Jump",4
+"205",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,14,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,9.1,29.85,0,3,1426,"Jump",4
+"206",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,5,"In The Paint (Non-RA)","Left Side(L)","8-16 ft.",8,-7.8,8.35,1,2,1495,"Jump",2
+"207",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,43,"Above the Break 3","Left Side Center(LC)","24+ ft.",28,-10.1,31.85,0,3,1517,"Jump",4
+"208",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,34,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,8.6,29.85,0,3,1706,"Jump",4
+"209",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,8,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1732,"Others",1
+"210",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,24,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,-4,5.35,0,2,2076,"Jump",1
+"211",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,7,"Mid-Range","Left Side(L)","8-16 ft.",10,-10.3,5.85,0,2,2393,"Jump",2
+"212",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,33,"Mid-Range","Left Side(L)","16-24 ft.",19,-17.2,14.95,0,2,2607,"Jump",3
+"213",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,11,"Restricted Area","Center(C)","Less Than 8 ft.",2,2.6,4.15,0,2,2629,"Layup",1
+"214",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,41,"Mid-Range","Left Side(L)","16-24 ft.",19,-19.1,4.45,0,2,139,"Jump",3
+"215",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,50,"Restricted Area","Center(C)","Less Than 8 ft.",2,1.3,6.95,1,2,250,"Layup",1
+"216",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,43,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-12.8,27.45,1,3,317,"Jump",4
+"217",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,31,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.05,1,2,1049,"Layup",1
+"218",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,15,"Restricted Area","Center(C)","Less Than 8 ft.",3,-0.7,8.55,1,2,1125,"Jump",1
+"219",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,9,"Left Corner 3","Left Side(L)","24+ ft.",23,-23.1,4.95,0,3,1251,"Jump",4
+"220",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,53,"Above the Break 3","Center(C)","24+ ft.",25,-4.5,29.85,0,3,1507,"Jump",4
+"221",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,48,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1,5.35,0,2,1632,"Layup",1
+"222",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,41,"Mid-Range","Left Side(L)","8-16 ft.",14,-14.7,5.95,0,2,1819,"Jump",2
+"223",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,7,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,20.9,20.95,0,3,1853,"Jump",4
+"224",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,43,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,-2.6,12.65,1,2,2117,"Jump",1
+"225",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,15,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.7,5.55,1,2,2385,"Layup",1
+"226",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,3,"Mid-Range","Left Side(L)","8-16 ft.",11,-11.4,8.95,0,2,57,"Bank",2
+"227",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,15,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.4,4.95,1,2,105,"Layup",1
+"228",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,57,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,243,"Others",1
+"229",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,34,"Right Corner 3","Right Side(R)","24+ ft.",23,23.1,5.95,1,3,326,"Jump",4
+"230",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,5,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,12.5,26.95,0,3,355,"Jump",4
+"231",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,27,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,573,"Others",1
+"232",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,46,"Mid-Range","Right Side Center(RC)","16-24 ft.",20,16.3,18.45,0,2,614,"Jump",3
+"233",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,1,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,-5.9,7.85,0,2,719,"Jump",1
+"234",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,4,27,"Mid-Range","Left Side(L)","16-24 ft.",19,-16.9,14.05,0,2,1173,"Jump",3
+"235",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,55,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.6,5.95,1,2,1325,"Layup",1
+"236",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,4,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.8,5.25,1,2,1376,"Layup",1
+"237",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,2,"Mid-Range","Center(C)","16-24 ft.",16,3.7,21.15,1,2,1438,"Others",3
+"238",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,58,"Mid-Range","Left Side(L)","16-24 ft.",17,-17.7,5.65,0,2,1502,"Jump",3
+"239",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,14,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1846,"Others",1
+"240",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,56,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-12.8,26.95,0,3,1984,"Jump",4
+"241",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,30,"Above the Break 3","Center(C)","24+ ft.",27,-1,33.15,1,3,2070,"Jump",4
+"242",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,43,"Mid-Range","Left Side(L)","8-16 ft.",12,-8.1,14.95,0,2,2117,"Jump",2
+"243",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,16,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-16.6,24.15,0,3,44,"Jump",4
+"244",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,42,"Left Corner 3","Left Side(L)","24+ ft.",23,-23.2,5.55,0,3,138,"Jump",4
+"245",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,38,"Mid-Range","Right Side Center(RC)","16-24 ft.",18,7.8,22.45,0,2,382,"Jump",3
+"246",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,56,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.4,7.15,1,2,544,"Layup",1
+"247",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,23,"Left Corner 3","Left Side(L)","24+ ft.",23,-23.5,5.95,1,3,637,"Jump",4
+"248",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,48,"Mid-Range","Left Side Center(LC)","16-24 ft.",18,-13,18.65,1,2,1212,"Jump",3
+"249",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,45,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1335,"Others",1
+"250",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,58,"Above the Break 3","Center(C)","24+ ft.",25,-4.1,30.75,0,3,1382,"Jump",4
+"251",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,0,"Above the Break 3","Back Court(BC)","Back Court Shot",43,11.9,47.05,0,3,1440,"Jump",0
+"252",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,39,"Mid-Range","Left Side(L)","8-16 ft.",10,-10.3,8.55,0,2,1881,"Jump",2
+"253",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,33,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.1,6.35,1,2,1947,"Layup",1
+"254",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,27,"Mid-Range","Left Side(L)","8-16 ft.",12,-11.6,9.35,1,2,2133,"Jump",2
+"255",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,17,"Mid-Range","Right Side(R)","8-16 ft.",11,10.8,10.45,0,2,2203,"Jump",2
+"256",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,12,"Mid-Range","Right Side(R)","8-16 ft.",10,8.6,11.05,1,2,2268,"Jump",2
+"257",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,0,"Mid-Range","Left Side(L)","8-16 ft.",15,-13.6,12.65,0,2,60,"Jump",2
+"258",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,51,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.6,6.35,1,2,129,"Layup",1
+"259",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,26,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,334,"Others",1
+"260",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,3,12,"Mid-Range","Left Side(L)","8-16 ft.",13,-12.7,9.75,0,2,528,"Jump",2
+"261",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,34,"Above the Break 3","Center(C)","24+ ft.",26,0.6,31.35,0,3,686,"Jump",4
+"262",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,1,"In The Paint (Non-RA)","Center(C)","8-16 ft.",10,4.2,14.55,1,2,719,"Others",2
+"263",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,57,"Mid-Range","Left Side(L)","8-16 ft.",15,-15,7.45,0,2,1083,"Others",2
+"264",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,4,58,"Mid-Range","Right Side(R)","8-16 ft.",10,10.2,6.35,0,2,1142,"Jump",2
+"265",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,54,"Mid-Range","Right Side(R)","16-24 ft.",16,16.8,4.65,0,2,1386,"Jump",3
+"266",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,33,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,0.6,10.85,0,2,1407,"Jump",1
+"267",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,24,"Restricted Area","Center(C)","Less Than 8 ft.",1,1,6.35,1,2,1416,"Layup",1
+"268",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,58,"Restricted Area","Center(C)","Less Than 8 ft.",1,0,6.45,0,2,1742,"Layup",1
+"269",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,59,"Mid-Range","Center(C)","8-16 ft.",15,4.2,19.85,1,2,1801,"Jump",2
+"270",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,33,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.7,6.65,1,2,1827,"Layup",1
+"271",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,28,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.8,6.95,1,2,1952,"Layup",1
+"272",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,11,"Restricted Area","Center(C)","Less Than 8 ft.",3,-0.7,8.25,1,2,2029,"Jump",1
+"273",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,51,"Mid-Range","Left Side Center(LC)","16-24 ft.",17,-13.9,15.35,1,2,2109,"Jump",3
+"274",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,7,"Mid-Range","Left Side(L)","8-16 ft.",13,-13,5.25,0,2,2153,"Jump",2
+"275",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,49,"Mid-Range","Right Side(R)","8-16 ft.",15,14.6,9.65,0,2,131,"Jump",2
+"276",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,0,"Mid-Range","Left Side(L)","16-24 ft.",21,-21.3,3.05,0,2,660,"Jump",3
+"277",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,0,"In The Paint (Non-RA)","Center(C)","8-16 ft.",13,1.2,18.65,0,2,720,"Jump",2
+"278",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,57,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,4.8,6.95,1,2,1023,"Bank",1
+"279",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,4,2,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-16.8,23.05,0,3,1198,"Jump",4
+"280",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,9,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.85,1,2,1371,"Layup",1
+"281",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,34,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.2,6.45,0,2,1406,"Layup",1
+"282",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,5,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-12.8,27.15,0,3,1435,"Jump",4
+"283",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,35,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,-3,11.35,1,2,1525,"Jump",1
+"284",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,15,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,-5.6,10.85,0,2,1905,"Jump",1
+"285",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,24,"Mid-Range","Right Side(R)","16-24 ft.",16,16.3,4.25,1,2,2196,"Jump",3
+"286",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,3,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,9.4,28.55,0,3,2277,"Jump",4
+"287",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,26,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.1,6.45,1,2,2554,"Layup",1
+"288",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,48,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.2,5.55,1,2,2652,"Layup",1
+"289",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,42,"Above the Break 3","Right Side Center(RC)","24+ ft.",28,14.3,29.35,0,3,2838,"Jump",4
+"290",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,37,"In The Paint (Non-RA)","Left Side(L)","8-16 ft.",13,-6.8,16.55,0,2,23,"Jump",2
+"291",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,4,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.5,5.85,1,2,116,"Layup",1
+"292",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,35,"Restricted Area","Center(C)","Less Than 8 ft.",2,1.8,7.15,0,2,565,"Layup",1
+"293",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,18,"Mid-Range","Left Side(L)","8-16 ft.",10,-9,10.85,1,2,582,"Jump",2
+"294",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,26,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,14.6,26.35,0,3,634,"Jump",4
+"295",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,0,"Above the Break 3","Right Side Center(RC)","24+ ft.",33,11.1,36.55,0,3,720,"Jump",4
+"296",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,43,"Restricted Area","Center(C)","Less Than 8 ft.",2,1,7.45,0,2,1277,"Layup",1
+"297",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,40,"Restricted Area","Center(C)","Less Than 8 ft.",2,1.8,6.95,0,2,1280,"Layup",1
+"298",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,22,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-14.1,27.25,0,3,1658,"Jump",4
+"299",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,58,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,12.7,27.75,0,3,1682,"Jump",4
+"300",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,21,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.7,5.95,1,2,1959,"Layup",1
+"301",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,55,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.6,6.35,1,2,2105,"Layup",1
+"302",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,15,"Mid-Range","Right Side(R)","8-16 ft.",13,13.6,7.85,1,2,2385,"Jump",2
+"303",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,54,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,15.1,27.15,1,3,2646,"Jump",4
+"304",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,26,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2674,"Others",1
+"305",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,8,"In The Paint (Non-RA)","Left Side(L)","8-16 ft.",8,-7.8,9.65,0,2,2752,"Jump",2
+"306",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,1,21,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,16.5,25.55,0,3,2799,"Jump",4
+"307",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,54,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,1.5,10.85,1,2,66,"Jump",1
+"308",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,3,30,"Mid-Range","Center(C)","16-24 ft.",20,-0.2,25.75,0,2,510,"Jump",3
+"309",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,4,"Restricted Area","Center(C)","Less Than 8 ft.",2,2.6,6.35,0,2,716,"Layup",1
+"310",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,52,"Mid-Range","Center(C)","16-24 ft.",19,0.1,24.95,0,2,968,"Jump",3
+"311",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,25,"Right Corner 3","Right Side(R)","24+ ft.",24,22.8,13.45,0,3,1235,"Jump",4
+"312",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,54,"Restricted Area","Center(C)","Less Than 8 ft.",2,2.4,6.65,1,2,1326,"Layup",1
+"313",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,6,"Mid-Range","Right Side(R)","16-24 ft.",20,17.4,15.35,0,2,1374,"Jump",3
+"314",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,57,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1383,"Others",1
+"315",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,32,"Mid-Range","Left Side Center(LC)","16-24 ft.",20,-10.1,22.55,0,2,1588,"Jump",3
+"316",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,52,"Mid-Range","Left Side(L)","8-16 ft.",12,-8.9,14.15,1,2,1628,"Jump",2
+"317",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,25,"Restricted Area","Center(C)","Less Than 8 ft.",2,-1.8,6.65,0,2,1715,"Layup",1
+"318",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,11,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-17.2,25.75,1,3,1909,"Jump",4
+"319",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,38,"Right Corner 3","Right Side(R)","24+ ft.",23,23.9,5.85,1,3,2062,"Jump",4
+"320",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,1,"Above the Break 3","Center(C)","24+ ft.",29,0,34.85,0,3,2159,"Jump",4
+"321",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,28,"Restricted Area","Center(C)","Less Than 8 ft.",3,-3.4,5.25,1,2,2492,"Jump",1
+"322",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,30,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,6.1,6.65,1,2,2550,"Bank",1
+"323",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,29,"Mid-Range","Center(C)","16-24 ft.",20,-5.2,24.65,1,2,2671,"Jump",3
+"324",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,56,"Restricted Area","Center(C)","Less Than 8 ft.",3,-3.7,5.35,0,2,2704,"Layup",1
+"325",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,48,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-11.1,27.95,1,3,132,"Jump",4
+"326",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,28,"Mid-Range","Right Side(R)","16-24 ft.",17,17.1,4.25,0,2,272,"Jump",3
+"327",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,18,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,15.7,24.15,0,3,282,"Jump",4
+"328",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,25,"Mid-Range","Right Side Center(RC)","16-24 ft.",19,12.5,20.65,0,2,335,"Jump",3
+"329",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,4,40,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.6,5.65,1,2,440,"Layup",1
+"330",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,39,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,0.9,9.15,1,2,621,"Jump",1
+"331",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,5,"Mid-Range","Right Side(R)","8-16 ft.",11,10.6,9.15,0,2,1435,"Bank",2
+"332",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,46,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,-3.4,11.05,0,2,1454,"Jump",1
+"333",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,38,"In The Paint (Non-RA)","Center(C)","8-16 ft.",13,-2.7,18.65,1,2,1462,"Jump",2
+"334",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,1,"Mid-Range","Right Side Center(RC)","16-24 ft.",18,12.5,18.65,1,2,1559,"Jump",3
+"335",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,47,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.8,5.55,1,2,1573,"Layup",1
+"336",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,18,"Mid-Range","Left Side(L)","16-24 ft.",17,-17.7,4.45,1,2,1602,"Jump",3
+"337",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,55,"Above the Break 3","Center(C)","24+ ft.",25,0,30.75,0,3,1625,"Jump",4
+"338",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,41,"Restricted Area","Center(C)","Less Than 8 ft.",2,1.8,6.35,0,2,1879,"Layup",1
+"339",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,32,"Restricted Area","Center(C)","Less Than 8 ft.",3,1.2,8.95,0,2,2188,"Jump",1
+"340",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,3,"Mid-Range","Right Side Center(RC)","16-24 ft.",19,14.7,18.15,1,2,2337,"Others",3
+"341",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,54,"Mid-Range","Left Side Center(LC)","16-24 ft.",18,-13.1,18.15,0,2,2406,"Jump",3
+"342",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,15,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.2,4.95,1,2,45,"Layup",1
+"343",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,18,"Restricted Area","Center(C)","Less Than 8 ft.",1,0,6.35,1,2,102,"Layup",1
+"344",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,19,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,-0.2,11.25,0,2,221,"Jump",1
+"345",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,4,38,"Mid-Range","Right Side(R)","8-16 ft.",15,15.5,7.85,1,2,442,"Others",2
+"346",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,3,44,"Restricted Area","Center(C)","Less Than 8 ft.",1,0,6.65,0,2,496,"Layup",1
+"347",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,45,"In The Paint (Non-RA)","Center(C)","8-16 ft.",12,-0.7,17.95,0,2,615,"Jump",2
+"348",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,40,"In The Paint (Non-RA)","Left Side(L)","8-16 ft.",8,-7.8,8.35,1,2,980,"Bank",2
+"349",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,13,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,21.1,18.95,0,3,1247,"Jump",4
+"350",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,21,"Mid-Range","Right Side(R)","8-16 ft.",15,15.5,5.95,1,2,1299,"Jump",2
+"351",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,5,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.3,5.65,1,2,1315,"Others",1
+"352",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,23,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,-0.7,12.15,1,2,1417,"Bank",1
+"353",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,29,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-8.1,29.35,1,3,1711,"Jump",4
+"354",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,57,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,-4.6,10.45,1,2,1803,"Jump",1
+"355",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,35,"Mid-Range","Center(C)","16-24 ft.",16,2.8,21.95,1,2,1945,"Jump",3
+"356",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,42,"Mid-Range","Left Side(L)","8-16 ft.",13,-13.1,8.65,0,2,2178,"Jump",2
+"357",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,51,"Mid-Range","Right Side(R)","8-16 ft.",10,9.4,9.65,1,2,2529,"Bank",2
+"358",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,51,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.2,4.75,0,2,2589,"Layup",1
+"359",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,45,"Right Corner 3","Right Side(R)","24+ ft.",24,24.1,5.25,0,3,2595,"Jump",4
+"360",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,4,"Above the Break 3","Center(C)","24+ ft.",25,0.2,30.75,0,3,2696,"Jump",4
+"361",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,48,"In The Paint (Non-RA)","Right Side(R)","8-16 ft.",8,4.5,12.15,0,2,2712,"Jump",2
+"362",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,48,"Above the Break 3","Center(C)","24+ ft.",26,-0.5,31.25,1,3,2832,"Jump",4
+"363",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,30,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,90,"Others",1
+"364",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,57,"Restricted Area","Center(C)","Less Than 8 ft.",2,-1.9,5.95,1,2,123,"Layup",1
+"365",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,30,"Mid-Range","Left Side(L)","8-16 ft.",13,-12.3,11.05,0,2,150,"Jump",2
+"366",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,2,"Restricted Area","Center(C)","Less Than 8 ft.",2,1.5,7.15,1,2,238,"Layup",1
+"367",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,15,"Mid-Range","Left Side(L)","8-16 ft.",14,-14.7,5.95,1,2,285,"Jump",2
+"368",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,17,"Mid-Range","Left Side Center(LC)","16-24 ft.",16,-11.9,17.05,0,2,403,"Jump",3
+"369",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,4,52,"Mid-Range","Left Side Center(LC)","16-24 ft.",19,-11.7,20.95,1,2,428,"Jump",3
+"370",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,4,3,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,477,"Others",1
+"371",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,7,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.9,6.95,0,2,593,"Layup",1
+"372",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,2,"Mid-Range","Left Side Center(LC)","16-24 ft.",20,-16.3,17.35,1,2,658,"Jump",3
+"373",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,31,"Restricted Area","Center(C)","Less Than 8 ft.",2,-1.8,6.15,1,2,689,"Layup",1
+"374",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,44,"Restricted Area","Center(C)","Less Than 8 ft.",2,2.3,6.15,1,2,1036,"Layup",1
+"375",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,4,10,"Mid-Range","Left Side Center(LC)","16-24 ft.",21,-15.8,19.75,0,2,1190,"Jump",3
+"376",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,38,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.2,6.15,1,2,1282,"Layup",1
+"377",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,54,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.1,6.95,0,2,1566,"Layup",1
+"378",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,29,"Restricted Area","Center(C)","Less Than 8 ft.",2,-2.1,5.85,1,2,1591,"Layup",1
+"379",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,20,"Mid-Range","Center(C)","8-16 ft.",15,4.3,20.35,0,2,1780,"Jump",2
+"380",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,58,"Mid-Range","Right Side Center(RC)","16-24 ft.",21,14.6,21.65,1,2,1922,"Jump",3
+"381",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,7,"Mid-Range","Left Side(L)","16-24 ft.",16,-13.9,13.45,1,2,1973,"Jump",3
+"382",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,17,"Mid-Range","Left Side(L)","16-24 ft.",19,-16.6,15.65,1,2,2023,"Jump",3
+"383",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,14,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-18.2,21.95,1,3,2086,"Jump",4
+"384",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,24,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,11.8,28.75,1,3,2496,"Jump",4
+"385",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,54,"Mid-Range","Right Side Center(RC)","16-24 ft.",17,9.4,20.05,1,2,2586,"Jump",3
+"386",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,5,"Mid-Range","Left Side Center(LC)","16-24 ft.",17,-12.2,17.55,0,2,2695,"Jump",3
+"387",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,21,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.6,5.65,1,2,399,"Layup",1
+"388",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,22,"Above the Break 3","Center(C)","24+ ft.",25,-2.6,30.95,1,3,638,"Jump",4
+"389",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,50,"Mid-Range","Left Side(L)","16-24 ft.",16,-16.8,6.35,0,2,910,"Others",3
+"390",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,19,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.8,5.65,0,2,941,"Layup",1
+"391",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,51,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.7,6.35,0,2,969,"Layup",1
+"392",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,38,"Mid-Range","Center(C)","16-24 ft.",21,5.3,25.75,1,2,1102,"Jump",3
+"393",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,0,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.85,1,2,1320,"Layup",1
+"394",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,20,"Mid-Range","Right Side Center(RC)","16-24 ft.",20,6.7,24.25,1,2,1360,"Jump",3
+"395",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,0,"Above the Break 3","Center(C)","24+ ft.",26,-7,31.25,0,3,1440,"Jump",4
+"396",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,20,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1840,"Others",1
+"397",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,33,"Mid-Range","Center(C)","8-16 ft.",15,-2.6,20.15,1,2,1947,"Jump",2
+"398",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,31,"Mid-Range","Left Side(L)","16-24 ft.",18,-16.8,12.45,0,2,2009,"Jump",3
+"399",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,30,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.8,6.75,1,2,2130,"Layup",1
+"400",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,0,"Mid-Range","Left Side(L)","16-24 ft.",17,-16,12.75,0,2,2160,"Bank",3
+"401",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,42,"Mid-Range","Left Side(L)","8-16 ft.",15,-15.2,8.35,1,2,2418,"Jump",2
+"402",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,8,"Mid-Range","Center(C)","16-24 ft.",21,2.8,26.35,0,2,2452,"Jump",3
+"403",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,26,"Mid-Range","Right Side(R)","8-16 ft.",14,9.5,16.45,0,2,2674,"Others",2
+"404",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,52,"Mid-Range","Left Side(L)","8-16 ft.",15,-14.6,11.25,1,2,2828,"Jump",2
+"405",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,22,"Above the Break 3","Center(C)","24+ ft.",25,1.8,30.95,1,3,2858,"Jump",4
+"406",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,24,"Mid-Range","Right Side Center(RC)","16-24 ft.",19,14.3,18.75,0,2,36,"Jump",3
+"407",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,17,"Restricted Area","Center(C)","Less Than 8 ft.",3,0.2,8.35,0,2,283,"Jump",1
+"408",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,51,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.8,5.35,1,2,369,"Layup",1
+"409",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,30,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.5,5.25,1,2,390,"Layup",1
+"410",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,1,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.4,5.55,1,2,419,"Layup",1
+"411",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,12,"Restricted Area","Center(C)","Less Than 8 ft.",1,1,5.05,1,2,588,"Layup",1
+"412",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,43,"Mid-Range","Left Side(L)","16-24 ft.",18,-18.8,5.25,0,2,677,"Jump",3
+"413",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,0,"Above the Break 3","Center(C)","24+ ft.",25,-3,30.25,0,3,1260,"Jump",4
+"414",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,21,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1299,"Others",1
+"415",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,44,"Above the Break 3","Left Side Center(LC)","24+ ft.",27,-20.4,24.15,0,3,1396,"Jump",4
+"416",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,14,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.6,5.35,1,2,1426,"Layup",1
+"417",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,8,"Restricted Area","Center(C)","Less Than 8 ft.",2,-1.6,6.75,0,2,1492,"Layup",1
+"418",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,47,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.8,5.65,1,2,1513,"Layup",1
+"419",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,35,"Mid-Range","Left Side Center(LC)","16-24 ft.",18,-13.1,18.35,1,2,1765,"Jump",3
+"420",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,0,"Mid-Range","Center(C)","16-24 ft.",19,-1.5,24.65,0,2,1860,"Jump",3
+"421",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,5,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.8,5.85,0,2,2035,"Layup",1
+"422",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,19,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.2,5.95,0,2,221,"Layup",1
+"423",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,20,"Mid-Range","Left Side(L)","16-24 ft.",18,-15.5,14.95,0,2,280,"Jump",3
+"424",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,3,59,"Right Corner 3","Right Side(R)","24+ ft.",22,22.8,7.75,1,3,481,"Jump",4
+"425",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,3,9,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.1,5.25,0,2,531,"Layup",1
+"426",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,53,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.35,1,2,547,"Layup",1
+"427",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,59,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,17.6,25.25,0,3,661,"Jump",4
+"428",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,6,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.35,0,2,1074,"Layup",1
+"429",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,32,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1348,"Others",1
+"430",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,28,"Restricted Area","Center(C)","Less Than 8 ft.",3,3.6,5.25,0,2,1412,"Jump",1
+"431",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,37,"Mid-Range","Left Side Center(LC)","16-24 ft.",17,-10.6,19.45,0,2,1463,"Jump",3
+"432",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,0,"Restricted Area","Center(C)","Less Than 8 ft.",3,2.4,7.15,0,2,1800,"Jump",1
+"433",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,22,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,0.2,9.35,1,2,2018,"Jump",1
+"434",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,43,"Mid-Range","Left Side(L)","8-16 ft.",11,-10.6,8.85,0,2,2057,"Jump",2
+"435",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,22,"Restricted Area","Center(C)","Less Than 8 ft.",1,0,6.45,0,2,2078,"Layup",1
+"436",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,52,"Mid-Range","Left Side(L)","16-24 ft.",16,-15.2,10.45,1,2,2528,"Jump",3
+"437",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,38,"Above the Break 3","Center(C)","24+ ft.",25,0.4,30.65,1,3,2602,"Jump",4
+"438",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,13,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.4,5.25,1,2,2627,"Layup",1
+"439",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,1,26,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-11.9,27.95,0,3,2794,"Jump",4
+"440",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,36,"Mid-Range","Right Side(R)","16-24 ft.",16,16.2,8.35,0,2,144,"Jump",3
+"441",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,2,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-15,24.75,1,3,358,"Jump",4
+"442",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,15,"Mid-Range","Left Side(L)","16-24 ft.",18,-18.5,5.05,0,2,645,"Jump",3
+"443",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,4,"Right Corner 3","Right Side(R)","24+ ft.",23,23.3,3.95,0,3,656,"Jump",4
+"444",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,52,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-14.7,27.15,1,3,1328,"Jump",4
+"445",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,11,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1369,"Others",1
+"446",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,23,"Mid-Range","Left Side(L)","16-24 ft.",21,-19.1,15.65,0,2,1537,"Jump",3
+"447",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,31,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.6,5.25,1,2,1589,"Layup",1
+"448",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,16,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,18.1,23.55,1,3,1664,"Jump",4
+"449",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,52,"Restricted Area","Center(C)","Less Than 8 ft.",1,1,5.35,1,2,1928,"Layup",1
+"450",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,2,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,10,29.15,0,3,2038,"Jump",4
+"451",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,24,"Mid-Range","Center(C)","16-24 ft.",20,2.1,26.05,1,2,2196,"Jump",3
+"452",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,11,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2269,"Others",1
+"453",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,19,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.65,0,2,2621,"Layup",1
+"454",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,41,"Mid-Range","Left Side(L)","8-16 ft.",10,-8.4,10.85,1,2,2659,"Jump",2
+"455",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,19,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,341,"Others",1
+"456",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,3,0,"In The Paint (Non-RA)","Center(C)","8-16 ft.",8,0,13.55,0,2,540,"Jump",2
+"457",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,51,"In The Paint (Non-RA)","Center(C)","8-16 ft.",8,0,13.75,1,2,609,"Jump",2
+"458",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,42,"Mid-Range","Left Side(L)","8-16 ft.",13,-12,11.25,0,2,678,"Jump",2
+"459",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,37,"Left Corner 3","Left Side(L)","24+ ft.",23,-23.5,4.65,1,3,1043,"Jump",4
+"460",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,20,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.2,6.65,0,2,1120,"Layup",1
+"461",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,9,"Restricted Area","Center(C)","Less Than 8 ft.",3,0,8.55,1,2,1131,"Jump",1
+"462",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,4,36,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.2,6.35,0,2,1164,"Layup",1
+"463",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,1,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.05,1,2,1259,"Layup",1
+"464",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,48,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,9.9,28.55,1,3,1392,"Jump",4
+"465",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,5,"Above the Break 3","Center(C)","24+ ft.",25,-0.5,30.45,0,3,1435,"Jump",4
+"466",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,12,"Mid-Range","Left Side(L)","16-24 ft.",17,-16.1,11.95,0,2,1488,"Jump",3
+"467",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,38,"Above the Break 3","Center(C)","24+ ft.",25,-5.9,29.65,1,3,1762,"Jump",4
+"468",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,32,"Above the Break 3","Right Side Center(RC)","24+ ft.",30,12.2,32.85,1,3,2068,"Jump",4
+"469",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,37,"Above the Break 3","Left Side Center(LC)","24+ ft.",32,-11.6,35.65,0,3,2123,"Jump",4
+"470",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,22,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,18.2,22.45,0,3,2198,"Jump",4
+"471",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,35,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-19.3,21.45,0,3,145,"Jump",4
+"472",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,28,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.2,6.35,0,2,392,"Layup",1
+"473",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,3,53,"Restricted Area","Center(C)","Less Than 8 ft.",2,2.3,5.25,1,2,487,"Layup",1
+"474",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,28,"Above the Break 3","Center(C)","24+ ft.",24,0.6,30.15,0,3,692,"Jump",4
+"475",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,4,7,"Mid-Range","Left Side Center(LC)","16-24 ft.",17,-10.9,19.55,1,2,1193,"Jump",3
+"476",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,6,"Left Corner 3","Left Side(L)","24+ ft.",23,-22.8,11.05,0,3,1314,"Jump",4
+"477",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,17,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-18.8,21.15,1,3,1423,"Jump",4
+"478",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,17,"Mid-Range","Left Side(L)","16-24 ft.",18,-18.2,5.95,1,2,1483,"Jump",3
+"479",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,38,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.1,5.35,1,2,1522,"Layup",1
+"480",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,35,"Mid-Range","Left Side Center(LC)","16-24 ft.",17,-11.4,18.65,1,2,1705,"Jump",3
+"481",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,20,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2200,"Others",1
+"482",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,18,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-19.8,20.05,0,3,2382,"Jump",4
+"483",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,59,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,12.2,26.95,0,3,2461,"Jump",4
+"484",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,40,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2660,"Others",1
+"485",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,1,15,"Above the Break 3","Left Side Center(LC)","24+ ft.",27,-20.5,24.15,1,3,2805,"Jump",4
+"486",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,43,"Above the Break 3","Left Side Center(LC)","24+ ft.",27,-19.6,24.45,0,3,2837,"Jump",4
+"487",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,34,"Mid-Range","Left Side(L)","16-24 ft.",16,-15.5,10.05,1,2,86,"Jump",3
+"488",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,38,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.4,4.95,1,2,142,"Layup",1
+"489",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,22,"Mid-Range","Right Side(R)","16-24 ft.",17,16.6,11.85,0,2,218,"Jump",3
+"490",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,42,"Mid-Range","Left Side(L)","8-16 ft.",13,-13,8.35,0,2,378,"Jump",2
+"491",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,3,58,"Mid-Range","Right Side Center(RC)","16-24 ft.",17,12.2,17.65,1,2,482,"Jump",3
+"492",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,31,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,15.2,26.55,0,3,569,"Jump",4
+"493",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,5,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.5,7.15,0,2,1075,"Layup",1
+"494",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,32,"Restricted Area","Center(C)","Less Than 8 ft.",2,-2.1,6.45,0,2,1108,"Layup",1
+"495",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,32,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.5,5.85,1,2,1348,"Layup",1
+"496",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,0,"Above the Break 3","Center(C)","24+ ft.",29,0.2,34.55,0,3,1440,"Jump",4
+"497",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,43,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-17.4,25.25,0,3,1817,"Jump",4
+"498",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,41,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.35,1,2,1879,"Layup",1
+"499",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,15,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-8.2,29.65,0,3,2325,"Jump",4
+"500",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,58,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2342,"Others",1
+"501",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,19,"Mid-Range","Right Side Center(RC)","16-24 ft.",18,13.8,17.65,1,2,2441,"Jump",3
+"502",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,36,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,-4.6,9.45,1,2,2604,"Jump",1
+"503",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,27,"Mid-Range","Right Side Center(RC)","16-24 ft.",17,10.6,19.05,1,2,2673,"Jump",3
+"504",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,45,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,6.9,6.45,0,2,2715,"Jump",1
+"505",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,1,34,"Above the Break 3","Center(C)","24+ ft.",30,-1.6,35.85,0,3,2786,"Jump",4
+"506",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,40,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.2,6.15,1,2,2840,"Layup",1
+"507",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,33,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,-5.6,8.25,0,2,87,"Jump",1
+"508",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,18,"Mid-Range","Right Side(R)","8-16 ft.",15,13.3,13.45,1,2,222,"Jump",2
+"509",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,42,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,6.5,7.75,0,2,258,"Jump",1
+"510",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,4,15,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-19.3,23.55,1,3,465,"Jump",4
+"511",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,41,"Mid-Range","Left Side(L)","16-24 ft.",16,-15.8,10.05,1,2,1099,"Jump",3
+"512",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,4,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-16.4,26.55,0,3,1136,"Jump",4
+"513",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,4,24,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-23.9,14.95,0,3,1176,"Jump",4
+"514",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,18,"Mid-Range","Right Side Center(RC)","16-24 ft.",17,10.2,19.05,0,2,1242,"Jump",3
+"515",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,20,"Restricted Area","Center(C)","Less Than 8 ft.",1,1,5.65,0,2,1300,"Layup",1
+"516",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,2,"Above the Break 3","Right Side Center(RC)","24+ ft.",38,17.7,38.95,0,3,1378,"Jump",4
+"517",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,31,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-19.4,21.95,0,3,1409,"Jump",4
+"518",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,18,"Mid-Range","Left Side(L)","8-16 ft.",13,-11.6,12.35,0,2,1482,"Jump",2
+"519",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,14,"Mid-Range","Left Side(L)","16-24 ft.",20,-19.9,11.05,0,2,1546,"Jump",3
+"520",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,29,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.4,5.05,1,2,1711,"Layup",1
+"521",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,24,"Mid-Range","Right Side(R)","8-16 ft.",11,10.6,10.05,0,2,1836,"Jump",2
+"522",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,12,"In The Paint (Non-RA)","Center(C)","8-16 ft.",8,3.1,13.45,0,2,1848,"Jump",2
+"523",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,4,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.2,6.75,0,2,1976,"Layup",1
+"524",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,3,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,-6.8,9.45,0,2,2457,"Jump",1
+"525",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,53,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-17.2,23.65,1,3,2527,"Jump",4
+"526",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,33,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,8.9,28.25,0,3,147,"Jump",4
+"527",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,59,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,241,"Others",1
+"528",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,16,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.7,4.95,0,2,284,"Layup",1
+"529",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,7,"Above the Break 3","Right Side Center(RC)","24+ ft.",28,18.2,27.15,1,3,293,"Jump",4
+"530",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,8,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-21.3,18.95,1,3,592,"Jump",4
+"531",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,32,"Above the Break 3","Center(C)","24+ ft.",25,-5.6,29.65,0,3,628,"Jump",4
+"532",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,13,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.9,5.55,0,2,707,"Layup",1
+"533",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,9,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1,6.15,1,2,1371,"Layup",1
+"534",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,1,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1439,"Others",1
+"535",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,33,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-19.4,19.45,0,3,1767,"Jump",4
+"536",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,5,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2155,"Others",1
+"537",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,28,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.3,5.55,1,2,2192,"Layup",1
+"538",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,26,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.6,5.35,1,2,2314,"Layup",1
+"539",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,21,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-17.7,21.75,1,3,2379,"Jump",4
+"540",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,53,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.1,5.55,1,2,2647,"Layup",1
+"541",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,14,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,21.5,18.75,0,3,2746,"Jump",4
+"542",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,51,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.5,5.25,1,2,2829,"Layup",1
+"543",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,21,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-13.1,26.85,0,3,2859,"Jump",4
+"544",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,43,"Above the Break 3","Center(C)","24+ ft.",28,-0.5,33.75,0,3,77,"Jump",4
+"545",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,3,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.9,5.95,1,2,297,"Layup",1
+"546",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,39,"Mid-Range","Left Side(L)","16-24 ft.",19,-17.9,12.45,0,2,801,"Jump",3
+"547",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,33,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-20.7,19.05,0,3,807,"Jump",4
+"548",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,29,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-2.4,9.65,1,2,931,"Jump",1
+"549",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,32,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.3,6.35,1,2,988,"Layup",1
+"550",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,41,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.8,6.45,1,2,1039,"Layup",1
+"551",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,51,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,0,2,1209,"Others",1
+"552",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,35,"Mid-Range","Center(C)","8-16 ft.",14,1.7,20.05,1,2,1405,"Jump",2
+"553",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,3,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,14.4,24.75,0,3,1437,"Jump",4
+"554",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,15,"Above the Break 3","Center(C)","24+ ft.",25,7.7,29.65,1,3,1485,"Jump",4
+"555",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,53,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.5,6.15,1,2,1627,"Layup",1
+"556",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,18,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,10.2,27.75,1,3,2082,"Jump",4
+"557",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,40,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,14.7,26.05,1,3,2120,"Jump",4
+"558",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,1,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,17.9,25.35,0,3,2159,"Jump",4
+"559",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,55,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,-3.8,7.55,1,2,2225,"Bank",1
+"560",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,29,"Above the Break 3","Left Side Center(LC)","24+ ft.",28,-9.5,31.75,0,3,2311,"Jump",4
+"561",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,16,"Mid-Range","Left Side(L)","16-24 ft.",18,-17.7,10.45,0,2,2324,"Jump",3
+"562",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,37,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,11,28.25,1,3,2423,"Jump",4
+"563",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,51,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.1,6.75,0,2,2709,"Layup",1
+"564",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,1,29,"Mid-Range","Left Side(L)","8-16 ft.",9,-9.2,6.65,0,2,2791,"Jump",2
+"565",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,49,"Mid-Range","Right Side Center(RC)","16-24 ft.",16,10.8,18.15,0,2,2831,"Jump",3
+"566",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,20,"Restricted Area","Center(C)","Less Than 8 ft.",1,0,6.45,1,2,2860,"Layup",1
+"567",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,37,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-15.7,26.55,0,3,203,"Jump",4
+"568",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,25,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.1,5.95,1,2,335,"Layup",1
+"569",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,15,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.8,5.55,1,2,585,"Layup",1
+"570",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,20,"Above the Break 3","Center(C)","24+ ft.",25,-3.2,30.15,0,3,700,"Jump",4
+"571",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,5,"Mid-Range","Right Side Center(RC)","16-24 ft.",21,10,24.25,1,2,775,"Jump",3
+"572",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,34,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-22.1,17.35,1,3,866,"Jump",4
+"573",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,8,"Mid-Range","Right Side Center(RC)","16-24 ft.",17,12.7,16.85,0,2,952,"Jump",3
+"574",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,27,"Mid-Range","Center(C)","16-24 ft.",19,-0.5,24.75,0,2,1113,"Jump",3
+"575",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,4,26,"Restricted Area","Center(C)","Less Than 8 ft.",3,-3.5,5.35,1,2,1174,"Bank",1
+"576",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,6,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.1,6.95,0,2,1374,"Layup",1
+"577",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,12,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1488,"Others",1
+"578",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,38,"Restricted Area","Center(C)","Less Than 8 ft.",2,-1.9,6.15,0,2,1522,"Layup",1
+"579",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,32,"Mid-Range","Left Side Center(LC)","16-24 ft.",17,-10.8,18.95,0,2,1648,"Jump",3
+"580",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,34,"Left Corner 3","Left Side(L)","24+ ft.",23,-23.2,11.35,0,3,1766,"Jump",4
+"581",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,51,"Restricted Area","Center(C)","Less Than 8 ft.",2,0.7,7.75,1,2,1809,"Layup",1
+"582",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,31,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-12,28.75,1,3,2249,"Jump",4
+"583",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,56,"Restricted Area","Center(C)","Less Than 8 ft.",2,-2.4,6.75,0,2,2284,"Layup",1
+"584",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,46,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,20.3,22.25,0,3,2294,"Jump",4
+"585",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,7,"Mid-Range","Right Side(R)","8-16 ft.",9,8.9,9.65,1,2,2333,"Bank",2
+"586",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,39,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,21.8,18.15,0,3,2361,"Jump",4
+"587",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,30,"Mid-Range","Center(C)","16-24 ft.",20,0.1,26.05,1,2,2490,"Jump",3
+"588",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,35,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,17.6,25.35,1,3,2605,"Jump",4
+"589",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,54,"Mid-Range","Left Side Center(LC)","16-24 ft.",19,-14.2,18.35,0,2,2646,"Jump",3
+"590",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,33,"Mid-Range","Right Side(R)","16-24 ft.",19,16.6,15.15,1,2,147,"Jump",3
+"591",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,26,"Mid-Range","Right Side(R)","8-16 ft.",12,10.2,11.95,0,2,274,"Jump",2
+"592",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,3,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.2,4.65,1,2,297,"Layup",1
+"593",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,50,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-21.3,19.45,0,3,610,"Jump",4
+"594",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,36,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.05,0,2,684,"Layup",1
+"595",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,10,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.2,4.15,1,2,830,"Layup",1
+"596",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,8,"In The Paint (Non-RA)","Left Side(L)","8-16 ft.",9,-7,11.55,1,2,952,"Jump",2
+"597",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,14,"Mid-Range","Right Side(R)","16-24 ft.",16,13.5,14.85,0,2,1126,"Jump",3
+"598",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,4,42,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-7.9,28.75,0,3,1158,"Jump",4
+"599",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,38,"In The Paint (Non-RA)","Right Side(R)","8-16 ft.",8,7,10.85,0,2,1222,"Jump",2
+"600",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,47,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.2,5.35,1,2,1273,"Layup",1
+"601",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,42,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,4.45,1,2,1338,"Layup",1
+"602",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,7,"Restricted Area","Center(C)","Less Than 8 ft.",1,0,6.45,0,2,1613,"Layup",1
+"603",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,34,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,14.7,24.95,0,3,1646,"Jump",4
+"604",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,28,"Mid-Range","Left Side Center(LC)","16-24 ft.",21,-14.2,21.65,1,2,1712,"Jump",3
+"605",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,18,"Mid-Range","Left Side(L)","8-16 ft.",14,-13.3,10.25,1,2,1902,"Jump",2
+"606",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,53,"Mid-Range","Left Side(L)","8-16 ft.",12,-12.3,8.05,1,2,2227,"Jump",2
+"607",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,0,"Mid-Range","Left Side(L)","8-16 ft.",13,-13.4,6.65,0,2,2340,"Jump",2
+"608",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,45,"In The Paint (Non-RA)","Center(C)","8-16 ft.",15,-7.6,18.75,1,2,2355,"Jump",2
+"609",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,6,"Mid-Range","Right Side Center(RC)","16-24 ft.",21,17.6,18.15,0,2,2394,"Jump",3
+"610",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,52,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.2,6.75,1,2,2468,"Layup",1
+"611",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,51,"Mid-Range","Right Side(R)","8-16 ft.",11,10.8,7.75,0,2,2529,"Jump",2
+"612",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,48,"Mid-Range","Right Side(R)","8-16 ft.",13,13.3,2.25,1,2,2532,"Jump",2
+"613",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,9,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.5,4.45,1,2,231,"Layup",1
+"614",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,47,"Mid-Range","Left Side(L)","8-16 ft.",15,-9.5,17.95,0,2,253,"Jump",2
+"615",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,17,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,21.7,18.35,0,3,403,"Jump",4
+"616",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,4,35,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.8,5.25,1,2,445,"Layup",1
+"617",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,2,"Mid-Range","Left Side(L)","8-16 ft.",8,-8.1,9.15,0,2,718,"Jump",2
+"618",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,30,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.4,4.45,1,2,750,"Layup",1
+"619",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,25,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,-1.5,9.75,1,2,995,"Jump",1
+"620",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,35,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1225,"Others",1
+"621",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,13,"Mid-Range","Left Side Center(LC)","16-24 ft.",19,-6.4,24.15,0,2,1367,"Jump",3
+"622",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,21,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,22.3,17.95,0,3,1419,"Jump",4
+"623",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,59,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1681,"Others",1
+"624",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,21,"In The Paint (Non-RA)","Right Side(R)","8-16 ft.",9,7.5,10.55,0,2,1719,"Jump",2
+"625",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,58,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,6.5,8.35,1,2,1862,"Others",1
+"626",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,25,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-0.7,10.85,0,2,2495,"Jump",1
+"627",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,10,"Mid-Range","Left Side(L)","16-24 ft.",17,-17.1,6.95,0,2,2570,"Jump",3
+"628",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,18,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,2.9,8.55,1,2,2622,"Bank",1
+"629",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,0,"Restricted Area","Center(C)","Less Than 8 ft.",2,-1.6,6.75,0,2,60,"Layup",1
+"630",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,31,"Above the Break 3","Center(C)","24+ ft.",24,-4.5,29.45,0,3,209,"Jump",4
+"631",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,33,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.35,1,2,567,"Layup",1
+"632",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,0,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-0.2,10.25,1,2,720,"Jump",1
+"633",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,28,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-3,9.75,1,2,932,"Jump",1
+"634",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,51,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.2,5.05,1,2,969,"Layup",1
+"635",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,22,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.9,5.25,1,2,998,"Layup",1
+"636",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,46,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1034,"Others",1
+"637",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,7,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1073,"Others",1
+"638",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,27,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.2,5.35,0,2,1473,"Layup",1
+"639",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,20,"Right Corner 3","Right Side(R)","24+ ft.",22,22.5,4.75,1,3,1480,"Jump",4
+"640",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,38,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-11.2,27.15,1,3,1702,"Jump",4
+"641",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,28,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-15.7,25.75,0,3,1772,"Jump",4
+"642",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,3,"Mid-Range","Right Side(R)","16-24 ft.",16,14.6,12.95,0,2,1797,"Jump",3
+"643",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,22,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.5,5.65,0,2,1958,"Layup",1
+"644",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,34,"Mid-Range","Left Side(L)","8-16 ft.",10,-9.7,8.95,0,2,26,"Bank",2
+"645",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,1,"In The Paint (Non-RA)","Right Side(R)","8-16 ft.",13,7.8,16.85,1,2,59,"Jump",2
+"646",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,5,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.85,0,2,175,"Layup",1
+"647",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,30,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.2,6.45,0,2,210,"Layup",1
+"648",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,21,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.5,5.05,0,2,219,"Layup",1
+"649",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,4,43,"Mid-Range","Left Side(L)","16-24 ft.",19,-19.4,7.85,1,2,437,"Jump",3
+"650",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,3,48,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.6,5.25,1,2,492,"Layup",1
+"651",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,16,"In The Paint (Non-RA)","Center(C)","8-16 ft.",9,0.4,14.65,0,2,824,"Jump",2
+"652",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,32,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.55,1,2,868,"Layup",1
+"653",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,51,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.65,1,2,909,"Layup",1
+"654",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,6,"Mid-Range","Left Side Center(LC)","16-24 ft.",21,-16.4,19.55,0,2,954,"Jump",3
+"655",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,28,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,-1,12.75,0,2,992,"Jump",1
+"656",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,45,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,11,28.75,0,3,1035,"Jump",4
+"657",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,45,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,4.95,1,2,1275,"Layup",1
+"658",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,44,"Mid-Range","Left Side(L)","8-16 ft.",14,-14.7,5.25,0,2,1336,"Jump",2
+"659",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,8,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.2,5.25,1,2,1432,"Layup",1
+"660",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,42,"Left Corner 3","Left Side(L)","24+ ft.",22,-22.9,4.25,0,3,1458,"Jump",4
+"661",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,28,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-16.9,25.25,1,3,2192,"Jump",4
+"662",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,28,"Mid-Range","Left Side(L)","8-16 ft.",14,-14.6,5.85,1,2,2252,"Others",2
+"663",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,41,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-10.9,28.85,1,3,2299,"Jump",4
+"664",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,21,"Right Corner 3","Right Side(R)","24+ ft.",23,23,6.65,0,3,2319,"Jump",4
+"665",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,33,"Above the Break 3","Right Side Center(RC)","24+ ft.",29,14.6,31.35,0,3,2427,"Jump",4
+"666",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,48,"Mid-Range","Right Side Center(RC)","16-24 ft.",20,8.9,23.95,0,2,2532,"Jump",3
+"667",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,18,"Mid-Range","Right Side(R)","8-16 ft.",9,8.9,9.15,0,2,2562,"Jump",2
+"668",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,10,"Mid-Range","Left Side(L)","8-16 ft.",14,-14.4,3.95,1,2,2630,"Others",2
+"669",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,19,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.55,0,2,101,"Layup",1
+"670",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,25,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,215,"Others",1
+"671",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,40,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,7.8,5.65,0,2,260,"Jump",1
+"672",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,14,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-5.1,6.75,0,2,346,"Jump",1
+"673",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,48,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-4.8,7.85,0,2,552,"Jump",1
+"674",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,30,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.05,1,2,630,"Layup",1
+"675",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,6,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.35,1,2,654,"Layup",1
+"676",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,49,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.7,5.35,1,2,851,"Layup",1
+"677",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,11,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,4.45,1,2,889,"Layup",1
+"678",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,48,"Right Corner 3","Right Side(R)","24+ ft.",24,23.1,12.95,0,3,912,"Jump",4
+"679",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,30,"Restricted Area","Center(C)","Less Than 8 ft.",3,-0.2,9.15,1,2,930,"Jump",1
+"680",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,42,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,-5.7,7.25,0,2,1218,"Jump",1
+"681",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,14,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.8,5.55,0,2,1306,"Layup",1
+"682",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,7,"Mid-Range","Right Side Center(RC)","16-24 ft.",17,12.9,16.45,1,2,1433,"Jump",3
+"683",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,28,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.2,5.25,1,2,1592,"Layup",1
+"684",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,7,"Above the Break 3","Left Side Center(LC)","24+ ft.",27,-12.2,29.45,0,3,1613,"Jump",4
+"685",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,13,"In The Paint (Non-RA)","Right Side(R)","8-16 ft.",9,6.7,11.85,1,2,2027,"Jump",2
+"686",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,44,"Mid-Range","Right Side Center(RC)","16-24 ft.",16,7.8,19.45,0,2,2056,"Jump",3
+"687",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,12,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,17.6,24.45,0,3,2148,"Jump",4
+"688",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,52,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-11.2,28.35,0,3,2228,"Jump",4
+"689",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,27,"Mid-Range","Right Side(R)","8-16 ft.",14,14.3,9.75,0,2,2313,"Jump",2
+"690",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,10,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2330,"Others",1
+"691",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,51,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.85,1,2,2409,"Layup",1
+"692",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,27,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,-3.4,7.75,0,2,2673,"Jump",1
+"693",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,41,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,19,"Others",1
+"694",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,38,"Mid-Range","Left Side(L)","8-16 ft.",13,-12.8,8.85,0,2,682,"Jump",2
+"695",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,24,"Right Corner 3","Right Side(R)","24+ ft.",22,22.6,5.55,0,3,696,"Jump",4
+"696",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,31,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.7,6.95,0,2,869,"Layup",1
+"697",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,10,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1310,"Others",1
+"698",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,46,"In The Paint (Non-RA)","Center(C)","8-16 ft.",14,-4.5,18.65,0,2,1454,"Jump",2
+"699",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,3,"Mid-Range","Left Side Center(LC)","16-24 ft.",18,-13.9,17.95,0,2,1617,"Jump",3
+"700",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,13,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,10.5,28.75,0,3,1787,"Jump",4
+"701",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,4,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.5,5.65,1,2,2036,"Layup",1
+"702",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,36,"In The Paint (Non-RA)","Right Side(R)","8-16 ft.",8,7.2,8.95,0,2,2064,"Jump",2
+"703",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,50,"Mid-Range","Left Side Center(LC)","16-24 ft.",16,-7,20.35,0,2,2110,"Jump",3
+"704",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,30,"Mid-Range","Left Side(L)","8-16 ft.",12,-12,10.05,1,2,2130,"Jump",2
+"705",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,5,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-11.1,27.75,1,3,2155,"Jump",4
+"706",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,49,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.4,5.25,1,2,2231,"Layup",1
+"707",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,10,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.3,4.45,1,2,2330,"Layup",1
+"708",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,50,"Above the Break 3","Left Side Center(LC)","24+ ft.",28,-18.7,26.65,0,3,2410,"Jump",4
+"709",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,47,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,-1.1,11.35,1,2,73,"Jump",1
+"710",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,27,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-1.9,10.85,0,2,213,"Jump",1
+"711",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,58,"Restricted Area","Center(C)","Less Than 8 ft.",1,1,6.95,0,2,362,"Layup",1
+"712",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,40,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.5,4.65,1,2,380,"Layup",1
+"713",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,51,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.55,1,2,609,"Layup",1
+"714",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,37,"Above the Break 3","Center(C)","24+ ft.",29,0,34.35,0,3,683,"Jump",4
+"715",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,0,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.6,5.85,1,2,720,"Layup",1
+"716",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,58,"Mid-Range","Right Side(R)","8-16 ft.",14,14.7,7.15,1,2,782,"Jump",2
+"717",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,17,"Mid-Range","Left Side(L)","16-24 ft.",19,-16.3,15.45,0,2,823,"Jump",3
+"718",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,17,"Mid-Range","Left Side(L)","8-16 ft.",15,-15.2,9.65,0,2,883,"Others",2
+"719",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,35,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,6.15,1,2,1105,"Layup",1
+"720",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,29,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-14.6,26.85,1,3,1351,"Jump",4
+"721",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,58,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-15.8,25.55,0,3,1382,"Jump",4
+"722",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,7,"Restricted Area","Center(C)","Less Than 8 ft.",1,1,6.35,1,2,1493,"Layup",1
+"723",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,38,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,21.4,19.75,0,3,1822,"Jump",4
+"724",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,38,"Mid-Range","Right Side Center(RC)","16-24 ft.",21,14.4,21.45,1,2,2122,"Jump",3
+"725",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,0,"Mid-Range","Left Side(L)","8-16 ft.",14,-9.5,16.25,0,2,2160,"Jump",2
+"726",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,34,"Above the Break 3","Center(C)","24+ ft.",25,-6.7,29.45,0,3,2186,"Jump",4
+"727",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,51,"Mid-Range","Right Side Center(RC)","16-24 ft.",20,12.4,21.65,1,2,2229,"Jump",3
+"728",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,3,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2337,"Others",1
+"729",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,9,"Right Corner 3","Right Side(R)","24+ ft.",22,22.6,7.15,1,3,2391,"Jump",4
+"730",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,8,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-9.5,29.95,1,3,2572,"Jump",4
+"731",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,29,"Mid-Range","Right Side Center(RC)","16-24 ft.",21,8.3,25.55,1,2,2611,"Jump",3
+"732",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,2,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-16.4,24.95,0,3,2638,"Jump",4
+"733",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,37,"Mid-Range","Right Side(R)","16-24 ft.",17,17,7.85,0,2,2663,"Others",3
+"734",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,54,"Above the Break 3","Center(C)","24+ ft.",25,2.3,30.65,1,3,126,"Jump",4
+"735",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,29,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-21.8,19.25,0,3,151,"Jump",4
+"736",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,9,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,291,"Others",1
+"737",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,26,"Mid-Range","Center(C)","16-24 ft.",21,-0.5,26.35,1,2,754,"Jump",3
+"738",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,57,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.1,6.45,0,2,783,"Layup",1
+"739",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,40,"Mid-Range","Left Side Center(LC)","16-24 ft.",18,-9.8,20.85,0,2,800,"Jump",3
+"740",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,29,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.2,6.45,1,2,871,"Layup",1
+"741",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,20,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.4,4.95,1,2,1000,"Layup",1
+"742",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,33,"Mid-Range","Right Side Center(RC)","16-24 ft.",22,13,23.55,0,2,1047,"Jump",3
+"743",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,0,"In The Paint (Non-RA)","Right Side(R)","8-16 ft.",8,6.2,10.75,0,2,1440,"Bank",2
+"744",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,42,"Mid-Range","Left Side Center(LC)","16-24 ft.",17,-12.7,16.75,0,2,1518,"Jump",3
+"745",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,12,"Mid-Range","Left Side(L)","8-16 ft.",14,-12.7,12.95,0,2,1728,"Jump",2
+"746",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,26,"Mid-Range","Center(C)","16-24 ft.",23,-1.5,28.35,0,2,2254,"Jump",3
+"747",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,15,"Mid-Range","Center(C)","16-24 ft.",18,-4.5,22.85,0,2,2385,"Jump",3
+"748",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,38,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-12,27.25,0,3,2482,"Jump",4
+"749",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,26,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2554,"Others",1
+"750",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,1,24,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,11.1,29.45,0,3,2796,"Jump",4
+"751",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,13,"Right Corner 3","Right Side(R)","24+ ft.",23,23.1,6.45,0,3,167,"Jump",4
+"752",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,55,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,0,2,365,"Others",1
+"753",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,31,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,389,"Others",1
+"754",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,53,"Mid-Range","Left Side(L)","8-16 ft.",9,-8.9,8.55,0,2,667,"Jump",2
+"755",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,37,"Mid-Range","Left Side(L)","8-16 ft.",10,-9,10.25,1,2,743,"Jump",2
+"756",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,2,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.25,0,2,778,"Layup",1
+"757",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,39,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,921,"Others",1
+"758",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,16,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.8,5.85,1,2,944,"Layup",1
+"759",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,1,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,14,25.85,1,3,1259,"Jump",4
+"760",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,33,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1287,"Others",1
+"761",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,11,"Mid-Range","Left Side(L)","8-16 ft.",15,-15.8,4.75,1,2,1369,"Jump",2
+"762",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,31,"In The Paint (Non-RA)","Center(C)","8-16 ft.",13,-3.5,18.65,0,2,1409,"Others",2
+"763",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,9,"Mid-Range","Left Side(L)","8-16 ft.",12,-12.5,4.75,0,2,1611,"Jump",2
+"764",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,55,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.6,5.05,1,2,1865,"Layup",1
+"765",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,58,"Restricted Area","Center(C)","Less Than 8 ft.",3,-3,6.35,1,2,62,"Bank",1
+"766",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,59,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.3,6.75,1,2,181,"Layup",1
+"767",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,56,"Restricted Area","Center(C)","Less Than 8 ft.",2,2.8,5.55,1,2,244,"Layup",1
+"768",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,26,"Restricted Area","Center(C)","Less Than 8 ft.",2,-2.1,5.25,0,2,274,"Layup",1
+"769",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,13,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,17.9,23.65,0,3,407,"Jump",4
+"770",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,14,"Restricted Area","Center(C)","Less Than 8 ft.",2,2.9,5.35,0,2,646,"Layup",1
+"771",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,16,"Mid-Range","Left Side(L)","16-24 ft.",18,-18.5,5.85,1,2,764,"Jump",3
+"772",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,36,"Restricted Area","Center(C)","Less Than 8 ft.",2,-0.2,7.45,1,2,804,"Layup",1
+"773",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,55,"In The Paint (Non-RA)","Center(C)","8-16 ft.",13,0.4,18.35,0,2,905,"Jump",2
+"774",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,34,"Mid-Range","Left Side(L)","8-16 ft.",12,-12,6.75,0,2,926,"Others",2
+"775",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,53,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,3.6,9.95,1,2,967,"Jump",1
+"776",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,32,"Mid-Range","Center(C)","16-24 ft.",19,3.6,24.65,0,2,1408,"Others",3
+"777",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,58,"Mid-Range","Left Side Center(LC)","16-24 ft.",18,-9.8,21.25,0,2,2042,"Jump",3
+"778",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,0,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-13,26.05,0,3,2160,"Jump",4
+"779",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,52,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.6,5.95,1,2,2288,"Others",1
+"780",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,5,"Mid-Range","Left Side(L)","16-24 ft.",16,-14.9,12.75,1,2,2335,"Jump",3
+"781",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,21,"Mid-Range","Right Side Center(RC)","16-24 ft.",16,12.4,16.05,1,2,2379,"Jump",3
+"782",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,33,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-13.4,28.05,0,3,2487,"Jump",4
+"783",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,10,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2690,"Others",1
+"784",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,56,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-23.1,17.55,0,3,2824,"Jump",4
+"785",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,49,"In The Paint (Non-RA)","Center(C)","8-16 ft.",13,-0.7,18.45,0,2,2831,"Jump",2
+"786",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,42,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,-0.7,12.35,1,2,18,"Jump",1
+"787",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,4,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,3.7,11.65,1,2,176,"Jump",1
+"788",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,34,"Mid-Range","Center(C)","16-24 ft.",18,5.1,23.55,1,2,206,"Jump",3
+"789",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,26,"Restricted Area","Center(C)","Less Than 8 ft.",3,-2.4,7.45,0,2,334,"Layup",1
+"790",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,17,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,10.8,27.65,0,3,403,"Jump",4
+"791",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,0,"Above the Break 3","Back Court(BC)","Back Court Shot",46,-23.4,45.45,0,3,1440,"Jump",0
+"792",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,16,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-12.7,26.65,1,3,1544,"Jump",4
+"793",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,45,"Mid-Range","Left Side(L)","16-24 ft.",19,-19.1,5.05,1,2,1575,"Jump",3
+"794",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,21,"Mid-Range","Right Side(R)","16-24 ft.",20,17.6,16.05,1,2,1599,"Jump",3
+"795",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,0,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-15,24.65,0,3,1620,"Jump",4
+"796",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,47,"Above the Break 3","Right Side Center(RC)","24+ ft.",27,10,31.05,1,3,1633,"Jump",4
+"797",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,26,"Above the Break 3","Center(C)","24+ ft.",28,-6.5,32.95,0,3,1654,"Jump",4
+"798",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,44,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,17,25.35,0,3,1876,"Jump",4
+"799",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,37,"Mid-Range","Left Side(L)","8-16 ft.",13,-13.4,8.05,0,2,1883,"Jump",2
+"800",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,38,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,-4,7.85,0,2,1942,"Jump",1
+"801",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,22,"Restricted Area","Center(C)","Less Than 8 ft.",3,-3.2,6.45,1,2,2018,"Layup",1
+"802",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,11,"Mid-Range","Left Side(L)","8-16 ft.",11,-10.8,10.05,0,2,49,"Jump",2
+"803",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,4,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,176,"Others",1
+"804",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,25,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.2,5.25,1,2,275,"Layup",1
+"805",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,3,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,5.4,9.45,0,2,717,"Jump",1
+"806",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,9,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.3,4.75,1,2,831,"Layup",1
+"807",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,50,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,850,"Others",1
+"808",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,50,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.2,5.85,0,2,910,"Layup",1
+"809",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,4,22,"Above the Break 3","Left Side Center(LC)","24+ ft.",27,-17.9,25.85,0,3,1178,"Jump",4
+"810",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,38,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-4,9.65,0,2,1222,"Jump",1
+"811",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,51,"Mid-Range","Right Side(R)","8-16 ft.",10,9.5,9.65,0,2,1269,"Jump",2
+"812",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,6,"Above the Break 3","Left Side Center(LC)","24+ ft.",28,-13.3,30.95,0,3,1374,"Jump",4
+"813",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,41,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.7,4.95,1,2,1579,"Layup",1
+"814",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,15,"Mid-Range","Center(C)","16-24 ft.",21,0.9,26.55,1,2,1605,"Jump",3
+"815",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,17,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-11.9,28.25,0,3,1843,"Jump",4
+"816",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,12,"Above the Break 3","Right Side Center(RC)","24+ ft.",39,17.1,41.35,0,3,2208,"Jump",4
+"817",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,29,"Mid-Range","Center(C)","16-24 ft.",21,-1,26.35,0,2,2311,"Jump",3
+"818",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,47,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.7,5.65,1,2,73,"Layup",1
+"819",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,5,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-11.6,28.05,1,3,115,"Jump",4
+"820",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,45,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-11.9,29.45,0,3,135,"Jump",4
+"821",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,48,"Mid-Range","Center(C)","16-24 ft.",21,0.2,26.65,0,2,252,"Jump",3
+"822",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,14,"Restricted Area","Center(C)","Less Than 8 ft.",2,-2.3,5.25,1,2,406,"Layup",1
+"823",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,0,"Above the Break 3","Center(C)","24+ ft.",28,-6.2,33.45,0,3,720,"Jump",4
+"824",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,29,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.7,6.75,1,2,751,"Layup",1
+"825",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,47,"Mid-Range","Left Side Center(LC)","16-24 ft.",20,-9.7,23.05,1,2,853,"Jump",3
+"826",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,12,"Mid-Range","Right Side(R)","8-16 ft.",15,14.7,10.75,0,2,948,"Jump",2
+"827",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,17,"Mid-Range","Right Side Center(RC)","16-24 ft.",20,8.4,24.45,0,2,1003,"Jump",3
+"828",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,4,"Mid-Range","Right Side Center(RC)","16-24 ft.",20,12.1,22.05,0,2,1076,"Jump",3
+"829",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,28,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-9.8,29.05,0,3,1112,"Jump",4
+"830",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,36,"Above the Break 3","Center(C)","24+ ft.",27,-1.6,33.15,0,3,1464,"Jump",4
+"831",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,9,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.9,5.85,1,2,1611,"Layup",1
+"832",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,36,"Restricted Area","Center(C)","Less Than 8 ft.",1,1,6.35,1,2,1644,"Layup",1
+"833",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,32,"Mid-Range","Left Side(L)","8-16 ft.",10,-10.5,7.75,1,2,1828,"Jump",2
+"834",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,1,"Mid-Range","Left Side(L)","16-24 ft.",17,-16.1,11.55,0,2,1859,"Jump",3
+"835",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,58,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,9.2,29.15,1,3,1982,"Jump",4
+"836",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,35,"Above the Break 3","Right Side Center(RC)","24+ ft.",27,16.3,26.85,0,3,2125,"Jump",4
+"837",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,57,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,4.7,9.75,0,2,2343,"Jump",1
+"838",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,42,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.6,6.15,1,2,2358,"Layup",1
+"839",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,10,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,8.8,29.15,0,3,2450,"Jump",4
+"840",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,48,"Mid-Range","Center(C)","16-24 ft.",21,0.1,26.35,1,2,2472,"Jump",3
+"841",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,38,"Mid-Range","Left Side Center(LC)","16-24 ft.",22,-7.5,26.35,0,2,2542,"Jump",3
+"842",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,4,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-10.1,28.85,0,3,2696,"Jump",4
+"843",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,45,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2715,"Others",1
+"844",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,25,"Mid-Range","Left Side Center(LC)","16-24 ft.",20,-14.4,20.35,0,2,35,"Jump",3
+"845",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,1,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,119,"Others",1
+"846",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,37,"Restricted Area","Center(C)","Less Than 8 ft.",1,0,3.95,1,2,143,"Layup",1
+"847",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,30,"Mid-Range","Left Side Center(LC)","16-24 ft.",18,-8.2,22.05,1,2,330,"Jump",3
+"848",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,57,"Mid-Range","Left Side(L)","8-16 ft.",13,-13.6,7.45,0,2,363,"Jump",2
+"849",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,0,"In The Paint (Non-RA)","Center(C)","8-16 ft.",12,-3.7,16.75,1,2,600,"Jump",2
+"850",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,57,"In The Paint (Non-RA)","Right Side(R)","8-16 ft.",9,7,12.15,0,2,663,"Jump",2
+"851",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,36,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,3.9,6.65,1,2,684,"Bank",1
+"852",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,0,"Above the Break 3","Left Side Center(LC)","24+ ft.",28,-11.6,30.75,0,3,720,"Jump",4
+"853",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,44,"Mid-Range","Center(C)","16-24 ft.",19,1.5,24.95,0,2,736,"Jump",3
+"854",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,46,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,794,"Others",1
+"855",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,41,"Above the Break 3","Center(C)","24+ ft.",28,-8.7,32.35,1,3,979,"Jump",4
+"856",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,21,"Above the Break 3","Center(C)","24+ ft.",27,-5.4,32.15,0,3,999,"Jump",4
+"857",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,12,"Above the Break 3","Left Side Center(LC)","24+ ft.",29,-14.9,30.65,1,3,1668,"Jump",4
+"858",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,43,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,22.2,19.45,1,3,1697,"Jump",4
+"859",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,53,"Mid-Range","Right Side Center(RC)","16-24 ft.",22,17.9,18.75,0,2,1927,"Jump",3
+"860",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,39,"In The Paint (Non-RA)","Center(C)","8-16 ft.",15,7.2,18.45,1,2,2001,"Jump",2
+"861",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,3,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,3.2,10.85,1,2,2037,"Jump",1
+"862",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,23,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,5,9.75,1,2,2077,"Jump",1
+"863",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,18,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.9,5.35,0,2,2142,"Layup",1
+"864",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,11,"Mid-Range","Left Side(L)","8-16 ft.",13,-13,6.75,0,2,2149,"Jump",2
+"865",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,38,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,22,"Others",1
+"866",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,27,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.5,4.45,1,2,93,"Layup",1
+"867",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,41,"Mid-Range","Left Side(L)","8-16 ft.",15,-9.3,17.35,1,2,259,"Jump",2
+"868",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,34,"Mid-Range","Right Side(R)","8-16 ft.",15,14.1,12.65,0,2,326,"Jump",2
+"869",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,17,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,643,"Others",1
+"870",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,0,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,16,26.05,1,3,720,"Jump",4
+"871",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,2,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-14.6,25.55,0,3,778,"Jump",4
+"872",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,19,"Mid-Range","Left Side Center(LC)","16-24 ft.",22,-11.2,24.65,0,2,881,"Jump",3
+"873",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,11,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,20.6,19.75,0,3,949,"Jump",4
+"874",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,51,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.5,5.35,0,2,1329,"Layup",1
+"875",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,26,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,4,6.65,1,2,1354,"Bank",1
+"876",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,0,"Above the Break 3","Right Side Center(RC)","24+ ft.",41,17.9,42.95,0,3,1440,"Jump",4
+"877",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,45,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,3.7,9.95,0,2,1575,"Jump",1
+"878",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,8,"Left Corner 3","Left Side(L)","24+ ft.",23,-23.4,7.15,0,3,1792,"Jump",4
+"879",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,22,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2018,"Others",1
+"880",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,8,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,19,23.05,0,3,2092,"Jump",4
+"881",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,31,"Restricted Area","Center(C)","Less Than 8 ft.",2,2.4,4.75,0,2,2129,"Layup",1
+"882",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,8,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.95,1,2,52,"Layup",1
+"883",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,21,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-12.2,28.25,0,3,99,"Jump",4
+"884",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,27,"Restricted Area","Center(C)","Less Than 8 ft.",3,3.1,7.75,0,2,153,"Jump",1
+"885",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,53,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,187,"Others",1
+"886",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,16,"Mid-Range","Right Side Center(RC)","16-24 ft.",21,8.4,25.05,0,2,704,"Jump",3
+"887",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,52,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.8,5.85,1,2,848,"Layup",1
+"888",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,11,"Above the Break 3","Right Side Center(RC)","24+ ft.",30,12.5,32.95,0,3,1489,"Jump",4
+"889",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,0,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,22.3,17.95,0,3,1680,"Jump",4
+"890",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,24,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,3.1,7.85,0,2,1956,"Jump",1
+"891",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,26,"Mid-Range","Right Side(R)","16-24 ft.",19,17.9,14.15,0,2,2314,"Jump",3
+"892",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,10,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.4,5.65,1,2,2330,"Layup",1
+"893",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,41,"Above the Break 3","Left Side Center(LC)","24+ ft.",27,-10.3,30.95,0,3,2419,"Jump",4
+"894",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,39,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.4,5.85,1,2,2481,"Layup",1
+"895",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,4,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,8.4,30.65,1,3,2696,"Jump",4
+"896",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,20,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,0,11.55,1,2,100,"Jump",1
+"897",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,7,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,-0.4,10.05,0,2,173,"Jump",1
+"898",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,29,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,4.95,1,2,271,"Layup",1
+"899",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,56,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1,5.05,1,2,664,"Layup",1
+"900",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,36,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.8,5.35,1,2,684,"Layup",1
+"901",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,28,"Mid-Range","Left Side Center(LC)","16-24 ft.",20,-15.2,18.65,0,2,812,"Jump",3
+"902",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,16,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-10.3,27.95,1,3,824,"Jump",4
+"903",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,42,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.85,1,2,918,"Layup",1
+"904",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,11,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,14.9,24.95,1,3,949,"Jump",4
+"905",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,41,"Mid-Range","Right Side(R)","16-24 ft.",21,19.2,15.35,1,2,1579,"Jump",3
+"906",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,14,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-13.8,26.65,0,3,1606,"Jump",4
+"907",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,42,"Mid-Range","Left Side(L)","16-24 ft.",17,-16.9,9.75,1,2,1638,"Jump",3
+"908",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,59,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-16.3,23.95,1,3,1681,"Jump",4
+"909",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,46,"Above the Break 3","Center(C)","24+ ft.",30,0.7,35.35,0,3,1694,"Jump",4
+"910",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,31,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.9,6.65,0,2,1709,"Layup",1
+"911",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,47,"Mid-Range","Center(C)","8-16 ft.",15,-0.4,20.85,1,2,1753,"Jump",2
+"912",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,53,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-16.3,25.35,0,3,1807,"Jump",4
+"913",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,34,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-11.2,28.55,1,3,2006,"Jump",4
+"914",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,15,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,18.9,23.05,0,3,2085,"Jump",4
+"915",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,29,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2131,"Others",1
+"916",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,32,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,3.7,7.85,1,2,2188,"Bank",1
+"917",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,58,"Mid-Range","Left Side(L)","16-24 ft.",21,-17.1,17.65,0,2,2342,"Jump",3
+"918",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,44,"Mid-Range","Left Side(L)","16-24 ft.",16,-14.2,14.05,0,2,2656,"Jump",3
+"919",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,11,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,2,10.85,1,2,2689,"Jump",1
+"920",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,1,38,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,13.8,27.45,0,3,2782,"Jump",4
+"921",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,30,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.4,5.25,1,2,30,"Layup",1
+"922",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,29,"In The Paint (Non-RA)","Left Side(L)","8-16 ft.",8,-4.8,11.95,0,2,151,"Jump",2
+"923",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,22,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.8,5.05,1,2,278,"Layup",1
+"924",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,48,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,612,"Others",1
+"925",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,27,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-12.2,26.55,0,3,693,"Jump",4
+"926",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,41,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,12.7,26.15,1,3,739,"Jump",4
+"927",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,0,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.7,5.55,1,2,780,"Layup",1
+"928",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,24,"Above the Break 3","Center(C)","24+ ft.",26,0.2,31.55,0,3,816,"Jump",4
+"929",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,31,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,929,"Others",1
+"930",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,7,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-3.4,8.95,0,2,953,"Jump",1
+"931",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,5,"In The Paint (Non-RA)","Center(C)","8-16 ft.",11,0,16.25,1,2,1015,"Jump",2
+"932",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,8,"Restricted Area","Center(C)","Less Than 8 ft.",2,2.3,4.75,0,2,1312,"Layup",1
+"933",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,42,"Restricted Area","Center(C)","Less Than 8 ft.",3,-2.7,7.45,0,2,1338,"Jump",1
+"934",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,42,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.8,4.65,0,2,1398,"Layup",1
+"935",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,0,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-20.1,21.95,0,3,1440,"Jump",4
+"936",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,41,"In The Paint (Non-RA)","Center(C)","8-16 ft.",10,-0.8,15.75,0,2,1459,"Others",2
+"937",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,31,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-13.9,26.05,1,3,1709,"Jump",4
+"938",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,2,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,15.4,24.75,0,3,1798,"Jump",4
+"939",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,11,"Mid-Range","Right Side Center(RC)","16-24 ft.",19,7.7,22.75,1,2,1849,"Jump",3
+"940",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,59,"Mid-Range","Left Side Center(LC)","16-24 ft.",19,-11.2,20.65,1,2,1921,"Jump",3
+"941",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,57,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,16.5,24.65,1,3,2043,"Jump",4
+"942",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,33,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,11.1,27.25,0,3,2067,"Jump",4
+"943",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,19,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.5,5.25,1,2,2081,"Layup",1
+"944",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,6,"In The Paint (Non-RA)","Center(C)","8-16 ft.",9,0.9,14.55,0,2,2154,"Jump",2
+"945",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,11,"Mid-Range","Right Side Center(RC)","16-24 ft.",18,14.3,16.55,1,2,2509,"Jump",3
+"946",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,34,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,12.7,27.65,0,3,2546,"Jump",4
+"947",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,29,"Restricted Area","Center(C)","Less Than 8 ft.",2,1.7,6.35,0,2,2611,"Layup",1
+"948",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,15,"Mid-Range","Left Side Center(LC)","16-24 ft.",21,-12.8,22.25,1,2,2685,"Jump",3
+"949",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,25,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-19.4,20.55,0,3,2735,"Jump",4
+"950",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,26,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.2,4.65,0,2,2854,"Layup",1
+"951",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,1,"Mid-Range","Center(C)","16-24 ft.",23,0,28.25,0,2,2879,"Jump",3
+"952",2544,"LeBron James",1610612739,"Cleveland Cavaliers",5,2,49,"Restricted Area","Center(C)","Less Than 8 ft.",2,2,5.95,0,2,3431,"Layup",1
+"953",2544,"LeBron James",1610612739,"Cleveland Cavaliers",5,2,32,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-9.3,28.75,0,3,3448,"Jump",4
+"954",2544,"LeBron James",1610612739,"Cleveland Cavaliers",5,1,20,"Restricted Area","Center(C)","Less Than 8 ft.",1,1,5.85,0,2,3520,"Layup",1
+"955",2544,"LeBron James",1610612739,"Cleveland Cavaliers",5,0,43,"Above the Break 3","Center(C)","24+ ft.",24,1.7,29.65,1,3,3557,"Jump",4
+"956",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,6,"Mid-Range","Left Side(L)","8-16 ft.",15,-15.2,6.95,1,2,54,"Others",2
+"957",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,54,"Mid-Range","Left Side(L)","8-16 ft.",14,-14.4,8.35,0,2,126,"Jump",2
+"958",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,52,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.9,5.95,1,2,248,"Layup",1
+"959",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,14,"Mid-Range","Left Side(L)","8-16 ft.",13,-12,10.55,1,2,406,"Jump",2
+"960",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,58,"Mid-Range","Left Side(L)","16-24 ft.",21,-20.2,12.45,0,2,602,"Jump",3
+"961",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,51,"Mid-Range","Right Side(R)","8-16 ft.",12,12.5,6.15,1,2,609,"Jump",2
+"962",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,11,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.4,5.35,1,2,649,"Layup",1
+"963",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,17,"Mid-Range","Left Side(L)","8-16 ft.",10,-9.8,8.65,0,2,703,"Bank",2
+"964",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,37,"Mid-Range","Left Side(L)","16-24 ft.",20,-19.4,13.25,1,2,743,"Jump",3
+"965",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,52,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,3.4,7.85,0,2,788,"Jump",1
+"966",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,49,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.65,0,2,791,"Others",1
+"967",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,3,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.85,1,2,837,"Layup",1
+"968",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,38,"Mid-Range","Right Side Center(RC)","16-24 ft.",16,11.8,17.05,0,2,862,"Jump",3
+"969",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,1,53,"Mid-Range","Left Side(L)","8-16 ft.",9,-8.6,8.05,1,2,1327,"Bank",2
+"970",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,32,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.7,6.65,1,2,1408,"Layup",1
+"971",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,0,"Above the Break 3","Back Court(BC)","Back Court Shot",40,0.7,45.75,0,3,1440,"Jump",0
+"972",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,15,"Mid-Range","Left Side(L)","8-16 ft.",11,-11.7,5.65,0,2,1485,"Jump",2
+"973",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,44,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.4,4.75,1,2,1516,"Layup",1
+"974",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,49,"Restricted Area","Center(C)","Less Than 8 ft.",1,0,3.35,1,2,1691,"Layup",1
+"975",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,22,"Restricted Area","Center(C)","Less Than 8 ft.",2,-0.2,7.45,0,2,1718,"Layup",1
+"976",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,57,"Mid-Range","Right Side Center(RC)","16-24 ft.",17,12.5,17.15,1,2,1803,"Jump",3
+"977",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,27,"Restricted Area","Center(C)","Less Than 8 ft.",3,-2.9,6.45,0,2,1833,"Jump",1
+"978",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,9,"Mid-Range","Right Side(R)","8-16 ft.",14,13.3,11.85,0,2,1851,"Jump",2
+"979",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,7,"Mid-Range","Left Side(L)","8-16 ft.",9,-8.9,9.75,0,2,173,"Jump",2
+"980",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,6,"Restricted Area","Center(C)","Less Than 8 ft.",3,-3.5,6.05,0,2,354,"Layup",1
+"981",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,4,36,"Right Corner 3","Right Side(R)","24+ ft.",23,23,5.35,1,3,444,"Jump",4
+"982",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,0,"Above the Break 3","Center(C)","24+ ft.",27,-7.9,31.85,0,3,720,"Jump",4
+"983",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,15,"Restricted Area","Center(C)","Less Than 8 ft.",2,1.7,6.75,1,2,825,"Layup",1
+"984",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,12,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,5,11.05,0,2,1068,"Jump",1
+"985",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,8,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.9,6.75,1,2,1072,"Layup",1
+"986",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,51,"Right Corner 3","Right Side(R)","24+ ft.",22,22.8,5.35,0,3,1689,"Jump",4
+"987",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,58,"Left Corner 3","Left Side(L)","24+ ft.",23,-23.5,5.85,0,3,2042,"Jump",4
+"988",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,29,"Mid-Range","Left Side(L)","8-16 ft.",14,-14.9,6.35,1,2,2071,"Others",2
+"989",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,0,"Restricted Area","Center(C)","Less Than 8 ft.",2,-2.4,5.85,1,2,2160,"Layup",1
+"990",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,39,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,0,2,2481,"Others",1
+"991",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,54,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2526,"Others",1
+"992",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,8,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,19.8,21.25,1,3,2632,"Jump",4
+"993",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,26,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-17.7,22.55,1,3,2674,"Jump",4
+"994",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,55,"Restricted Area","Center(C)","Less Than 8 ft.",2,2.4,5.25,1,2,2825,"Layup",1
+"995",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,7,"Mid-Range","Right Side(R)","16-24 ft.",16,15.7,8.35,0,2,53,"Others",3
+"996",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,52,"Mid-Range","Left Side Center(LC)","16-24 ft.",21,-15.7,20.05,0,2,248,"Jump",3
+"997",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,36,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,264,"Others",1
+"998",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,21,"Left Corner 3","Left Side(L)","24+ ft.",23,-22.9,11.95,0,3,339,"Jump",4
+"999",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,36,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,-3.5,7.45,0,2,564,"Jump",1
+"1000",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,29,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.7,5.25,0,2,1051,"Layup",1
+"1001",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,33,"Mid-Range","Left Side(L)","8-16 ft.",14,-13.1,10.55,0,2,1407,"Jump",2
+"1002",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,42,"Restricted Area","Center(C)","Less Than 8 ft.",2,2,5.25,1,2,1638,"Layup",1
+"1003",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,55,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1685,"Others",1
+"1004",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,37,"Mid-Range","Left Side(L)","8-16 ft.",14,-14.7,5.95,1,2,2123,"Jump",2
+"1005",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,11,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-20.7,19.85,0,3,2149,"Jump",4
+"1006",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,20,"Above the Break 3","Center(C)","24+ ft.",24,-6.2,29.35,0,3,2560,"Jump",4
+"1007",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,18,"Above the Break 3","Center(C)","24+ ft.",24,-7.3,28.35,1,3,2682,"Jump",4
+"1008",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,18,"Restricted Area","Center(C)","Less Than 8 ft.",2,-0.8,7.45,0,2,582,"Layup",1
+"1009",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,6,"Mid-Range","Right Side Center(RC)","16-24 ft.",21,10.8,23.85,0,2,774,"Jump",3
+"1010",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,15,"Restricted Area","Center(C)","Less Than 8 ft.",1,0,6.45,1,2,885,"Layup",1
+"1011",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,59,"Right Corner 3","Right Side(R)","24+ ft.",24,23.9,7.75,0,3,1021,"Jump",4
+"1012",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,20,"Mid-Range","Left Side(L)","8-16 ft.",8,-8.1,8.35,0,2,1060,"Jump",2
+"1013",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,3,"Mid-Range","Left Side(L)","16-24 ft.",20,-18.7,14.65,1,2,1677,"Jump",3
+"1014",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,44,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.6,6.35,1,2,1696,"Layup",1
+"1015",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,5,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-11.2,28.55,1,3,1735,"Jump",4
+"1016",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,31,"Above the Break 3","Center(C)","24+ ft.",25,-2.9,31.05,0,3,1769,"Jump",4
+"1017",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,44,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.4,4.95,1,2,1876,"Layup",1
+"1018",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,29,"Mid-Range","Right Side(R)","16-24 ft.",16,15.4,10.85,0,2,1951,"Jump",3
+"1019",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,2,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,14.3,26.55,0,3,2098,"Jump",4
+"1020",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,29,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,1,12.35,0,2,2131,"Jump",1
+"1021",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,31,"Restricted Area","Center(C)","Less Than 8 ft.",2,-1.9,6.75,0,2,2549,"Layup",1
+"1022",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,5,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-0.5,10.85,0,2,2575,"Jump",1
+"1023",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,4,"Above the Break 3","Center(C)","24+ ft.",25,-3,30.25,1,3,2756,"Jump",4
+"1024",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,56,"Left Corner 3","Left Side(L)","24+ ft.",22,-22.3,7.85,0,3,124,"Jump",4
+"1025",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,41,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.85,1,2,259,"Layup",1
+"1026",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,36,"Restricted Area","Center(C)","Less Than 8 ft.",2,1.7,7.45,1,2,324,"Layup",1
+"1027",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,18,"Restricted Area","Center(C)","Less Than 8 ft.",2,0.9,7.85,1,2,582,"Layup",1
+"1028",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,56,"Mid-Range","Left Side(L)","8-16 ft.",13,-13.1,6.75,0,2,664,"Others",2
+"1029",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,29,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,14.7,27.15,1,3,751,"Jump",4
+"1030",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,48,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-13.3,26.35,1,3,792,"Jump",4
+"1031",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,37,"Mid-Range","Center(C)","16-24 ft.",21,-1.6,26.65,0,2,863,"Jump",3
+"1032",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,3,"Restricted Area","Center(C)","Less Than 8 ft.",2,1.2,7.15,1,2,957,"Layup",1
+"1033",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,0,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1080,"Others",1
+"1034",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,18,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.9,6.45,1,2,1902,"Layup",1
+"1035",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,44,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-8.6,30.75,1,3,2176,"Jump",4
+"1036",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,24,"Left Corner 3","Left Side(L)","24+ ft.",23,-23.5,7.85,0,3,2256,"Jump",4
+"1037",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,32,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-9.3,29.65,1,3,2308,"Jump",4
+"1038",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,47,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.5,6.35,1,2,133,"Others",1
+"1039",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,15,"Restricted Area","Center(C)","Less Than 8 ft.",2,-2.7,6.45,0,2,165,"Layup",1
+"1040",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,4,"Mid-Range","Right Side(R)","16-24 ft.",18,17,12.65,1,2,356,"Jump",3
+"1041",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,28,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-12.8,26.95,0,3,392,"Jump",4
+"1042",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,4,24,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,456,"Others",1
+"1043",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,30,"Mid-Range","Left Side Center(LC)","16-24 ft.",20,-10.1,23.15,0,2,690,"Jump",3
+"1044",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,0,"Mid-Range","Center(C)","16-24 ft.",21,-1.5,26.85,0,2,720,"Jump",3
+"1045",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,13,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-5.1,8.35,1,2,767,"Bank",1
+"1046",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,4,"Mid-Range","Center(C)","16-24 ft.",16,4.5,20.65,0,2,896,"Jump",3
+"1047",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,4,31,"Mid-Range","Right Side Center(RC)","16-24 ft.",16,12.4,16.05,0,2,1169,"Jump",3
+"1048",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,13,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-17.1,25.05,0,3,1607,"Jump",4
+"1049",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,31,"Mid-Range","Right Side Center(RC)","16-24 ft.",20,16,17.35,1,2,1889,"Jump",3
+"1050",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,58,"Mid-Range","Right Side(R)","8-16 ft.",15,14.4,10.25,0,2,1922,"Jump",2
+"1051",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,18,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,14.6,25.25,0,3,2262,"Jump",4
+"1052",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,34,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-11.1,28.55,1,3,2306,"Jump",4
+"1053",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,38,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.8,5.25,1,2,2482,"Layup",1
+"1054",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,13,"Restricted Area","Center(C)","Less Than 8 ft.",3,-3.8,5.55,0,2,2687,"Jump",1
+"1055",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,18,"Mid-Range","Left Side(L)","8-16 ft.",9,-9.7,5.55,1,2,2742,"Bank",2
+"1056",2544,"LeBron James",1610612739,"Cleveland Cavaliers",5,1,54,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-14.1,25.05,1,3,3486,"Jump",4
+"1057",2544,"LeBron James",1610612739,"Cleveland Cavaliers",5,0,32,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,17.6,23.85,1,3,3568,"Jump",4
+"1058",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,6,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,54,"Others",1
+"1059",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,46,"Above the Break 3","Center(C)","24+ ft.",27,-8.4,31.35,0,3,134,"Jump",4
+"1060",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,46,"Restricted Area","Center(C)","Less Than 8 ft.",1,1,6.95,1,2,314,"Layup",1
+"1061",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,2,19,"Restricted Area","Center(C)","Less Than 8 ft.",2,0.9,7.25,1,2,581,"Layup",1
+"1062",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,1,22,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,11.3,28.25,0,3,638,"Jump",4
+"1063",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,35,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",4,-0.5,9.45,1,2,685,"Jump",1
+"1064",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,14,"In The Paint (Non-RA)","Center(C)","8-16 ft.",11,5.6,15.15,0,2,706,"Others",2
+"1065",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,10,"Restricted Area","Center(C)","Less Than 8 ft.",2,1.7,6.95,1,2,830,"Layup",1
+"1066",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,25,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1415,"Others",1
+"1067",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,14,"In The Paint (Non-RA)","Center(C)","8-16 ft.",9,4.3,13.75,1,2,1786,"Jump",2
+"1068",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,34,"Mid-Range","Center(C)","16-24 ft.",19,5.4,23.55,0,2,2246,"Jump",3
+"1069",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,29,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2551,"Others",1
+"1070",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,50,"Left Corner 3","Left Side(L)","24+ ft.",23,-22.9,8.95,0,3,2590,"Jump",4
+"1071",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,19,"Mid-Range","Right Side Center(RC)","16-24 ft.",16,6.7,20.15,1,2,2621,"Jump",3
+"1072",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,40,"Mid-Range","Left Side(L)","8-16 ft.",12,-9.5,13.05,1,2,20,"Jump",2
+"1073",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,0,"In The Paint (Non-RA)","Center(C)","8-16 ft.",12,0,17.85,0,2,60,"Jump",2
+"1074",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,33,"Above the Break 3","Center(C)","24+ ft.",24,7.5,28.35,0,3,687,"Jump",4
+"1075",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,24,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1,5.55,0,2,816,"Layup",1
+"1076",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,57,"Above the Break 3","Center(C)","24+ ft.",24,6.7,28.75,1,3,843,"Jump",4
+"1077",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,37,"Above the Break 3","Center(C)","24+ ft.",24,-1,29.85,0,3,983,"Jump",4
+"1078",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,25,"Mid-Range","Center(C)","8-16 ft.",15,2,20.35,0,2,1295,"Jump",2
+"1079",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,1,"Restricted Area","Center(C)","Less Than 8 ft.",2,1.5,6.95,0,2,1439,"Layup",1
+"1080",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,19,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-11.6,27.15,0,3,1601,"Jump",4
+"1081",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,27,"Right Corner 3","Right Side(R)","24+ ft.",23,23.1,6.65,1,3,1833,"Jump",4
+"1082",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,43,"Mid-Range","Left Side(L)","16-24 ft.",18,-15.2,16.05,0,2,2177,"Jump",3
+"1083",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,59,"Restricted Area","Center(C)","Less Than 8 ft.",2,-0.7,7.75,0,2,2281,"Layup",1
+"1084",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,16,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.8,5.25,0,2,2324,"Layup",1
+"1085",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,48,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2352,"Others",1
+"1086",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,1,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-21.7,18.95,1,3,2579,"Jump",4
+"1087",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,50,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-13,26.05,0,3,2650,"Jump",4
+"1088",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,40,"Left Corner 3","Left Side(L)","24+ ft.",24,-24.2,5.35,1,3,2660,"Jump",4
+"1089",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,15,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2685,"Others",1
+"1090",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,28,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2732,"Others",1
+"1091",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,11,35,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,14.1,26.15,0,3,25,"Jump",4
+"1092",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,14,"Mid-Range","Left Side(L)","16-24 ft.",16,-16,9.75,0,2,286,"Jump",3
+"1093",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,51,"Mid-Range","Left Side(L)","16-24 ft.",18,-18.7,5.55,0,2,369,"Jump",3
+"1094",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,16,"Mid-Range","Left Side(L)","8-16 ft.",10,-10,9.35,0,2,764,"Bank",2
+"1095",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,35,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.1,5.65,1,2,1225,"Layup",1
+"1096",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,7,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-23.1,16.05,1,3,1253,"Jump",4
+"1097",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,31,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1289,"Others",1
+"1098",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,48,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-11.7,27.65,1,3,1752,"Jump",4
+"1099",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,41,"Mid-Range","Right Side(R)","8-16 ft.",10,9.7,9.45,0,2,2179,"Jump",2
+"1100",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,55,"Mid-Range","Left Side(L)","16-24 ft.",17,-16.4,11.05,0,2,2225,"Jump",3
+"1101",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,32,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-13.6,26.35,0,3,2428,"Jump",4
+"1102",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,59,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,-4.9,8.95,0,2,2461,"Jump",1
+"1103",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,2,"Restricted Area","Center(C)","Less Than 8 ft.",2,-0.4,8.05,1,2,2518,"Layup",1
+"1104",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,43,"Mid-Range","Left Side(L)","8-16 ft.",10,-10.3,8.25,1,2,377,"Bank",2
+"1105",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,44,"Mid-Range","Left Side(L)","16-24 ft.",16,-15.8,9.45,0,2,736,"Jump",3
+"1106",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,3,"In The Paint (Non-RA)","Right Side(R)","8-16 ft.",8,6.5,11.25,0,2,777,"Jump",2
+"1107",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,37,"Mid-Range","Left Side(L)","8-16 ft.",10,-10.3,8.95,1,2,803,"Jump",2
+"1108",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,15,"Restricted Area","Center(C)","Less Than 8 ft.",1,1,5.35,1,2,945,"Layup",1
+"1109",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,40,"In The Paint (Non-RA)","Right Side(R)","8-16 ft.",10,6.4,13.55,1,2,1100,"Jump",2
+"1110",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,4,31,"Mid-Range","Right Side(R)","16-24 ft.",18,17.8,9.45,0,2,1169,"Jump",3
+"1111",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,1,"In The Paint (Non-RA)","Right Side(R)","8-16 ft.",9,7,11.95,0,2,1439,"Bank",2
+"1112",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,48,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-13.9,27.15,0,3,1632,"Jump",4
+"1113",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,12,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.4,5.55,1,2,1848,"Layup",1
+"1114",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,56,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.7,5.35,1,2,1984,"Layup",1
+"1115",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,14,"Mid-Range","Right Side(R)","8-16 ft.",14,12.5,12.75,0,2,2026,"Jump",2
+"1116",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,40,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,17.4,22.55,1,3,2120,"Jump",4
+"1117",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,17,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,-4.3,11.25,0,2,2143,"Jump",1
+"1118",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,8,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,-1.5,11.55,0,2,2152,"Jump",1
+"1119",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,32,"Mid-Range","Right Side Center(RC)","16-24 ft.",20,6.9,24.25,1,2,2368,"Jump",3
+"1120",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,57,"In The Paint (Non-RA)","Center(C)","8-16 ft.",9,-0.7,14.35,0,2,2403,"Others",2
+"1121",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,31,"In The Paint (Non-RA)","Right Side(R)","8-16 ft.",8,7.2,8.85,1,2,2549,"Bank",2
+"1122",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,42,"Right Corner 3","Right Side(R)","24+ ft.",23,23,6.45,1,3,2598,"Jump",4
+"1123",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,15,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-15,26.65,0,3,2625,"Jump",4
+"1124",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,38,"Mid-Range","Right Side(R)","8-16 ft.",11,10,11.55,1,2,2662,"Jump",2
+"1125",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,48,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.85,1,2,2712,"Layup",1
+"1126",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,3,"In The Paint (Non-RA)","Left Side(L)","8-16 ft.",9,-7.5,10.85,1,2,2757,"Jump",2
+"1127",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,1,19,"In The Paint (Non-RA)","Right Side(R)","8-16 ft.",10,7.3,13.25,0,2,2801,"Jump",2
+"1128",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,45,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,13,27.15,0,3,2835,"Jump",4
+"1129",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,2,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,9.5,29.95,0,3,2878,"Jump",4
+"1130",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,30,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,150,"Others",1
+"1131",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,0,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.6,5.35,0,2,720,"Layup",1
+"1132",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,52,"Mid-Range","Left Side(L)","16-24 ft.",19,-19.4,7.15,0,2,848,"Jump",3
+"1133",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,20,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-19.9,22.05,0,3,880,"Jump",4
+"1134",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,1,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,20,22.25,0,3,1079,"Jump",4
+"1135",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,3,20,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.35,1,2,1240,"Layup",1
+"1136",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,5,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.5,5.25,1,2,1555,"Layup",1
+"1137",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,19,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2081,"Others",1
+"1138",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,59,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.5,6.45,1,2,2101,"Layup",1
+"1139",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,44,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.6,5.65,1,2,2116,"Layup",1
+"1140",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,44,"Restricted Area","Center(C)","Less Than 8 ft.",3,1.5,8.05,0,2,2116,"Jump",1
+"1141",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,36,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,-7,6.65,0,2,2244,"Jump",1
+"1142",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,32,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2248,"Others",1
+"1143",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,3,"Above the Break 3","Left Side Center(LC)","24+ ft.",27,-15.8,27.25,1,3,2397,"Jump",4
+"1144",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,38,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-13.8,26.95,0,3,2542,"Jump",4
+"1145",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,23,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2677,"Others",1
+"1146",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,21,"Mid-Range","Left Side(L)","8-16 ft.",15,-15,10.05,1,2,2739,"Jump",2
+"1147",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,48,"In The Paint (Non-RA)","Center(C)","8-16 ft.",11,-2.6,16.75,0,2,252,"Jump",2
+"1148",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,12,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.3,5.05,0,2,288,"Layup",1
+"1149",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,6,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.2,6.75,1,2,294,"Layup",1
+"1150",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,4,37,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,443,"Others",1
+"1151",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,18,"Above the Break 3","Right Side Center(RC)","24+ ft.",26,15.9,25.85,1,3,822,"Jump",4
+"1152",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,51,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-19,24.25,0,3,849,"Jump",4
+"1153",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,36,"Restricted Area","Center(C)","Less Than 8 ft.",3,0,8.55,0,2,924,"Jump",1
+"1154",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,8,"Mid-Range","Left Side Center(LC)","16-24 ft.",18,-14.7,16.55,0,2,952,"Jump",3
+"1155",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,1,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-16.9,23.65,0,3,959,"Jump",4
+"1156",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,42,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,14.6,26.05,1,3,1278,"Jump",4
+"1157",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,42,"Mid-Range","Left Side Center(LC)","16-24 ft.",19,-13.1,19.05,0,2,1518,"Jump",3
+"1158",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,32,"Left Corner 3","Left Side(L)","24+ ft.",22,-22.4,4.75,1,3,1708,"Jump",4
+"1159",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,38,"Mid-Range","Right Side Center(RC)","16-24 ft.",18,13.6,17.15,0,2,2182,"Jump",3
+"1160",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,48,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.7,4.75,1,2,2352,"Layup",1
+"1161",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,30,"Mid-Range","Right Side(R)","16-24 ft.",16,15.2,10.55,1,2,2490,"Jump",3
+"1162",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,18,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.5,5.35,0,2,102,"Layup",1
+"1163",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,6,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.5,4.65,1,2,114,"Layup",1
+"1164",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,9,5,"Mid-Range","Center(C)","16-24 ft.",22,0.4,28.05,1,2,175,"Jump",3
+"1165",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,55,"Above the Break 3","Center(C)","24+ ft.",24,-1.8,29.65,0,3,305,"Jump",4
+"1166",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,43,"Above the Break 3","Right Side Center(RC)","24+ ft.",27,16,27.95,1,3,917,"Jump",4
+"1167",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,11,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-13.9,25.55,1,3,1069,"Jump",4
+"1168",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,43,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.2,5.25,1,2,1277,"Layup",1
+"1169",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,11,"Restricted Area","Center(C)","Less Than 8 ft.",1,1,3.55,1,2,1429,"Layup",1
+"1170",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,56,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,16.5,22.85,0,3,1744,"Jump",4
+"1171",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,25,"Mid-Range","Left Side(L)","16-24 ft.",18,-18.3,5.35,0,2,1895,"Jump",3
+"1172",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,44,"Mid-Range","Center(C)","16-24 ft.",22,6.2,26.85,0,2,2176,"Jump",3
+"1173",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,19,"Above the Break 3","Center(C)","24+ ft.",24,6.7,29.05,0,3,2321,"Jump",4
+"1174",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,57,"Restricted Area","Center(C)","Less Than 8 ft.",2,2.9,5.25,1,2,2403,"Layup",1
+"1175",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,3,44,"Restricted Area","Center(C)","Less Than 8 ft.",1,1,4.95,0,2,2656,"Layup",1
+"1176",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,40,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2840,"Others",1
+"1177",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,2,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.7,6.95,0,2,118,"Layup",1
+"1178",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,0,"Mid-Range","Left Side(L)","8-16 ft.",10,-9.8,9.45,0,2,240,"Others",2
+"1179",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,28,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,272,"Others",1
+"1180",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,0,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,300,"Others",1
+"1181",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,44,"Mid-Range","Left Side(L)","8-16 ft.",14,-12.7,11.55,0,2,736,"Jump",2
+"1182",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,9,"Right Corner 3","Right Side(R)","24+ ft.",22,22.6,5.95,1,3,951,"Jump",4
+"1183",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,39,"Mid-Range","Right Side(R)","8-16 ft.",11,9.9,11.85,1,2,981,"Jump",2
+"1184",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,30,"Restricted Area","Center(C)","Less Than 8 ft.",2,1.3,7.75,0,2,1050,"Layup",1
+"1185",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,37,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-17.9,24.25,0,3,1403,"Jump",4
+"1186",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,0,"Above the Break 3","Center(C)","24+ ft.",25,-2.9,30.15,0,3,1440,"Jump",4
+"1187",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,7,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.4,5.55,1,2,1493,"Layup",1
+"1188",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,8,12,"Mid-Range","Right Side(R)","16-24 ft.",17,15.8,13.25,0,2,1668,"Jump",3
+"1189",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,38,"Mid-Range","Left Side Center(LC)","16-24 ft.",20,-13.8,19.85,1,2,1882,"Jump",3
+"1190",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,54,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-2.6,10.55,0,2,2226,"Jump",1
+"1191",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,45,"Above the Break 3","Left Side Center(LC)","24+ ft.",26,-24.5,14.05,0,3,2235,"Jump",4
+"1192",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,23,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2257,"Layup",1
+"1193",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,5,"Restricted Area","Center(C)","Less Than 8 ft.",3,2.6,6.95,0,2,2395,"Jump",1
+"1194",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,3,"Restricted Area","Center(C)","Less Than 8 ft.",1,0,6.75,0,2,2397,"Others",1
+"1195",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,8,1,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.4,4.95,1,2,2399,"Others",1
+"1196",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,47,"Mid-Range","Left Side(L)","16-24 ft.",20,-18.8,14.15,0,2,2533,"Jump",3
+"1197",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,7,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.1,6.75,0,2,2633,"Layup",1
+"1198",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,19,"In The Paint (Non-RA)","Right Side(R)","8-16 ft.",8,4.7,11.85,0,2,2741,"Jump",2
+"1199",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,1,50,"Restricted Area","Center(C)","Less Than 8 ft.",2,-1.6,6.95,0,2,2770,"Layup",1
+"1200",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,42,"Mid-Range","Right Side(R)","8-16 ft.",11,10.8,7.55,0,2,2838,"Jump",2
+"1201",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,59,"Mid-Range","Right Side(R)","8-16 ft.",14,12.5,12.15,0,2,181,"Jump",2
+"1202",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,22,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",5,-3.7,9.95,1,2,278,"Jump",1
+"1203",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,27,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,-4.5,10.05,1,2,393,"Jump",1
+"1204",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,0,41,"Mid-Range","Left Side(L)","8-16 ft.",13,-13.8,7.15,1,2,679,"Jump",2
+"1205",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,19,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,-6.2,8.55,1,2,761,"Jump",1
+"1206",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,2,21,"Mid-Range","Left Side(L)","8-16 ft.",15,-15.7,6.95,0,2,1299,"Jump",2
+"1207",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,0,0,"Above the Break 3","Center(C)","24+ ft.",37,-0.8,42.55,0,3,1440,"Jump",4
+"1208",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,4,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-9,28.25,1,3,1496,"Jump",4
+"1209",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,7,3,"Mid-Range","Left Side(L)","8-16 ft.",13,-13.6,6.35,0,2,1737,"Jump",2
+"1210",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,59,"Mid-Range","Left Side(L)","8-16 ft.",15,-11.2,15.75,0,2,1801,"Jump",2
+"1211",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,1,17,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.35,1,2,2083,"Layup",1
+"1212",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,1,"Mid-Range","Center(C)","16-24 ft.",18,-2.4,23.65,0,2,2219,"Jump",3
+"1213",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,56,"Restricted Area","Center(C)","Less Than 8 ft.",1,1,5.85,1,2,2224,"Layup",1
+"1214",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,10,7,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.4,6.95,0,2,2273,"Layup",1
+"1215",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,40,"Restricted Area","Center(C)","Less Than 8 ft.",1,0.1,6.65,1,2,2480,"Layup",1
+"1216",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,38,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.5,5.65,1,2,2602,"Layup",1
+"1217",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,42,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-21.7,18.15,1,3,198,"Jump",4
+"1218",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,59,"Restricted Area","Center(C)","Less Than 8 ft.",3,-0.8,8.85,0,2,241,"Jump",1
+"1219",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,8,"Above the Break 3","Center(C)","24+ ft.",25,6.1,30.25,0,3,352,"Jump",4
+"1220",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,54,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.35,1,2,366,"Layup",1
+"1221",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,5,21,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.2,5.05,1,2,399,"Layup",1
+"1222",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,52,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.3,5.95,0,2,788,"Layup",1
+"1223",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,30,"Mid-Range","Right Side(R)","8-16 ft.",13,11.6,12.65,0,2,810,"Jump",2
+"1224",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,9,12,"Restricted Area","Center(C)","Less Than 8 ft.",1,1.2,4.25,1,2,888,"Layup",1
+"1225",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,11,"In The Paint (Non-RA)","Center(C)","8-16 ft.",13,4,18.35,0,2,1009,"Jump",2
+"1226",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,6,"Mid-Range","Left Side(L)","8-16 ft.",13,-13.6,5.55,0,2,1014,"Jump",2
+"1227",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,20,"Above the Break 3","Center(C)","24+ ft.",25,-2.9,30.65,0,3,1780,"Jump",4
+"1228",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,1,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1859,"Others",1
+"1229",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,51,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.4,5.35,1,2,1989,"Layup",1
+"1230",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,3,"Mid-Range","Center(C)","16-24 ft.",22,-3.8,27.75,0,2,2217,"Jump",3
+"1231",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,7,31,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.35,1,2,2429,"Layup",1
+"1232",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,31,"Mid-Range","Left Side(L)","8-16 ft.",13,-13,8.85,0,2,2729,"Jump",2
+"1233",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,34,"Mid-Range","Left Side Center(LC)","16-24 ft.",19,-11.9,20.95,1,2,2846,"Jump",3
+"1234",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,7,"Mid-Range","Left Side(L)","16-24 ft.",16,-16,4.75,1,2,113,"Jump",3
+"1235",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,49,"Above the Break 3","Left Side Center(LC)","24+ ft.",27,-16.1,27.65,1,3,191,"Jump",4
+"1236",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,36,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,264,"Others",1
+"1237",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,9,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,21.2,18.15,0,3,291,"Jump",4
+"1238",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,20,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,340,"Others",1
+"1239",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,40,"Restricted Area","Center(C)","Less Than 8 ft.",2,-2.7,5.65,0,2,920,"Layup",1
+"1240",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,5,32,"Mid-Range","Right Side(R)","16-24 ft.",17,16.2,10.45,0,2,1108,"Jump",3
+"1241",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,9,53,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,1567,"Others",1
+"1242",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,3,40,"Left Corner 3","Left Side(L)","24+ ft.",24,-23.4,13.25,0,3,1940,"Jump",4
+"1243",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,6,14,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.5,6.35,1,2,2506,"Layup",1
+"1244",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,5,25,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,1,2,2555,"Others",1
+"1245",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,4,41,"Right Corner 3","Right Side(R)","24+ ft.",23,23,6.45,0,3,2599,"Jump",4
+"1246",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,2,1,"Mid-Range","Left Side(L)","8-16 ft.",10,-10.8,4.95,0,2,2759,"Jump",2
+"1247",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,46,"Mid-Range","Left Side(L)","16-24 ft.",16,-16.3,10.05,0,2,2834,"Jump",3
+"1248",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,0,14,"Above the Break 3","Right Side Center(RC)","24+ ft.",24,14.3,25.55,1,3,2866,"Jump",4
+"1249",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,34,"Mid-Range","Left Side(L)","8-16 ft.",15,-14.7,8.85,1,2,206,"Others",2
+"1250",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,8,5,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,-3.5,10.75,0,2,235,"Jump",1
+"1251",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,6,35,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-13.1,26.05,0,3,325,"Jump",4
+"1252",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,11,40,"Restricted Area","Center(C)","Less Than 8 ft.",1,-0.8,6.45,1,2,740,"Layup",1
+"1253",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,10,45,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",6,-2.7,11.25,0,2,795,"Jump",1
+"1254",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,13,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,0,12.45,1,2,947,"Jump",1
+"1255",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,7,36,"Right Corner 3","Right Side(R)","24+ ft.",23,23,10.55,0,3,984,"Jump",4
+"1256",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,6,9,"Mid-Range","Left Side(L)","16-24 ft.",20,-16.6,16.75,0,2,1071,"Jump",3
+"1257",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,4,31,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,4.95,1,2,1169,"Layup",1
+"1258",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,10,8,"Above the Break 3","Right Side Center(RC)","24+ ft.",27,17.3,26.65,0,3,1552,"Jump",4
+"1259",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,28,"Above the Break 3","Left Side Center(LC)","24+ ft.",27,-18,25.75,0,3,1832,"Jump",4
+"1260",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,24,"Restricted Area","Center(C)","Less Than 8 ft.",0,0,5.35,0,2,1836,"Others",1
+"1261",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,43,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.6,4.75,1,2,1877,"Layup",1
+"1262",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,0,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,14.4,26.65,0,3,2160,"Jump",4
+"1263",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,19,"Mid-Range","Left Side(L)","8-16 ft.",15,-14.6,11.65,0,2,101,"Jump",2
+"1264",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,12,"Restricted Area","Center(C)","Less Than 8 ft.",1,-1.5,5.25,0,2,108,"Others",1
+"1265",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,10,10,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,5.05,1,2,110,"Layup",1
+"1266",2544,"LeBron James",1610612739,"Cleveland Cavaliers",1,7,26,"Mid-Range","Left Side(L)","8-16 ft.",12,-11.1,11.85,0,2,274,"Jump",2
+"1267",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,42,"Restricted Area","Center(C)","Less Than 8 ft.",3,2.3,7.85,0,2,918,"Jump",1
+"1268",2544,"LeBron James",1610612739,"Cleveland Cavaliers",2,8,40,"Restricted Area","Center(C)","Less Than 8 ft.",0,0.1,6.15,1,2,920,"Others",1
+"1269",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,11,48,"Mid-Range","Left Side(L)","8-16 ft.",13,-13.8,6.45,0,2,1452,"Jump",2
+"1270",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,6,37,"Above the Break 3","Right Side Center(RC)","24+ ft.",25,19.2,22.75,1,3,1763,"Jump",4
+"1271",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,5,50,"Above the Break 3","Left Side Center(LC)","24+ ft.",24,-10.8,27.75,1,3,1810,"Jump",4
+"1272",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,37,"Restricted Area","Center(C)","Less Than 8 ft.",0,-0.5,5.55,1,2,1883,"Layup",1
+"1273",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,4,11,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-15,26.35,0,3,1909,"Jump",4
+"1274",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,2,56,"Mid-Range","Center(C)","16-24 ft.",20,-4.3,25.55,1,2,1984,"Jump",3
+"1275",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,59,"Mid-Range","Right Side(R)","16-24 ft.",22,19,17.05,0,2,2101,"Jump",3
+"1276",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,41,"Above the Break 3","Left Side Center(LC)","24+ ft.",25,-14.1,26.55,1,3,2119,"Jump",4
+"1277",2544,"LeBron James",1610612739,"Cleveland Cavaliers",3,0,7,"Mid-Range","Left Side Center(LC)","16-24 ft.",20,-11.6,22.05,0,2,2153,"Jump",3
+"1278",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,11,3,"In The Paint (Non-RA)","Center(C)","Less Than 8 ft.",7,-4.8,11.35,0,2,2217,"Others",1
+"1279",2544,"LeBron James",1610612739,"Cleveland Cavaliers",4,9,5,"Mid-Range","Left Side(L)","16-24 ft.",21,-19.9,12.95,0,2,2335,"Jump",3
