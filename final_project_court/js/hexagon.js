@@ -7,7 +7,7 @@ var y = [];
 
 loadData();
 function loadData(){
-    d3.csv("data/vo.csv", function(error, csv) {
+    d3.csv("data/sc.csv", function(error, csv) {
         csv.forEach(function(d) {
 
             // Convert numeric values to 'numbers'
@@ -98,12 +98,17 @@ function updateVisualization(){
     });
 
     tenderData = finalData;
-    var heatRange = ['#5458A2', '#6689BB', '#FADC97', '#F08460', '#B02B48'];
-    var court = d3.select("#chart-area")
+    var heatRange = ['#ffffcc','#a1dab4','#41b6c4','#2c7fb8','#253494'];
+    var court = d3.select("#chart-area-div")
         .append("svg")
+        .attr("width",1000)
+        .attr("height", 600)
+        .attr("viewBox", "0 0 60 60");
+    var court_right = court.append("g")
+        .attr("transform", "rotate(90, 10,10)")
         .chart("BasketballShotChart", {
-            width: 600,
-            title: data[1].player_name+' 2014-15',
+            width: 800,
+            title: "",
             // instead of makes/attempts, use z
             hexagonFillValue: function (d) {
                 return d.z;
@@ -127,7 +132,40 @@ function updateVisualization(){
             }
         });
 
-    court.draw(tenderData)
+    court_right
+        .draw(tenderData);
+
+    var heatRange1 = ['#ffffb2','#fecc5c','#fd8d3c','#f03b20','#bd0026'];
+    var court_left = court.append("g")
+        .attr("transform", "rotate(-90, 40, 10)")
+        .chart("BasketballShotChart", {
+            width: 800,
+            title: "",
+            // instead of makes/attempts, use z
+            hexagonFillValue: function (d) {
+                return d.z;
+            },
+            // switch heat scale domain to [-2.5, 2.5] to reflect range of z values
+            heatScale: d3.scale.quantile()
+                .domain([-2.5, 2.5])
+                .range(heatRange1),
+
+            // update our binning algorithm to properly join z values
+            // here, we update the z value to be proportional to the events of each point
+
+            hexagonBin: function (point, bin) {
+                var currentZ = bin.z || 0;
+                var totalAttempts = bin.attempts || 0;
+                var totalZ = currentZ * totalAttempts;
+
+                var attempts = point.attempts || 1;
+                bin.attempts = totalAttempts + attempts;
+                bin.z = (totalZ + (point.z * attempts)) / bin.attempts;
+            }
+        });
+
+    court_left
+        .draw(tenderData);
 }
 
 

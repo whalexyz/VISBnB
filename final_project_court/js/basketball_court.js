@@ -25,7 +25,7 @@
             this.drawTitle();
 
             // draw legend
-            this.drawLegend();
+            //this.drawLegend();
 
             // add data
             this.drawShots();
@@ -142,6 +142,34 @@
                 .attr("cx", courtWidth / 2)
                 .attr("cy", visibleCourtLength - basketProtrusionLength - basketDiameter / 2)
                 .attr("r", basketDiameter / 2)
+
+            base.append("line")
+                .attr('class', 'shot-chart-court-backboard')
+                .attr("x1", 0)
+                .attr("y1", -10)
+                .attr("x2", 0)
+                .attr("y2", visibleCourtLength)
+
+            base.append("line")
+                .attr('class', 'shot-chart-court-backboard')
+                .attr("x1", courtWidth)
+                .attr("y1", 0)
+                .attr("x2", courtWidth)
+                .attr("y2", visibleCourtLength)
+
+            base.append("line")
+                .attr('class', 'shot-chart-court-backboard')
+                .attr("x1", 0)
+                .attr("y1", -5)
+                .attr("x2", courtWidth)
+                .attr("y2", -5)
+
+            base.append("circle")
+                .attr('class', 'shot-chart-court-hoop')
+                .attr("cx", courtWidth/2)
+                .attr("cy", -5)
+                .attr("r", basketWidth)
+
         },
 
         // add title to svg
@@ -357,12 +385,14 @@
     });
 
     d3.chart.initializeDefaults(BasketballShotChart, {
+        // width of svg
+        width: 500,
         // basketball hoop diameter (ft)
-        basketDiameter: 1.5,
+        basketDiameter: 1.5/500*500,
         // distance from baseline to backboard (ft)
-        basketProtrusionLength: 4,
+        basketProtrusionLength: 4/500*500,
         // backboard width (ft)
-        basketWidth: 6,
+        basketWidth: 6/500*500,
         // title of hexagon color legend
         colorLegendTitle: 'Efficiency',
         // label for starting of hexagon color range
@@ -370,13 +400,13 @@
         // label for ending of hexagon color range
         colorLegendEndLabel: 'High',
         // full length of basketball court (ft)
-        courtLength: 94,
+        courtLength: 94/500*500,
         // full width of basketball court (ft)
-        courtWidth: 50,
+        courtWidth: 50/500*500,
         // distance from baseline to free throw line (ft)
-        freeThrowLineLength: 19,
+        freeThrowLineLength: 19/500*500,
         // radius of free throw line circle (ft)
-        freeThrowCircleRadius: 6,
+        freeThrowCircleRadius: 6/500*500,
         // d3 scale for hexagon colors
         heatScale: d3.scale.quantize()
             .domain([0, 1])
@@ -403,11 +433,11 @@
         // method to determine radius value to be used in radius scale
         hexagonRadiusValue: function (d) { return d.attempts; },
         // width of key marks (dashes on side of the paint) (ft)
-        keyMarkWidth: .5,
+        keyMarkWidth: .5/500*500,
         // width the key (paint) (ft)
-        keyWidth: 16,
+        keyWidth: 16/500*500,
         // radius of restricted circle (ft)
-        restrictedCircleRadius: 4,
+        restrictedCircleRadius: 4/500*500,
         // title of hexagon size legend
         sizeLegendTitle: 'Frequency',
         // label of start of hexagon size legend
@@ -415,19 +445,18 @@
         // label of end of hexagon size legend
         sizeLegendLargeLabel: 'High',
         // distance from baseline where three point line because circular (ft)
-        threePointCutoffLength: 14,
+        threePointCutoffLength: 14/500*500,
         // distance of three point line from basket (ft)
-        threePointRadius: 23.75,
+        threePointRadius: 23.75/500*500,
         // distance of corner three point line from basket (ft)
-        threePointSideRadius: 22,
+        threePointSideRadius: 22/500*500,
         // title of chart
         title: 'Shot chart',
         // method to determine x position of a bin on the court
         translateX: function (d) { return d.x; },
         // method to determine y position of a bin on the court
         translateY: function (d) { return this._visibleCourtLength - d.y; },
-        // width of svg
-        width: 500,
+
     });
 
 })()

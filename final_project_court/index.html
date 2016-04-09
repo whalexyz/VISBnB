@@ -6,8 +6,8 @@
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<title>VISBnB</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
 	<link href="css/d3.basketball-shot-chart.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 
@@ -15,7 +15,7 @@
 	<div class="form-group">
 		<label for = "player-id">  </label>
 		<form class = "form-control" id = "player-id">
-			
+
 		</form>
 	</div>
 </form>
@@ -23,7 +23,9 @@
 <div class="container">
 
 	<!-- Select box to choose the ranking type -->
-	<div class="col-md-12" id="chart-area"></div>
+	<div id="chart-area-div">
+		<svg id="chart-area" width = "2" height="2"></svg>
+	</div>
 
 </div><!-- Load JS libraries: jQuery, bootstrap, D3, D3 tooltip -->
 <script src="js/jquery.min.js"></script>
@@ -39,6 +41,7 @@
 <!-- Your implementation -->
 
 <script src="js/hexagon.js"></script>
+
 </body>
 </html>
 

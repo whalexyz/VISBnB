@@ -25,7 +25,8 @@
     stroke-width: .5px;
 }
 
-#ny-map {
-    width: 100%;
-    height: 600px;
+#court-area-div{
+    height:600px;
+    width:800px;
 }
+
