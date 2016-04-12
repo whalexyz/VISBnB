@@ -7,7 +7,7 @@ var y = [];
 
 loadData();
 function loadData(){
-    d3.csv("data/sc.csv", function(error, csv) {
+    d3.csv("data/gsw.csv", function(error, csv) {
         csv.forEach(function(d) {
 
             // Convert numeric values to 'numbers'
