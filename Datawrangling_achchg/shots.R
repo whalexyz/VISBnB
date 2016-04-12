@@ -90,3 +90,11 @@ league_average_2014_15 = do.call(rbind,
 
 write.csv(shots_2014_15, file = "shots_2014_15.csv")
 write.csv(unique(league_average_2014_15), file = "league_average_2014_15.csv")
+
+
+### Playoffs
+team_shots = shots_2014_15 %>% 
+  select(game_id, player_id, team_id, team_name, period, shot_distance, loc_x, loc_y) %>%
+  filter(as.character(game_id) %in% gameid)
+  
+

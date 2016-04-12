@@ -63,7 +63,7 @@ filter = do.call(rbind, lapply(2: length(teamid), function(i){
 data = teamgamelog %>%
   select(-min, -fga, -fg_pct, -ft_pct, -fg3m, -fg3a, -fg3_pct, -ftm, -fta, -oreb, -dreb, -pf) %>%
   left_join(filter, by = "game_id") %>%
-  select(-min, -fga, -fg_pct, -ft_pct, -fg3m, -fg3a, -fg3_pct, -ftm, -fta, -oreb, -dreb, -pf, -wl.y, -seasontype.y)
+  select(-min, -fga, -fg_pct, -ft_pct, -fg3m, -fg3a, -fg3_pct, -ftm, -fta, -oreb, -dreb, -pf, -wl.y, -seasontype.y, -game_date.y, -matchup.y)
 
 playoffs_teamgamelog = data %>%
   filter(gametype > 1)%>%
