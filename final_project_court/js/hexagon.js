@@ -1,63 +1,66 @@
 
 // Load CSV file
 var data;
+var data_update;
 var tenderData = [];
 var x = [];
 var y = [];
+var selectValue;
+
+function player_filter(variable) {
+    return variable.player_name == selectValue;
+}
 
 loadData();
+
 function loadData(){
-    d3.csv("data/gsw.csv", function(error, csv) {
+    d3.csv("data/allstars_shot_final.csv", function(error, csv) {
         csv.forEach(function(d) {
 
             // Convert numeric values to 'numbers'
             d.loc_x = +d.loc_x*10;
             d.loc_y = (+d.loc_y-5.25)*10;
-            d.minutes_remaining = +d.minutes_remaining;
             d.period = +d.period;
-            d.player_id = +d.player_id;
-            d.seconds_remaining = +d.seconds_remaining;
-            d.shot_distance = +d.shot_distance;
             d.shot_made_numeric = +d.shot_made_numeric;
-            d.shot_value = +d.shot_value;
-            d.team_id = +d.team_id;
             d.time = +d.time;
             d.shot_zone = +d.shot_zone;
 
         });
         // Store csv data in global variable
         data = csv;
-    updateVisualization();
+
+        var select = d3.select('.form-inline')
+            .append('select')
+            .attr('id','select')
+            .on('change',onchange);
+
+        select
+            .selectAll('option')
+            .data(d3.map(data, function(d){return d.player_name;}).keys())
+            .enter()
+            .append('option')
+            .text(function(d){return d;})
+            .attr("value", function(d){return d;});
+
+        updateVisualization();
 })}
 
-
-
-function playerFilter() {
-    var data1 = data;
-    var player1_id = document.getElementById("player-id").value;
-    var selectValue = d3.select("#player-id").property("value");
-
-    console.log(selectValue);
-    function player1(variable) {
-        return variable.player_name == player1_id;
-    }
-    data_update = data1.filter(player1);
-
+function onchange(){
+    selectValue = d3.select('#select').property('value');
+    data_update = data.filter(player_filter);
     updateVisualization();
-    return false;
 }
 
-
 function updateVisualization(){
-    for (var i = 0; i < data.length; i++) {
+
+    for (var i = 0; i < data_update.length; i++) {
         tenderData.push({
-            "x": Math.ceil((data[i].loc_x + 243) / 10),
-            "y": Math.ceil((data[i].loc_y + 17) / 9),
-            "made": data[i].shot_made_numeric,
+            "x": Math.ceil((data_update[i].loc_x + 243) / 10),
+            "y": Math.ceil((data_update[i].loc_y + 17) / 9),
+            "made": data_update[i].shot_made_numeric,
             "attempts": 1
         });
     }
-
 
     var coll = d3.nest()
         .key(function (d) {
@@ -104,6 +107,7 @@ function updateVisualization(){
         .attr("width",1000)
         .attr("height", 600)
         .attr("viewBox", "0 0 60 60");
+
     var court_right = court.append("g")
         .attr("transform", "rotate(90, 10,10)")
         .chart("BasketballShotChart", {
@@ -166,11 +170,5 @@ function updateVisualization(){
 
     court_left
         .draw(tenderData);
+
 }
-
-
-
-
-
-
-
