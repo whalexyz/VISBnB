@@ -2,7 +2,6 @@
 // Load CSV file
 var data;
 var data_update;
-var tenderData = [];
 var x = [];
 var y = [];
 var selectValue;
@@ -32,7 +31,7 @@ function loadData(){
         var select = d3.select('.form-inline')
             .append('select')
             .attr('id','select')
-            .on('change',onchange);
+            .on('change',updateVisualization);
 
         select
             .selectAll('option')
@@ -45,14 +44,11 @@ function loadData(){
         updateVisualization();
 })}
 
-function onchange(){
-    selectValue = d3.select('#select').property('value');
-    data_update = data.filter(player_filter);
-    updateVisualization();
-}
 
 function updateVisualization(){
-
+    selectValue = d3.select('#select').property('value');
+    data_update = data.filter(player_filter);
+    var tenderData = [];
     for (var i = 0; i < data_update.length; i++) {
         tenderData.push({
             "x": Math.ceil((data_update[i].loc_x + 243) / 10),
@@ -107,6 +103,7 @@ function updateVisualization(){
         .attr("width",1000)
         .attr("height", 600)
         .attr("viewBox", "0 0 60 60");
+
 
     var court_right = court.append("g")
         .attr("transform", "rotate(90, 10,10)")
