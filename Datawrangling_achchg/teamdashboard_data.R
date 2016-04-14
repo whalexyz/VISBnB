@@ -1,4 +1,4 @@
-setwd("/Users/achchg/Desktop/nba/VISBnB")
+setwd("/Users/achchg/Desktop/nba/VISBnB/Datawrangling_achchg/")
 
 library(jsonlite)
 fetch_shots_by_team_id_and_season = function(team_id, season) {
@@ -11,7 +11,7 @@ fetch_shots_by_team_id_and_season = function(team_id, season) {
     PerMode = "Totals",
     DateFrom = "",
     DateTo = "",
-    PlusMinus = "Y",
+    PlusMinus = "N",
     PaceAdjust = "Y",
     Rank = "N",
     LeagueID = "00",
@@ -40,8 +40,10 @@ col_names = tolower(as.character(data$resultSets[[1]]$headers))
 if (length(raw_overallteamdashboard_data) == 0) {
   overallteamdashboard = data.frame(
     matrix(nrow = 0, ncol = length(col_names))
+    
   )
-} else {
+} 
+else {
   overallteamdashboard = data.frame(
     matrix(
       unlist(raw_overallteamdashboard_data),
@@ -49,18 +51,20 @@ if (length(raw_overallteamdashboard_data) == 0) {
       byrow = TRUE
     )
   )
+  overallteamdashboard = tbl_df(overallteamdashboard)
+  names(overallteamdashboard) = col_names
+  overallteamdashboard = overallteamdashboard %>%
+    mutate(team_id = team_id)
 }
 
-overallteamdashboard = tbl_df(overallteamdashboard)
-names(overallteamdashboard) = col_names
-overallteamdashboard = overallteamdashboard %>%
-  mutate(team_id = team_id)
+
 
 raw_Shot5ftteamdashboard_data = data$resultSets[[2]]$rowSet
 Shot5ftteamdashboard_names = tolower(as.character(data$resultSets[[2]]$headers))
 Shot5ftteamdashboard = tbl_df(data.frame(
   matrix(unlist(raw_Shot5ftteamdashboard_data), ncol = length(Shot5ftteamdashboard_names), byrow = TRUE)
 ))
+
 names(Shot5ftteamdashboard) = Shot5ftteamdashboard_names
 Shot5ftteamdashboard = Shot5ftteamdashboard %>%
   mutate(team_id = team_id)
