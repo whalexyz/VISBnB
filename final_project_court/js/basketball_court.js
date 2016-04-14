@@ -219,7 +219,9 @@
                 .attr("y", colorYStart)
                 .attr("text-anchor", "start")
                 .text(this._colorLegendEndLabel);
-            colorLegend.selectAll('path').data(heatRange)
+
+            var legend = colorLegend.selectAll('path').data(heatRange);
+            legend
                 .enter()
                 .append('path')
                 .attr('d', hexagon)
@@ -229,6 +231,7 @@
                         (colorYStart) + ")";
                 })
                 .style('fill', function (d, i) { return d; });
+            legend.exit().remove();
 
 
             var sizeRange = hexagonRadiusSizes.slice(-3);
@@ -253,7 +256,8 @@
                 .attr("y", sizeYStart)
                 .attr("text-anchor", "end")
                 .text(this._sizeLegendSmallLabel);
-            sizeLegend.selectAll('path').data(sizeRange)
+            var size = sizeLegend.selectAll('path').data(sizeRange);
+            size
                 .enter()
                 .append('path')
                 .attr('d', function (d) { return hexbin.hexagon(d); })
@@ -264,6 +268,8 @@
                         sizeYStart + ")";
                 })
                 .style('fill', '#999');
+            size.exit().remove();
+
             sizeLegend.append("text")
                 .attr("x", sizeXStart)
                 .attr("y", sizeYStart)
