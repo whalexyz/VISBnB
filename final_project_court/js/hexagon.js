@@ -19,7 +19,7 @@ function player_filter2(variable) {
 loadData();
 
 function loadData(){
-    d3.csv("data/allstars_shot_final.csv", function(error, csv) {
+    d3.csv("data/final_shot_data.csv", function(error, csv) {
         csv.forEach(function(d) {
 
             // Convert numeric values to 'numbers'

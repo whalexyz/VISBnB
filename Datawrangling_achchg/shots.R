@@ -1,4 +1,5 @@
 ## Extracting shooting data for each players in 2014-15
+library(httr)
 hoop_center_y = 5.25
 fetch_shots_by_player_id_and_season = function(player_id, season) {
   request = GET(
@@ -21,7 +22,7 @@ fetch_shots_by_player_id_and_season = function(player_id, season) {
       Position = "",
       RookieYear = "",
       SeasonSegment = "",
-      SeasonType = "Regular Season",
+      SeasonType = "Playoffs",
       TeamID = 0,
       VsConference = "",
       VsDivision = ""
