@@ -195,10 +195,7 @@ function updateVisualization(){
         .select("svg")
         .attr("width",1000)
         .attr("height", 600)
-        .attr("viewBox", "0 0 60 60")
-        .data(tenderData);
-
-    court.enter();
+        .attr("viewBox", "0 0 60 60");
 
     tenderData2 = finalData2;
     var heatRange2 = ['#ffffb2','#fecc5c','#fd8d3c','#f03b20','#bd0026'];
@@ -232,8 +229,16 @@ function updateVisualization(){
             }
         });
 
-    court_right
-        .draw(tenderData);
+    if(selectValue){
+        setTimeout(function(){
+            court_right
+                .draw(tenderData);
+        }, 250);
+    }
+    if(selectValue2){
+        court_right
+                .draw(tenderData);
+    }
 
     var court_left = court.append("g")
         .attr("class", "court")
@@ -264,10 +269,20 @@ function updateVisualization(){
             }
         });
 
-    court_left
-        .draw(tenderData2);
+    if(selectValue2){
+        setTimeout(function(){
+            court_left
+                .draw(tenderData2);
+        }, 250);
+    }
+    if(selectValue){
+            court_left
+                .draw(tenderData2);
+    }
 
-    court.exit().remove();
+
+
+
 
 }
 

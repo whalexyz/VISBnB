@@ -25,7 +25,7 @@
             this.drawTitle();
 
             // draw legend
-            //this.drawLegend();
+            // this.drawLegend();
 
             // add data
             this.drawShots();
