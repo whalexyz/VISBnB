@@ -172,7 +172,7 @@ function updateVisualization(){
 
 
     tenderData = finalData;
-    var heatRange = ['#ffffcc','#a1dab4','#41b6c4','#2c7fb8','#253494'];
+    var heatRange = ['#a1dab4','#253494'];
     var court = d3.select("#chart-area-div")
         .select("svg")
         .attr("width",1000)
@@ -180,7 +180,7 @@ function updateVisualization(){
         .attr("viewBox", "0 0 60 60");
 
     tenderData2 = finalData2;
-    var heatRange2 = ['#ffffb2','#fecc5c','#fd8d3c','#f03b20','#bd0026'];
+    var heatRange2 = ['#fecc5c','#bd0026'];
 
     var court_right = court.append("g")
         .attr("class", "court")

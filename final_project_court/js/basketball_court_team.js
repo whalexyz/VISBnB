@@ -1,4 +1,7 @@
 /**
+ * Created by achchg on 4/14/16.
+ */
+/**
  * Create and configure NBA shot charts for offense and defense.
  *
  * Requires:
@@ -234,7 +237,7 @@
             legend.exit().remove();
 
 
-            var sizeRange = hexagonRadiusSizes.slice(-5);
+            var sizeRange = hexagonRadiusSizes.slice(-1);
             var sizeLengendWidth = 0;
             for (var i = 0, l = sizeRange.length; i < l; ++i) {
                 sizeLengendWidth += sizeRange[i] * 2;
@@ -267,7 +270,7 @@
                         (sizeXStart - d) + ", " +
                         sizeYStart + ")";
                 })
-                .style('fill', '#999');
+                .style('fill', 'white');
             size.exit().remove();
 
             sizeLegend.append("text")
@@ -400,11 +403,11 @@
         // backboard width (ft)
         basketWidth: 6/500*500,
         // title of hexagon color legend
-        colorLegendTitle: 'Efficiency',
+        colorLegendTitle: 'Field Goal',
         // label for starting of hexagon color range
-        colorLegendStartLabel: 'Low',
+        colorLegendStartLabel: 'Missed',
         // label for ending of hexagon color range
-        colorLegendEndLabel: 'High',
+        colorLegendEndLabel: 'Made',
         // full length of basketball court (ft)
         courtLength: 94/500*500,
         // full width of basketball court (ft)
@@ -427,15 +430,15 @@
             bin.made = (bin.made || 0) + made;
         },
         // how many points does a bin need to be visualized
-        hexagonBinVisibleThreshold: 1,
+        hexagonBinVisibleThreshold: 0,
         // method to determine value to be used with specified heatScale
         hexagonFillValue: function(d) {  return d.made/d.attempts; },
         // bin size with regards to courth width/height (ft)
         hexagonRadius: .8,
         // discrete hexagon size values that radius value is mapped to
-        hexagonRadiusSizes: [0,.25, .4, .6,.75],
+        hexagonRadiusSizes: [0,.25,.5,.75],
         // how many points in a bin to consider it while building radius scale
-        hexagonRadiusThreshold: 2,
+        hexagonRadiusThreshold: 0,
         // method to determine radius value to be used in radius scale
         hexagonRadiusValue: function (d) { return d.attempts; },
         // width of key marks (dashes on side of the paint) (ft)
@@ -445,11 +448,11 @@
         // radius of restricted circle (ft)
         restrictedCircleRadius: 4/500*500,
         // title of hexagon size legend
-        sizeLegendTitle: 'Frequency',
+        sizeLegendTitle: '',
         // label of start of hexagon size legend
-        sizeLegendSmallLabel: 'Low',
+        sizeLegendSmallLabel: '',
         // label of end of hexagon size legend
-        sizeLegendLargeLabel: 'High',
+        sizeLegendLargeLabel: '',
         // distance from baseline where three point line because circular (ft)
         threePointCutoffLength: 14/500*500,
         // distance of three point line from basket (ft)
