@@ -4,7 +4,6 @@ var data_origin;
 var data;
 var data_update;
 var data_update2;
-var data_update3;
 var x = [];
 var y = [];
 var selectValue;
@@ -23,6 +22,12 @@ function player_filter2(variable) {
 function shottype(variable) {
     return variable.shot_type == selectValue3;
 }
+
+
+function shotzonerange(variable) {
+    return variable.shot_zone_range == selectValue4;
+}
+
 
 loadData();
 
@@ -86,6 +91,19 @@ function loadData(){
             .text(function(d){return d;})
             .attr("value", function(d){return d;});
 
+        var select4 = d3.select('#selection3')
+            .append('select')
+            .attr('id','select4')
+            .on('change',onchange4);
+
+        select4
+            .selectAll('option')
+            .data(d3.map(data, function(d){return d.shot_zone_range;}).keys())
+            .enter()
+            .append('option')
+            .text(function(d){return d;})
+            .attr("value", function(d){return d;});
+
         updateVisualization();
 })}
 
@@ -110,16 +128,29 @@ function onchange2(){
 function onchange3(){
     court_func();
     selectValue3 = d3.select('#select3').property('value');
-    data_update3 = data.filter(shottype);
-    shot_type_filter()
-}
 
+    if (selectValue4){
+        data = data_origin.filter(shotzonerange).filter(shottype);
+    }
 
-function shot_type_filter(){
-    selectValue3 = d3.select('#select3').property('value');
-    data = data_origin.filter(shottype);
+    else{data = data_origin.filter(shottype);}
+
     updateVisualization()
 }
+
+function onchange4(){
+    court_func();
+    selectValue4 = d3.select('#select4').property('value');
+
+    if (selectValue3){
+        data = data_origin.filter(shottype).filter(shotzonerange);
+    }
+
+    else{data = data_origin.filter(shotzonerange);}
+    updateVisualization()
+}
+
+
 
 
 function updateVisualization(){
@@ -279,6 +310,7 @@ function updateVisualization(){
                 .draw(tenderData);
     }
 
+
     var court_left = court.append("g")
         .attr("class", "court")
         .attr("transform", "rotate(-90, 40, 10)")
@@ -319,10 +351,17 @@ function updateVisualization(){
                 .draw(tenderData2);
     }
 
-
-
 }
 
 function court_func(){
     d3.select(".shot-chart").remove();
 }
+
+// var team = d3.select("#img");
+
+//team.append("svg:img")
+//    .attr("href", "http://stats.nba.com/media/img/teams/logos/GSW_logo.svg")
+//    .attr("width", 400)
+//    .attr("height", 400)
+//    .attr("x",150)
+//    .attr("y",150);
