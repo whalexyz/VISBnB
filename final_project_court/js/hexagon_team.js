@@ -2,33 +2,33 @@
 // Load CSV file
 var data;
 var data_update;
-var data_update2;
 var x = [];
 var y = [];
 var selectValue;
+var selectValue1;
 var selectValue2;
 
-function player_filter(variable) {
-    return variable.player_name == selectValue;
+function team_filter(variable) {
+    return variable.game_id == selectValue;
 }
-
-function player_filter2(variable) {
-    return variable.player_name == selectValue2;
+function gsw(variable){
+    return variable.team_name == "Golden State Warriors"
+}
+function opponent(variable){
+    return variable.team_name != "Golden State Warriors"
 }
 
 loadData();
 
 function loadData(){
-    d3.csv("data/final_shot_data.csv", function(error, csv) {
+    d3.csv("data/team_shots.csv", function(error, csv) {
         csv.forEach(function(d) {
 
             // Convert numeric values to 'numbers'
-            d.loc_x = +d.loc_x*10;
+            d.loc_x = +d.loc_x * 10;
             d.loc_y = (+d.loc_y-5.25)*10;
             d.period = +d.period;
             d.shot_made_numeric = +d.shot_made_numeric;
-            d.time = +d.time;
-            d.shot_zone = +d.shot_zone;
 
         });
         // Store csv data in global variable
@@ -42,43 +42,21 @@ function loadData(){
 
         select
             .selectAll('option')
-            .data(d3.map(data, function(d){return d.player_name;}).keys())
+            .data(d3.map(data, function(d){return d.game_id;}).keys())
             .enter()
             .append('option')
             .text(function(d){return d;})
             .attr("value", function(d){return d;});
 
-        select.property("value", "Stephen Curry");
-
-        var select2 = d3.select('#selection2')
-            .append('select')
-            .attr('id','select2')
-            .on('change',onchange2);
-
-        select2
-            .selectAll('option')
-            .data(d3.map(data, function(d){return d.player_name;}).keys())
-            .enter()
-            .append('option')
-            .text(function(d){return d;})
-            .attr("value", function(d){return d;});
-        select2.property("value", "LeBron James");
+        select.property("value", "0041400221");
 
         updateVisualization();
-})}
+    })}
 
 function onchange(){
     court_func();
     selectValue = d3.select('#select1').property('value');
-    data_update = data.filter(player_filter);
-
-    updateVisualization()
-}
-
-function onchange2(){
-    court_func();
-    selectValue2 = d3.select('#select2').property('value');
-    data_update2 = data.filter(player_filter2);
+    data_update = data.filter(team_filter);
 
     updateVisualization()
 }
@@ -86,30 +64,34 @@ function onchange2(){
 function updateVisualization(){
     court_func();
     selectValue = d3.select('#select1').property('value');
-    data_update = data.filter(player_filter);
+    data_update = data.filter(team_filter);
+    selectValue1 = data_update.filter(gsw);
+    selectValue2 = data_update.filter(opponent);
+
 
     var tenderData = [];
-    for (var i = 0; i < data_update.length; i++) {
+    for (var i = 0; i < selectValue1.length; i++) {
         tenderData.push({
-            "x": Math.ceil((data_update[i].loc_x + 243) / 10),
-            "y": Math.ceil((data_update[i].loc_y + 17) / 9),
-            "made": data_update[i].shot_made_numeric,
+            "x": Math.ceil((selectValue1[i].loc_x + 243) / 10),
+            "y": Math.ceil((selectValue1[i].loc_y + 17) / 9),
+            "made": selectValue1[i].shot_made_numeric,
             "attempts": 1
         });
     }
+
     console.log(tenderData)
-    selectValue2 = d3.select('#select2').property('value');
-    data_update2 = data.filter(player_filter2);
 
     var tenderData2 = [];
-    for (var k = 0; k < data_update2.length; k++) {
+    for (var k = 0; k < selectValue2.length; k++) {
         tenderData2.push({
-            "x": Math.ceil((data_update2[k].loc_x + 243) / 10),
-            "y": Math.ceil((data_update2[k].loc_y + 17) / 9),
-            "made": data_update2[k].shot_made_numeric,
+            "x": Math.ceil((selectValue2[k].loc_x + 243) / 10),
+            "y": Math.ceil((selectValue2[k].loc_y + 17) / 9),
+            "made": selectValue2[k].shot_made_numeric,
             "attempts": 1
         });
     }
+
+    console.log(tenderData2)
 
     var coll = d3.nest()
         .key(function (d) {
@@ -229,16 +211,12 @@ function updateVisualization(){
             }
         });
 
-    if(selectValue){
+
         setTimeout(function(){
             court_right
                 .draw(tenderData);
         }, 250);
-    }
-    if(selectValue2){
-        court_right
-                .draw(tenderData);
-    }
+
 
     var court_left = court.append("g")
         .attr("class", "court")
@@ -269,17 +247,11 @@ function updateVisualization(){
             }
         });
 
-    if(selectValue2){
+
         setTimeout(function(){
             court_left
                 .draw(tenderData2);
         }, 250);
-    }
-    if(selectValue){
-            court_left
-                .draw(tenderData2);
-    }
-
 
 
 

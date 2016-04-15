@@ -25,7 +25,7 @@
             this.drawTitle();
 
             // draw legend
-            // this.drawLegend();
+            this.drawLegend();
 
             // add data
             this.drawShots();
@@ -234,7 +234,7 @@
             legend.exit().remove();
 
 
-            var sizeRange = hexagonRadiusSizes.slice(-3);
+            var sizeRange = hexagonRadiusSizes.slice(-5);
             var sizeLengendWidth = 0;
             for (var i = 0, l = sizeRange.length; i < l; ++i) {
                 sizeLengendWidth += sizeRange[i] * 2;
@@ -433,7 +433,7 @@
         // bin size with regards to courth width/height (ft)
         hexagonRadius: .75,
         // discrete hexagon size values that radius value is mapped to
-        hexagonRadiusSizes: [0, .4, .6, .75],
+        hexagonRadiusSizes: [0,.1,.2,.25, .4, .6, .75],
         // how many points in a bin to consider it while building radius scale
         hexagonRadiusThreshold: 2,
         // method to determine radius value to be used in radius scale

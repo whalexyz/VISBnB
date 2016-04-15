@@ -95,7 +95,7 @@ write.csv(unique(league_average_2014_15), file = "league_average_2014_15.csv")
 
 ### Playoffs
 team_shots = shots_2014_15 %>% 
-  select(game_id, player_id, team_id, team_name, period, shot_distance, loc_x, loc_y) %>%
+  select(game_id, player_id, team_id, team_name, period, shot_distance, loc_x, loc_y, shot_made_numeric) %>%
   filter(as.character(game_id) %in% gameid)
   
 
