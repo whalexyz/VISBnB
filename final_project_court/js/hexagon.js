@@ -1,12 +1,16 @@
 
 // Load CSV file
+var data_origin;
 var data;
 var data_update;
 var data_update2;
+var data_update3;
 var x = [];
 var y = [];
 var selectValue;
 var selectValue2;
+var selectValue3;
+var selectValue4;
 
 function player_filter(variable) {
     return variable.player_name == selectValue;
@@ -14,6 +18,10 @@ function player_filter(variable) {
 
 function player_filter2(variable) {
     return variable.player_name == selectValue2;
+}
+
+function shottype(variable) {
+    return variable.shot_type == selectValue3;
 }
 
 loadData();
@@ -32,8 +40,8 @@ function loadData(){
 
         });
         // Store csv data in global variable
-        data = csv;
-
+        data_origin = csv;
+        data = data_origin;
 
         var select = d3.select('#selection1')
             .append('select')
@@ -64,8 +72,24 @@ function loadData(){
             .attr("value", function(d){return d;});
         select2.property("value", "LeBron James");
 
+
+        var select3 = d3.select('#selection3')
+            .append('select')
+            .attr('id','select3')
+            .on('change',onchange3);
+
+        select3
+            .selectAll('option')
+            .data(d3.map(data, function(d){return d.shot_type;}).keys())
+            .enter()
+            .append('option')
+            .text(function(d){return d;})
+            .attr("value", function(d){return d;});
+
         updateVisualization();
 })}
+
+
 
 function onchange(){
     court_func();
@@ -83,6 +107,21 @@ function onchange2(){
     updateVisualization()
 }
 
+function onchange3(){
+    court_func();
+    selectValue3 = d3.select('#select3').property('value');
+    data_update3 = data.filter(shottype);
+    shot_type_filter()
+}
+
+
+function shot_type_filter(){
+    selectValue3 = d3.select('#select3').property('value');
+    data = data_origin.filter(shottype);
+    updateVisualization()
+}
+
+
 function updateVisualization(){
     court_func();
     selectValue = d3.select('#select1').property('value');
@@ -97,7 +136,7 @@ function updateVisualization(){
             "attempts": 1
         });
     }
-    console.log(tenderData)
+
     selectValue2 = d3.select('#select2').property('value');
     data_update2 = data.filter(player_filter2);
 
@@ -279,8 +318,6 @@ function updateVisualization(){
             court_left
                 .draw(tenderData2);
     }
-
-
 
 
 
