@@ -11,6 +11,92 @@
 </head>
 
 <body>
+    <form class="form-inline">
+        <h1>Stacked bar chart</h1>
+        <div class="form-group">
+            <label for="playerdata">Player: </label>
+            <select class="form-control" id="playerdata">
+                <option value="Al Horford">Al Horford</option>
+                <option value="Alexis Ajinca">Alexis Ajinca</option>
+                <option value="Andre Iguodala">Andre Iguodala</option>
+                <option value="Andrew Bogut">Andrew Bogut</option>
+                <option value="Anthony Davis">Anthony Davis</option>
+                <option value="Austin Rivers">Austin Rivers</option>
+                <option value="Beno Udrih">Beno Udrih</option>
+                <option value="Blake Griffin">Blake Griffin</option>
+                <option value="Carmelo Anthony">Carmelo Anthony</option>
+                <option value="Chris Bosh">Chris Bosh</option>
+                <option value="Chris Paul">Corey Brewer</option>
+                <option value="Courtney Lee">Courtney Lee</option>
+                <option value="Damian Lillard">Damian Lillard</option>
+                <option value="Dante Cunningham">Dante Cunningham</option>
+                <option value="David Lee">David Lee</option>
+                <option value="DeMarcus Cousins">DeMarcus Cousins</option>
+                <option value="Dion Waiters">Dion Waiters</option>
+                <option value="Dirk Nowitzki">Dirk Nowitzki</option>
+                <option value="Donatas Motiejunas">Donatas Motiejunas</option>
+                <option value="Draymond Green">Draymond Green</option>
+                <option value="Dwight Howard">Dwight Howard</option>
+                <option value="Dwyane Wade">Dwyane Wade</option>
+                <option value="Eric Gordon">Eric Gordon</option>
+                <option value="Harrison Barnes">Harrison Barnes</option>
+                <option value="Iman Shumpert">Iman Shumpert</option>
+                <option value="J.R. Smith">J.R. Smith</option>
+                <option value="James Harden">James Harden</option>
+                <option value="James Jones">James Jones</option>
+                <option value="Jason Terry">Jason Terry</option>
+                <option value="Jeff Green">Jeff Green</option>
+                <option value="Jeff Teague">Jeff Teague</option>
+                <option value="Jimmy Butler">Jimmy Butler</option>
+                <option value="John Wall">John Wall</option>
+                <option value="Jon Leuer">Jon Leuer</option>
+                <option value="Josh Smith">Josh Smith</option>
+                <option value="Jrue Holiday">Jrue Holiday</option>
+                <option value="Justin Holiday">Justin Holiday</option>
+                <option value="Kevin Durant">Kevin Durant</option>
+                <option value="Kevin Love">Kevin Love</option>
+                <option value="Klay Thompson">Klay Thompson</option>
+                <option value="Kobe Bryant">Kobe Bryant</option>
+                <option value="Kosta Koufos">Kosta Koufos</option>
+                <option value="Kyle Korver">Kyle Korver</option>
+                <option value="Kyle Lowry">Kyle Lowry</option>
+                <option value="Kyrie Irving">Kyrie Irving</option>
+                <option value="LaMarcus Aldridge">LaMarcus Aldridge</option>
+                <option value="LeBron James">LeBron James</option>
+                <option value="Leandro Barbosa">Leandro Barbosa</option>
+                <option value="Marc Gasol">Marc Gasol</option>
+                <option value="Marreese Speights">Marreese Speights</option>
+                <option value="Matthew Dellavedova">Matthew Dellavedova</option>
+                <option value="Mike Conley">Mike Conley</option>
+                <option value="Norris Cole">Norris Cole</option>
+                <option value="Omer Asik">Omer Asik</option>
+                <option value="Patrick Beverley">Patrick Beverley</option>
+                <option value="Pau Gasol">Pau Gasol</option>
+                <option value="Paul Millsap">Paul Millsap</option>
+                <option value="Russell Westbrook">Russell Westbrook</option>
+                <option value="Ryan Anderson">Ryan Anderson</option>
+                <option value="Shaun Livingston">Shaun Livingston</option>
+                <option value="Stephen Curry">Stephen Curry</option>
+                <option value="Terrence Jones">Terrence Jones</option>
+                <option value="Tim Duncan">Tim Duncan</option>
+                <option value="Timofey Mozgov">Timofey Mozgov</option>
+                <option value="Tony Allen">Tony Allen</option>
+                <option value="Trevor Ariza">Trevor Ariza</option>
+                <option value="Tristan Thompson">Tristan Thompson</option>
+                <option value="Tyreke Evans">Tyreke Evans</option>
+                <option value="Vince Carter">Vince Carter</option>
+                <option value="Zach Randolph">Zach Randolph</option>
+            </select>
+            <label for="currydata">shot_zone_range: </label>
+            <select class="form-control" id="currydata" onchange="updateBarchart()">
+                <option value=""></option>
+                <option value="Less Than 8 ft.">Less Than 8 ft.</option>
+                <option value="8-16 ft.">8-16 ft.</option>
+                <option value="16-24 ft.">16-24 ft.</option>
+                <option value="24+ ft.">24+ ft.</option>
+            </select>
+        </div>
+    </form>
 
     <div id="chart-area"></div>
 
@@ -23,6 +109,6 @@
     <script src="js/d3.min.js"></script>
     <script src="js/d3.tip.js"></script>
     <script src="js/colorbrewer.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/main1.js"></script>
 </body>
 </html>
