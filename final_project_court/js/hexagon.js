@@ -159,6 +159,7 @@ function updateVisualization(){
     data_update = data.filter(player_filter);
 
     var tenderData = [];
+    var count = 0;
     for (var i = 0; i < data_update.length; i++) {
         tenderData.push({
             "x": Math.ceil((data_update[i].loc_x + 243) / 10),
@@ -166,7 +167,9 @@ function updateVisualization(){
             "made": data_update[i].shot_made_numeric,
             "attempts": 1
         });
+        count += 1;
     }
+    console.log(count);
 
     selectValue2 = d3.select('#select2').property('value');
     data_update2 = data.filter(player_filter2);
@@ -365,3 +368,5 @@ function court_func(){
 //    .attr("height", 400)
 //    .attr("x",150)
 //    .attr("y",150);
+
+
