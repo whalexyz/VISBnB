@@ -1,0 +1,195 @@
+/* color sheet:
+yellow:#FDB927
+blue:#006BB6
+black:#26282A
+
+
+for player comparison:
+
+light blue:#41B6C4
+light green:#A1DAB4
+
+dark red:#F03B20
+light orange #FD8D3C:
+*/
+/*overall*/
+h1,h2,h3,h4{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navbar */
+.navbar .navbar-right{
+    background-color: rgba(247,247,247,0.4); /* #f7f7f7*/
+    text-shadow:none;
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+
+}
+
+.navbar-brand{
+    position: relative;
+}
+
+
+.navbar-brand h1{
+    position: relative;
+    top:-28px;
+    font-weight: 900;
+}
+
+.navbar .navbar-right ul li a{
+    color:#006BB6;
+}
+
+.navbar .navbar-right ul li a:hover{
+    background-color: rgba(247,247,247,0.5);
+}
+
+.top-nav-collapse{
+    background-color:#006BB6 ;
+}
+.top-nav-collapse .navbar-right{
+    background-color:#006BB6 ;
+}
+.top-nav-collapse .navbar-right ul li a{
+    color: #ffffff;
+}
+
+.top-nav-collapse .navbar-right ul li a:hover{
+    background-color: #0087EE;
+}
+.top-nav-collapse .navbar-right ul li a:active{
+    background-color: #0087EE;
+}
+.top-nav-collapse .navbar-right ul li a:visited{
+    background-color: #0087EE;
+}
+.top-nav-collapse .navbar-brand h1{
+    color:#ffffff ;
+}
+/* section */
+section{
+    margin:0 50px 0 0;
+}
+
+
+
+
+/* intro */
+
+.intro {
+    width:100%;
+    position:relative;
+    background: url(../img/bg1.png) no-repeat top center;
+}
+
+#intro.intro {
+    height:1080px;
+    padding:20% 0 0 0;
+}
+
+.intro .slogan {
+    text-align: center;
+
+}
+
+.intro .page-scroll {
+    text-align: center;
+}
+
+.brand-heading {
+    font-size: 40px;
+}
+
+.intro-text {
+    font-size: 18px;
+}
+
+.intro .slogan h2 {
+    color: #FFF;
+    text-shadow: none;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 0px;
+    border-color: #000;
+    border-style: none;
+    text-shadow: -1px 0 1px #000;
+}
+
+.intro .slogan h4 {
+    color: #fff;
+    text-shadow: -1px 1px 1px #000;
+}
+
+div.page-scroll{
+    text-align: center;
+}
+
+a.section-page-scroll{
+    color: #FFF;
+    text-shadow: none;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 0px;
+    border-color: #000;
+    border-style: none;
+    text-shadow: -1px 0 1px #000;
+}
+#page-scroll-intro span:hover{
+    cursor:pointer;
+}
+.section-head{
+    text-align: center;
+}
+.section-head h3{
+    color: #006BB6;
+    text-shadow: none;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+}
+
+.placeholder-div{
+    text-align: center;
+}
+
+#page-scroll-story{
+    color:#006BB6;
+}
+
+
+/* chart*/
+
+/* shooting chart */
+.axis text {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.hexagon {
+    fill: none;
+    stroke: #000;
+    stroke-width: .5px;
+}
+
+#player-shooting-chart{
+    height:600px;
+    width:800px;
+}
