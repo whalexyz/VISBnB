@@ -31,7 +31,7 @@ var margin = {top: 20, right: 20, bottom: 30, left: 40},
  .append("g")
  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-
+var legend_list=["Jump","Bank","Layup","Others"];
 
 
 loadData();
@@ -40,7 +40,7 @@ var shot_zone_range;
 function loadData() {
     d3.csv("data/curry_count.csv", function (error, csv) {
 
-        console.log(csv);
+        //console.log(csv);
         color.domain(d3.keys(csv[0]).filter(function(key) { return key !== "shot_zone_range"; }));
         csv.forEach(function (d) {
             var y0 = 0;
@@ -63,19 +63,21 @@ function loadData() {
 
 function updateBarchart() {
     var selectedData = d3.select("#currydata").property("value");
+    //var selectedData2=d3.select("#player1data").property("value");
+    //var selectedData3=d3.select("#player2data").property("value");
     //console.log(curry);
-    //console.log(curry);
+    console.log(selectedData);
         //rec.exit().remove();
     if (selectedData != ""){
         var curry = data.filter(function (value, index) {
             return value.shot_zone_range == selectedData;
         });
+        console.log(curry);
 
-        svg.selectAll(".rect2").remove();
+        svg.selectAll(".rect").remove();
         svg.selectAll(".y.axis").remove();
         svg.selectAll(".x.axis").remove();
-
-        //svg.selectAll(".legend").remove();
+        svg.selectAll(".legend").remove();
         //console.log(curry[Jump]);
         var player=[];
         curry.forEach(function(d){
@@ -108,21 +110,23 @@ function updateBarchart() {
             .orient("left")
             .tickFormat(d3.format(".2s"));
 
-        var rec=svg.selectAll("rect")
+        var rec=svg.selectAll("rect.rect1")
             .data(player);
 
         rec.enter()
             .append("rect")
+            .attr("class","rect1")
             .style("fill", function (d) {
             return color(d.Color);
         });
+
         rec.transition()
             .duration(500)
-            .attr("class","rect1")
             .attr("x", function(d) { return XScale(d.Type); })
             .attr("width", XScale.rangeBand())
             .attr("y", function(d) { return YScale(d.Y); })
             .attr("height", function(d) { return height - YScale(d.Y); });
+        rec.exit().remove();
 
         svg.append("g")
             .attr("class","x axis")
@@ -139,35 +143,12 @@ function updateBarchart() {
             .attr("transform","rotate(-90)")
             .text("Count");
 
-        var legend = svg.selectAll(".legend")
-            .data(color.domain().slice().reverse())
-            .enter().append("g")
-            .attr("class", "legend")
-            .attr("transform", function (d, i) {
-                return "translate(0," + i * 20 + ")";
-            });
-
-        legend.append("rect")
-            .attr("class","rect4")
-            .attr("x", width - 18)
-            .attr("width", 18)
-            .attr("height", 18)
-            .style("fill", color);
-
-        legend.append("text")
-            .attr("x", width - 24)
-            .attr("y", 9)
-            .attr("dy", ".35em")
-            .style("text-anchor", "end")
-            .text(function (d) {
-                return d;
-            });
 
     }else{
-        svg.selectAll(".rect1").remove();
+        svg.selectAll("rect.rect1").remove();
         svg.selectAll(".y.axis").remove();
         svg.selectAll(".x.axis").remove();
-        svg.selectAll(".legend").remove();
+        //svg.selectAll(".legend1").remove();
         var curry = data;
         x.domain(curry.map(function (d) {
             return d.shot_zone_range;
@@ -204,7 +185,7 @@ function updateBarchart() {
                 return d.counts;
             })
             .enter().append("rect")
-            .attr("class","rect2")
+            .attr("class","rect")
             .attr("width", x.rangeBand())
             .attr("y", function (d) {
                 return y(d.y1);
@@ -217,7 +198,7 @@ function updateBarchart() {
             });
         //rec.exit().remove();
 
-        var legend = svg.selectAll(".legend")
+        var legend = svg.selectAll("g.legend2")
             .data(color.domain().slice().reverse())
             .enter().append("g")
             .attr("class", "legend2")
@@ -226,7 +207,6 @@ function updateBarchart() {
             });
 
         legend.append("rect")
-            .attr("class","rect3")
             .attr("x", width - 18)
             .attr("width", 18)
             .attr("height", 18)
