@@ -170,6 +170,64 @@ a.section-page-scroll{
 
 
 /* chart*/
+.chart-container{
+    text-align: center;
+}
+
+/*timeline*/
+#team-timeline-chart{
+    text-align: center;
+}
+.slider.slider-horizontal{
+    width:500px;
+}
+
+.match-button {
+    width:40px;
+    height:40px;
+    border-radius:100%;
+    color:#FFFFFF;
+    font-family:'Roboto',sans-serif ;
+    font-weight:bold;
+    text-align: center;
+}
+button.disabled {
+    width:40px;
+    height:40px;
+    border-radius:100%;
+    background-color: #333;
+    color:#FFFFFF;
+    font-family:'Roboto',sans-serif ;
+    font-weight:bold;
+    text-align: center;
+}
+
+/* team titles */
+
+.team-title{
+    font-size: 24px;
+    font-weight: 600;
+
+}
+#team1-title{
+    color:#006BB6;
+}
+
+.team-img{
+    width:165px;
+    height:auto;
+}
+/*
+.team-score{
+    font-family: 'Oswald', sans-serif;
+    font-size:72px;
+    display: none;
+}
+*/
+.score-text{
+    font-family: 'Oswald', sans-serif;
+    font-size:72px;
+}
 
 /* shooting chart */
 .axis text {
@@ -192,4 +250,86 @@ a.section-page-scroll{
 #player-shooting-chart{
     height:600px;
     width:800px;
+}
+#team-shooting-chart{
+    text-align: center;
+}
+
+svg#chart-area{
+    padding-left:50px;
+    padding-top:50px;
+
+}
+svg#chart-area2{
+    padding-left:25px;
+    padding-top:10px;
+
+}
+
+#radar-chart1.svg{
+    padding-left:50px;
+    padding-top:20px;
+}
+#radar-chart2.svg{
+    padding-top:20px;
+}
+
+/*For test*/
+
+#selection3,#selection4{
+    display: none;
+}
+
+#player1-img,#player2-img{
+    width:160px;
+    height:auto;
+}
+
+#player2-img {
+    left:-30px;
+}
+
+
+
+
+/*
+path.link {
+    fill: none;
+    stroke-width: 2px;
+}
+.node:not(:hover) .nodetext {
+    display: none;
+}
+
+/*
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(http://fonts.gstatic.com/s/sourcecodepro/v6/mrl8jkM18OlOQN8JLgasDy2Q8seG17bfDXYR_jUsrzg.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/*
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(http://fonts.gstatic.com/s/sourcecodepro/v6/mrl8jkM18OlOQN8JLgasD9V_2ngZ8dMf8fLgjYEouxg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/*
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Source Code Pro Semibold'), local('SourceCodePro-Semibold'), url(http://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqVKFh1TDTPrUZWzVp6FtpG8.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/*
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Source Code Pro Semibold'), local('SourceCodePro-Semibold'), url(http://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqSOFnW3Jk0f09zW_Yln67Ac.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }

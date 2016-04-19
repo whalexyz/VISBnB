@@ -1,25 +1,11 @@
 
-selectValue1="Stephen Curry";
-selectValue2="LeBron James";
 
-//player 1
-var d1=[];
-d3.csv("data/newradardata.csv", function(error, csv) {
-	csv.forEach(function(d){
-		// Convert numeric values to 'numbers'
-		d.ast=+d.ast;
-		d.blk=+d.blk;
-		d.pf=+d.pf;
-		d.gp=+d.gp;
-		d.reb=+d.reb;
-		d.stl=+d.stl;
-		d.tov=+d.tov
-	});
-	data = csv.filter( function(d) {
-		return (d.player_name == selectValue1);
-	});
+function updateRadarVisualization1(){
 
-	d1=data.map(function(d){
+	var radardata1=radardata.filter(function (d) {
+		return(d.player_name==selectValue)
+	});
+	d1=radardata1.map(function(d){
 		a=[{axis:"Assists",value: d.ast},
 			{axis:"Blocks",value: d.blk},
 			{axis:"Personal Fouls",value: d.pf},
@@ -28,45 +14,7 @@ d3.csv("data/newradardata.csv", function(error, csv) {
 			{axis:"Steals",value: d.stl}];
 		return a
 	});
-	updateRadarVisualization1();
 
-});
-
-//player 2
-var d2=[];
-d3.csv("data/newradardata.csv", function(error, csv) {
-	csv.forEach(function(d){
-		// Convert numeric values to 'numbers'
-		d.ast=+d.ast;
-		d.blk=+d.blk;
-		d.pf=+d.pf;
-		d.gp=+d.gp;
-		d.reb=+d.reb;
-		d.stl=+d.stl;
-		d.tov=+d.tov
-	});
-	data = csv.filter( function(d) {
-		return (d.player_name == selectValue2);
-	});
-
-	d2=data.map(function(d){
-		a=[{axis:"Assists",value: d.ast},
-			{axis:"Blocks",value: d.blk},
-			{axis:"Personal Fouls",value: d.pf},
-			{axis:"Rebounds",value: d.reb},
-			{axis:"Turnovers",value: d.tov},
-			{axis:"Steals",value: d.stl}]
-		return a
-	});
-	updateRadarVisualization2();
-
-});
-
-
-
-
-
-function updateRadarVisualization1(){
 	var w = 200,
 		h = 200;
 
@@ -131,7 +79,7 @@ function updateRadarVisualization1(){
 		.attr("width", 10)
 		.attr("height", 10)
 		.style("fill", function(d, i){
-			console.log(colorscale1[i])
+			//console.log(colorscale1[i])
 			return colorscale1[i];})
 	;
 	//Create text next to squares
@@ -148,6 +96,18 @@ function updateRadarVisualization1(){
 }
 
 function updateRadarVisualization2(){
+	var radardata2=radardata.filter(function (d) {
+		return(d.player_name==selectValue2)
+	})
+	d2=radardata2.map(function(d){
+		a=[{axis:"Assists",value: d.ast},
+			{axis:"Blocks",value: d.blk},
+			{axis:"Personal Fouls",value: d.pf},
+			{axis:"Rebounds",value: d.reb},
+			{axis:"Turnovers",value: d.tov},
+			{axis:"Steals",value: d.stl}]
+		return a
+	});
 	var w = 200,
 		h = 200;
 
@@ -210,7 +170,7 @@ function updateRadarVisualization2(){
 		.attr("width", 10)
 		.attr("height", 10)
 		.style("fill", function(d, i){
-			console.log(colorscale2[i])
+			//console.log(colorscale2[i])
 			return colorscale2[i];})
 	;
 	//Create text next to squares

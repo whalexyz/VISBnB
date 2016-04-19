@@ -6,8 +6,8 @@ var data_update;
 var data_update2;
 //var x = [];
 //var y = [];
-var selectValue;
-var selectValue2;
+var selectValue="Stephen Curry";
+var selectValue2="LeBron James";
 var selectValue3;
 var selectValue4;
 
@@ -91,21 +91,58 @@ function loadData(){
             .text(function(d){return d;})
             .attr("value", function(d){return d;});
 
-        var select4 = d3.select('#selection3')
+        var select4 = d3.select('#selection4')
             .append('select')
             .attr('id','select4')
             .on('change',onchange4);
-
         select4
             .selectAll('option')
-            .data(d3.map(data, function(d){return d.shot_zone_range;}).keys())
+            .data(d3.map(["Less Than 8ft.",
+                    "8-16 ft.",
+                    "16-24 ft.",
+                    "24+ ft.",
+                    "Back Court Shot", "All"],
+                function(d){return d;}).keys())
             .enter()
             .append('option')
             .text(function(d){return d;})
             .attr("value", function(d){return d;});
 
+        select4.property("value", "All");
+        d3.csv("data/playerid.csv", function(error, csv) {
+            //"http://stats.nba.com/media/players/230x185/"+playerid+".png"
+            playerids=csv;
+            var playerid=playerids.filter(function(d){return d.player_name==selectValue});
+            d3.select("#player1-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].player+".png");
+            playerid=playerids.filter(function(d){return d.player_name==selectValue2});
+            d3.select("#player2-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].player+".png");
+        });
+
         updateVisualization();
+        updateBarchart();
 })}
+
+var d1=[];
+var d2=[];
+var radardata=[];
+
+
+d3.csv("data/newradardata.csv", function(error, csv) {
+    csv.forEach(function(d){
+        // Convert numeric values to 'numbers'
+        d.ast=+d.ast;
+        d.blk=+d.blk;
+        d.pf=+d.pf;
+        d.gp=+d.gp;
+        d.reb=+d.reb;
+        d.stl=+d.stl;
+        d.tov=+d.tov
+    });
+    radardata=csv;
+    updateRadarVisualization1();
+    updateRadarVisualization2();
+
+});
 
 
 
@@ -113,16 +150,26 @@ function onchange(){
     court_func();
     selectValue = d3.select('#select1').property('value');
     data_update = data.filter(player_filter);
+    var playerid=playerids.filter(function(d){return d.player_name==selectValue});
+    d3.select("#player1-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].player+".png");
 
-    updateVisualization()
+    updateVisualization();
+    updateRadarVisualization1();
+    updateBarchart();
+    //filterlineup1();
 }
 
 function onchange2(){
     court_func();
     selectValue2 = d3.select('#select2').property('value');
     data_update2 = data.filter(player_filter2);
+    var playerid=playerids.filter(function(d){return d.player_name==selectValue2});
+    d3.select("#player2-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].player+".png");
 
-    updateVisualization()
+    updateVisualization();
+    updateRadarVisualization2();
+    updateBarchart();
+    //filterlineup2();
 }
 
 function onchange3(){
@@ -135,7 +182,8 @@ function onchange3(){
 
     else{data = data_origin.filter(shottype);}
 
-    updateVisualization()
+    updateVisualization();
+    updateBarchart();
 }
 
 function onchange4(){
@@ -147,7 +195,11 @@ function onchange4(){
     }
 
     else{data = data_origin.filter(shotzonerange);}
-    updateVisualization()
+    updateVisualization();
+
+    data_update = data_update.filter(shotzonerange);
+    data_update2 = data_update2.filter(shotzonerange);
+    updateBarchart();
 }
 
 
@@ -354,7 +406,7 @@ function updateVisualization(){
 }
 
 function court_func(){
-    d3.select(".shot-chart").remove();
+    d3.selectAll(".shot-chart").remove();
 }
 
 // var team = d3.select("#img");

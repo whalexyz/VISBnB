@@ -13,13 +13,13 @@
 
     var clipCounter = 0;
 
-    var BasketballShotChart = d3.chart('BasketballShotChart', {
+    var team_BasketballShotChart = d3.chart('team_BasketballShotChart', {
 
         initialize: function () {
             this.calculateVisibleCourtLength();
 
             var base = this.base
-                .attr('class', 'shot-chart');
+                .attr('class', 'team-shot-chart');
 
             // draw base court
             this.drawCourt();
@@ -393,7 +393,7 @@
 
     });
 
-    d3.chart.initializeDefaults(BasketballShotChart, {
+    d3.chart.initializeDefaults(team_BasketballShotChart, {
         // width of svg
         width: 500,
         // basketball hoop diameter (ft)

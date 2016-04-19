@@ -7,9 +7,14 @@
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/d3.basketball-shot-chart.css" rel="stylesheet">
+    <!--    -->
     <link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:900,300' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap-slider.min.css" rel="stylesheet">
+
     <link href="css/style.css" rel="stylesheet">
+
 
 </head>
 <body>
@@ -59,24 +64,51 @@
             <h3>How Did Golden State Warriors Win the Playoffs?</h3>
         </div>
         <div class="chart-container">
-            <div class="line-chart" id="team-timeline-chart">
-                <div class="placeholder-div">
-                    <img src="img/ph2.jpg">
-                </div>
+            <div class="timeline-chart" id="team-timeline-chart">
+                <input id="timeline" type="text"
+                       data-provide="slider"
+                       data-slider-ticks="[1, 2, 3, 4]"
+                       data-slider-ticks-labels='["Stage 1", "Stage 2", "Stage 3", "Stage 4"]'
+                       data-slider-min="1"
+                       data-slider-max="4"
+                       data-slider-step="1"
+                       data-slider-value="1"
+                       data-slider-tooltip="hide" />
+
+            </div>
+            <div class="row">
+                    <button type="button" class="btn match-button" id="match1"></button>
+                    <button type="button" class="btn match-button" id="match2"></button>
+                    <button type="button" class="btn match-button" id="match3"></button>
+                    <button type="button" class="btn match-button" id="match4"></button>
+                    <button type="button" class="btn match-button" id="match5"></button>
+                    <button type="button" class="btn match-button" id="match6"></button>
+                    <button type="button" class="btn match-button" id="match7"></button>
             </div>
             <div class="container">
-                <form class="form-inline">
-                    <div class = "container">
-                        <div class = "col-md-12" id = "team-selection1"></div>
+                <div class="row">
+                    <div class="col-lg-2 col-left">
+                        <img id="team1-img" class="team-img" src="img/1610612744.png"/>
+                        <h3 class="team-title" id="team1-title">Golden State Warriors</h3>
+                        <div class="score-div" id="score-div-1"></div>
                     </div>
-                </form>
-                <div class="shooting-chart" id="team-shooting-chart">
-                    <svg id="chart-area2" width = "2" height="2"></svg>
+                    <div class="col-lg-8">
+                        <div class="shooting-chart" id="team-shooting-chart">
+                            <svg id="chart-area2" width = "2" height="2"></svg>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <img class="team-img" id="team2-img"/>
+                        <h3 class="team-title" id="team2-title"></h3>
+                        <div class="score-div" id="score-div-2"></div>
+                    </div>
                 </div>
+
             </div>
 
             <div class="bar-chart" id="team-trad-bar-chart">
                 <!--  team stat bar chart here -->
+                <svg></svg>
             </div>
         </div>
         <div class="page-scroll">
@@ -87,14 +119,10 @@
     </section>
     <section id="player">
         <div class="section-head">
-            <h3>How Sharp is Golden State Warriors' blade?</h3>
+            <h3>How Sharp is Golden State Warriors' Blade?</h3>
         </div>
         <div class="chart-container">
-            <div class="bar-chart" id="player-stack-chart">
-                <div class="placeholder-div">
-                    <img src="img/ph5.png">
-                </div>
-            </div>
+            <div class="bar-chart" id="stack-chart-area"></div>
             <div class="container">
                 <form class="form-inline">
                     <div class = "container">
@@ -102,9 +130,20 @@
                         <div class = "col-md-6" id = "selection2"></div>
                     </div>
                 </form>
-                <div class="shooting-chart" id="player-shooting-chart">
-                    <svg id="chart-area" width = "2" height="2"></svg>
+                <div class="row">
+                    <div class="col-lg-1 col-left">
+                        <img id="player1-img"/>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="shooting-chart" id="player-shooting-chart">
+                            <svg id="chart-area" width = "2" height="2"></svg>
+                        </div>
+                    </div>
+                    <div class="col-lg-1">
+                        <img id="player2-img"/>
+                    </div>
                 </div>
+
                 <form class="form-inline">
                     <div class = "container" id="select-container2">
                         <div class = "col-md-6" id = "selection3"></div>
@@ -112,7 +151,6 @@
                     </div>
                 </form>
             </div>
-
             <div class="radar-chart" id="player-radar-chart">
                 <div class="col-lg-6">
                     <div id="radar-chart1"></div>
@@ -129,21 +167,29 @@
         </div>
     </section>
 
+
+
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery.easing.min.js"></script>
+    <script src="js/queue.min.js"></script>
+    <script src="js/colorbrewer.js"></script>
     <script src="js/scrolling-nav.js"></script>
     <script src="js/d3.min.js"></script>
     <script src="js/d3.tip.js"></script>
+    <script src="js/global.js"></script>
     <script src="js/d3.chart.js"></script>
     <script src="js/d3.chart.defaults.js"></script>
     <script src="js/basketball_court.js"></script>
+    <script src="js/basketball_court_team.js"></script>
     <script src="js/hexbin.js"></script>
     <script src="js/hexagon.js"></script>
     <script src="js/hexagon_team.js"></script>
     <script src="js/RadarChart.js"></script>
     <script src="js/script.js"></script>
     <script src="js/traditional_stat_barchart.js"></script>
-
+    <script src="js/bootstrap-slider.js"></script>
+    <script src="js/stack_bar.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
