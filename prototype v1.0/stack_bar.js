@@ -5,9 +5,12 @@
  * Created by victoria_G on 4/17/16.
  */
 
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
 var padding=40;
 
-var svg = d3.select("#stack-chart-area").append("svg")
+var svg = d3.select("#chart-area").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
@@ -37,116 +40,116 @@ var yAxisGroup = svg.append("g")
     .attr("class", "y-axis axis");
 
 var shot_zone_range;
-//loadData();
+loadData();
 /*
 
- function player_filter(variable) {
- return variable.player_name == selectValue;
- }
+function player_filter(variable) {
+    return variable.player_name == selectValue;
+}
 
- function player_filter2(variable) {
- return variable.player_name == selectValue2;
- }
+function player_filter2(variable) {
+    return variable.player_name == selectValue2;
+}
 
- function shotzonerange(variable) {
- return variable.shot_zone_range == selectValue4;
- }
-
-
- var data;
+function shotzonerange(variable) {
+    return variable.shot_zone_range == selectValue4;
+}
 
 
- function loadData(){
- d3.csv("data/final_shot_data.csv", function(error, csv) {
- csv.forEach(function(d) {
-
- // Convert numeric values to 'numbers'
- d.loc_x = +d.loc_x*10;
- d.loc_y = (+d.loc_y-5.25)*10;
- d.period = +d.period;
- d.shot_made_numeric = +d.shot_made_numeric;
- d.time = +d.time;
- d.shot_zone = +d.shot_zone;
-
- });
- // Store csv data in global variable
- data_origin = csv;
- data = data_origin;
+var data;
 
 
- var select = d3.select('#selection1')
- .append('select')
- .attr('id','select1')
- .on('change',onchange);
+function loadData(){
+    d3.csv("data/final_shot_data.csv", function(error, csv) {
+        csv.forEach(function(d) {
 
- select
- .selectAll('option')
- .data(d3.map(data, function(d){return d.player_name;}).keys())
- .enter()
- .append('option')
- .text(function(d){return d;})
- .attr("value", function(d){return d;});
+            // Convert numeric values to 'numbers'
+            d.loc_x = +d.loc_x*10;
+            d.loc_y = (+d.loc_y-5.25)*10;
+            d.period = +d.period;
+            d.shot_made_numeric = +d.shot_made_numeric;
+            d.time = +d.time;
+            d.shot_zone = +d.shot_zone;
 
- select.property("value", "Stephen Curry");
-
- var select2 = d3.select('#selection2')
- .append('select')
- .attr('id','select2')
- .on('change',onchange2);
-
- select2
- .selectAll('option')
- .data(d3.map(data, function(d){return d.player_name;}).keys())
- .enter()
- .append('option')
- .text(function(d){return d;})
- .attr("value", function(d){return d;});
- select2.property("value", "LeBron James");
+        });
+        // Store csv data in global variable
+        data_origin = csv;
+        data = data_origin;
 
 
- var select4 = d3.select('#selection4')
- .append('select')
- .attr('id','select4')
- .on('change',onchange4);
- select4
- .selectAll('option')
- .data(d3.map(["Less Than 8ft.",
- "8-16 ft.",
- "16-24 ft.",
- "24+ ft.",
- "Back Court Shot", "All"],
- function(d){return d;}).keys())
- .enter()
- .append('option')
- .text(function(d){return d;})
- .attr("value", function(d){return d;});
+        var select = d3.select('#selection1')
+            .append('select')
+            .attr('id','select1')
+            .on('change',onchange);
 
- select4.property("value", "All");
- updateBarchart()
- })}
+        select
+            .selectAll('option')
+            .data(d3.map(data, function(d){return d.player_name;}).keys())
+            .enter()
+            .append('option')
+            .text(function(d){return d;})
+            .attr("value", function(d){return d;});
 
- function onchange(){
+        select.property("value", "Stephen Curry");
 
- selectValue = d3.select('#select1').property('value');
- data_update = data.filter(player_filter);
- updateBarchart()
- }
+        var select2 = d3.select('#selection2')
+            .append('select')
+            .attr('id','select2')
+            .on('change',onchange2);
 
- function onchange2(){
+        select2
+            .selectAll('option')
+            .data(d3.map(data, function(d){return d.player_name;}).keys())
+            .enter()
+            .append('option')
+            .text(function(d){return d;})
+            .attr("value", function(d){return d;});
+        select2.property("value", "LeBron James");
 
- selectValue2 = d3.select('#select2').property('value');
- data_update2 = data.filter(player_filter2);
- updateBarchart()
- }
 
- function onchange4(){
+        var select4 = d3.select('#selection4')
+            .append('select')
+            .attr('id','select4')
+            .on('change',onchange4);
+        select4
+            .selectAll('option')
+            .data(d3.map(["Less Than 8ft.",
+                    "8-16 ft.",
+                    "16-24 ft.",
+                    "24+ ft.",
+                    "Back Court Shot", "All"],
+                function(d){return d;}).keys())
+            .enter()
+            .append('option')
+            .text(function(d){return d;})
+            .attr("value", function(d){return d;});
 
- selectValue4 = d3.select('#select4').property('value');
- data_update = data_update.filter(shotzonerange);
- data_update2 = data_update2.filter(shotzonerange);
- updateBarchart()
- }
- */
+        select4.property("value", "All");
+        updateBarchart()
+    })}
+
+function onchange(){
+
+    selectValue = d3.select('#select1').property('value');
+    data_update = data.filter(player_filter);
+    updateBarchart()
+}
+
+function onchange2(){
+
+    selectValue2 = d3.select('#select2').property('value');
+    data_update2 = data.filter(player_filter2);
+    updateBarchart()
+}
+
+function onchange4(){
+
+    selectValue4 = d3.select('#select4').property('value');
+    data_update = data_update.filter(shotzonerange);
+    data_update2 = data_update2.filter(shotzonerange);
+    updateBarchart()
+}
+*/
 var color = d3.scale.ordinal()
     .range([ "#ff8c00","#a05d56","#d0743c","#6b486b"]);
 
@@ -315,7 +318,7 @@ function updateBarchart() {
 
         player2_count.sort(function (a, b) {
             return b.total - a.total;
-        });});
+        });})
 
     var player = [];
     var player2 = [];

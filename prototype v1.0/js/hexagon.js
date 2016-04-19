@@ -51,7 +51,7 @@ function loadData(){
         var select = d3.select('#selection1')
             .append('select')
             .attr('id','select1')
-            .on('change',onchange);
+            .on('change',onchange1);
 
         select
             .selectAll('option')
@@ -146,7 +146,7 @@ d3.csv("data/newradardata.csv", function(error, csv) {
 
 
 
-function onchange(){
+function onchange1(){
     court_func();
     selectValue = d3.select('#select1').property('value');
     data_update = data.filter(player_filter);
