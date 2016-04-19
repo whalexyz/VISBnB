@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c06b01a1-0c70-4691-9ee5-3f00addeac2c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/final_shot_data.csv" afterPath="$PROJECT_DIR$/data/final_shot_data.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/hexagon.js" afterPath="$PROJECT_DIR$/js/hexagon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/stack_bar.js" afterPath="$PROJECT_DIR$/js/stack_bar.js" />
     </list>
     <ignored path="prototype v1.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="128" column="57" selection-start-line="128" selection-start-column="54" selection-end-line="128" selection-end-column="57" />
               <folding />
             </state>
@@ -70,8 +68,8 @@
       <file leaf-file-name="hexagon.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/hexagon.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9317147">
-              <caret line="430" column="19" selection-start-line="430" selection-start-column="19" selection-end-line="430" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.7465857">
+              <caret line="177" column="16" selection-start-line="177" selection-start-column="16" selection-end-line="177" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -90,7 +88,7 @@
       <file leaf-file-name="basketball_court.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/basketball_court.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="46.666668">
+            <state vertical-scroll-proportion="0.0">
               <caret line="280" column="17" selection-start-line="280" selection-start-column="8" selection-end-line="280" selection-end-column="17" />
               <folding />
             </state>
@@ -110,7 +108,7 @@
       <file leaf-file-name="stack_bar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/stack_bar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.296297">
+            <state vertical-scroll-proportion="0.0">
               <caret line="467" column="15" selection-start-line="467" selection-start-column="15" selection-end-line="467" selection-end-column="15" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -326,7 +324,7 @@
     <frame x="43" y="23" width="1237" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.203125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20148027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.50575656" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.4942434" order="8" side_tool="false" content_ui="tabs" />
@@ -423,12 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="258" column="43" selection-start-line="258" selection-start-column="43" selection-end-line="258" selection-end-column="43" />
-          <folding>
-            <element signature="n#!!block;n#team_filter#0" expanded="false" />
-            <element signature="n#!!block;n#gsw#0" expanded="false" />
-            <element signature="n#!!block;n#opponent#0" expanded="false" />
-            <element signature="e#247#1453#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -491,12 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="49" />
-          <folding>
-            <element signature="n#!!block;n#team_filter#0" expanded="false" />
-            <element signature="n#!!block;n#gsw#0" expanded="false" />
-            <element signature="n#!!block;n#opponent#0" expanded="false" />
-            <element signature="e#247#1453#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -677,12 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9574468">
           <caret line="170" column="27" selection-start-line="170" selection-start-column="27" selection-end-line="170" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!block;n#team_filter#0" expanded="false" />
-            <element signature="n#!!block;n#gsw#0" expanded="false" />
-            <element signature="n#!!block;n#opponent#0" expanded="false" />
-            <element signature="e#247#1453#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,9 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="789" column="45" selection-start-line="789" selection-start-column="45" selection-end-line="789" selection-end-column="45" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,7 +731,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/basketball_court.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="280" column="17" selection-start-line="280" selection-start-column="8" selection-end-line="280" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/stack_bar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="467" column="15" selection-start-line="467" selection-start-column="15" selection-end-line="467" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -766,28 +760,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/stack_bar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.296297">
-          <caret line="467" column="15" selection-start-line="467" selection-start-column="15" selection-end-line="467" selection-end-column="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/basketball_court.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="46.666668">
-          <caret line="280" column="17" selection-start-line="280" selection-start-column="8" selection-end-line="280" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/hexagon.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9317147">
-          <caret line="430" column="19" selection-start-line="430" selection-start-column="19" selection-end-line="430" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.7465857">
+          <caret line="177" column="16" selection-start-line="177" selection-start-column="16" selection-end-line="177" selection-end-column="16" />
           <folding />
         </state>
       </provider>

@@ -42,6 +42,7 @@ function loadData(){
             d.shot_made_numeric = +d.shot_made_numeric;
             d.time = +d.time;
             d.shot_zone = +d.shot_zone;
+            d.person_id = +d.person_id;
 
         });
         // Store csv data in global variable
@@ -59,7 +60,7 @@ function loadData(){
             .enter()
             .append('option')
             .text(function(d){return d;})
-            .attr("value", function(d){console.log(d)
+            .attr("value", function(d){
                 return d;});
 
         select.property("value", "Stephen Curry");
@@ -112,6 +113,13 @@ function loadData(){
             .attr("value", function(d){return d;});
 
         select4.property("value", "All");
+
+        var playerid=data.filter(function(d){return d.player_name==selectValue});
+        d3.select("#player1-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].person_id+".png");
+        playerid=data.filter(function(d){return d.player_name==selectValue2});
+        d3.select("#player2-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].person_id+".png");
+
+        /*
         d3.csv("data/playerid.csv", function(error, csv) {
             //"http://stats.nba.com/media/players/230x185/"+playerid+".png"
             playerids=csv;
@@ -120,7 +128,7 @@ function loadData(){
             playerid=playerids.filter(function(d){return d.player_name==selectValue2});
             d3.select("#player2-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].player+".png");
         });
-
+*/
         updateVisualization();
         updateBarchart();
 })}
@@ -153,8 +161,9 @@ function onchange1(){
     court_func();
     selectValue = d3.select('#select1').property('value');
     data_update = data.filter(player_filter);
-    var playerid=playerids.filter(function(d){return d.player_name==selectValue});
-    d3.select("#player1-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].player+".png");
+    var playerid=data_update.filter(function(d){return d.player_name==selectValue});
+    console.log(playerid)
+    d3.select("#player1-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].person_id+".png");
 
     updateVisualization();
     updateRadarVisualization1();
@@ -166,8 +175,8 @@ function onchange2(){
     court_func();
     selectValue2 = d3.select('#select2').property('value');
     data_update2 = data.filter(player_filter2);
-    var playerid=playerids.filter(function(d){return d.player_name==selectValue2});
-    d3.select("#player2-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].player+".png");
+    var playerid=data_update2.filter(function(d){return d.player_name==selectValue2});
+    d3.select("#player2-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].person_id+".png");
 
     updateVisualization();
     updateRadarVisualization2();
