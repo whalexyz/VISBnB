@@ -8,8 +8,8 @@ var data_update2;
 //var y = [];
 var selectValue="Stephen Curry";
 var selectValue2="LeBron James";
-var selectValue3;
-var selectValue4;
+var selectValue3="All";
+var selectValue4="All";
 
 function player_filter(variable) {
     return variable.player_name == selectValue;
@@ -59,7 +59,8 @@ function loadData(){
             .enter()
             .append('option')
             .text(function(d){return d;})
-            .attr("value", function(d){return d;});
+            .attr("value", function(d){console.log(d)
+                return d;});
 
         select.property("value", "Stephen Curry");
 
@@ -85,11 +86,12 @@ function loadData(){
 
         select3
             .selectAll('option')
-            .data(d3.map(data, function(d){return d.shot_type;}).keys())
+            .data(d3.map(["Jump", "Layup", "Others", "All"], function(d){return d;}).keys())
             .enter()
             .append('option')
             .text(function(d){return d;})
             .attr("value", function(d){return d;});
+        select3.property("value", "All");
 
         var select4 = d3.select('#selection4')
             .append('select')
@@ -97,11 +99,12 @@ function loadData(){
             .on('change',onchange4);
         select4
             .selectAll('option')
-            .data(d3.map(["Less Than 8ft.",
+            .data(d3.map(["Less Than 8 ft.",
                     "8-16 ft.",
                     "16-24 ft.",
                     "24+ ft.",
-                    "Back Court Shot", "All"],
+                    "Back Court Shot",
+                    "All"],
                 function(d){return d;}).keys())
             .enter()
             .append('option')
@@ -175,12 +178,19 @@ function onchange2(){
 function onchange3(){
     court_func();
     selectValue3 = d3.select('#select3').property('value');
-
-    if (selectValue4){
-        data = data_origin.filter(shotzonerange).filter(shottype);
+    if(selectValue3 == "All"){
+        if (selectValue4 != "All"){
+            data = data_origin.filter(shotzonerange);
+        }
+        else{data = data_origin;}
     }
+    else{
+        if (selectValue4 != "All"){
+            data = data_origin.filter(shotzonerange).filter(shottype);
+        }
 
-    else{data = data_origin.filter(shottype);}
+        else{data = data_origin.filter(shottype);}
+    }
 
     updateVisualization();
     updateBarchart();
@@ -189,12 +199,24 @@ function onchange3(){
 function onchange4(){
     court_func();
     selectValue4 = d3.select('#select4').property('value');
+    if(selectValue4 == "All") {
+        if (selectValue3 != "All") {
+            data = data_origin.filter(shottype);
+        }
 
-    if (selectValue3){
-        data = data_origin.filter(shottype).filter(shotzonerange);
+        else {
+            data = data_origin;
+        }
     }
+    else{
+        if (selectValue3 != "All") {
+            data = data_origin.filter(shottype).filter(shotzonerange);
+        }
 
-    else{data = data_origin.filter(shotzonerange);}
+        else {
+            data = data_origin.filter(shotzonerange);
+        }
+    }
     updateVisualization();
 
     data_update = data_update.filter(shotzonerange);

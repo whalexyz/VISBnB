@@ -37,116 +37,6 @@ var yAxisGroup = svg.append("g")
     .attr("class", "y-axis axis");
 
 var shot_zone_range;
-//loadData();
-/*
-
- function player_filter(variable) {
- return variable.player_name == selectValue;
- }
-
- function player_filter2(variable) {
- return variable.player_name == selectValue2;
- }
-
- function shotzonerange(variable) {
- return variable.shot_zone_range == selectValue4;
- }
-
-
- var data;
-
-
- function loadData(){
- d3.csv("data/final_shot_data.csv", function(error, csv) {
- csv.forEach(function(d) {
-
- // Convert numeric values to 'numbers'
- d.loc_x = +d.loc_x*10;
- d.loc_y = (+d.loc_y-5.25)*10;
- d.period = +d.period;
- d.shot_made_numeric = +d.shot_made_numeric;
- d.time = +d.time;
- d.shot_zone = +d.shot_zone;
-
- });
- // Store csv data in global variable
- data_origin = csv;
- data = data_origin;
-
-
- var select = d3.select('#selection1')
- .append('select')
- .attr('id','select1')
- .on('change',onchange);
-
- select
- .selectAll('option')
- .data(d3.map(data, function(d){return d.player_name;}).keys())
- .enter()
- .append('option')
- .text(function(d){return d;})
- .attr("value", function(d){return d;});
-
- select.property("value", "Stephen Curry");
-
- var select2 = d3.select('#selection2')
- .append('select')
- .attr('id','select2')
- .on('change',onchange2);
-
- select2
- .selectAll('option')
- .data(d3.map(data, function(d){return d.player_name;}).keys())
- .enter()
- .append('option')
- .text(function(d){return d;})
- .attr("value", function(d){return d;});
- select2.property("value", "LeBron James");
-
-
- var select4 = d3.select('#selection4')
- .append('select')
- .attr('id','select4')
- .on('change',onchange4);
- select4
- .selectAll('option')
- .data(d3.map(["Less Than 8ft.",
- "8-16 ft.",
- "16-24 ft.",
- "24+ ft.",
- "Back Court Shot", "All"],
- function(d){return d;}).keys())
- .enter()
- .append('option')
- .text(function(d){return d;})
- .attr("value", function(d){return d;});
-
- select4.property("value", "All");
- updateBarchart()
- })}
-
- function onchange(){
-
- selectValue = d3.select('#select1').property('value');
- data_update = data.filter(player_filter);
- updateBarchart()
- }
-
- function onchange2(){
-
- selectValue2 = d3.select('#select2').property('value');
- data_update2 = data.filter(player_filter2);
- updateBarchart()
- }
-
- function onchange4(){
-
- selectValue4 = d3.select('#select4').property('value');
- data_update = data_update.filter(shotzonerange);
- data_update2 = data_update2.filter(shotzonerange);
- updateBarchart()
- }
- */
 var color = d3.scale.ordinal()
     .range([ "#ff8c00","#a05d56","#d0743c","#6b486b"]);
 
@@ -158,7 +48,7 @@ function updateBarchart() {
 
     selectValue4 = d3.select('#select4').property('value');
 
-    var tenderData = [];
+    //var tenderData = [];
     var player1_count = [];
     var Jump1 = 0; var Layup1= 0; var Others1= 0;
     var Jump12 = 0; var Layup12 = 0; var Others12 = 0;
@@ -166,13 +56,14 @@ function updateBarchart() {
     var Jump14 = 0; var Layup14 = 0; var Others14 = 0;
     var Jump15 = 0; var Layup15 = 0; var Others15 = 0;
     for (var i = 0; i < data_update.length; i++) {
-        tenderData.push({
+    /*    tenderData.push({
             "x": Math.ceil((data_update[i].loc_x + 243) / 10),
             "y": Math.ceil((data_update[i].loc_y + 17) / 9),
             "made": data_update[i].shot_made_numeric,
             "attempts": 1
         });
-        if(data[i].shot_zone_range == "Less Than 8ft."){
+        */
+        if(data[i].shot_zone_range == "Less Than 8 ft."){
             if(data[i].shot_type == "Jump"){Jump1 += 1;}
             else if(data[i].shot_type == "Layup"){Layup1 += 1;}
             else if(data[i].shot_type == "Others"){Others1 += 1;}
@@ -199,12 +90,12 @@ function updateBarchart() {
         }
     }
     player1_count.push({
-            "shot_zone_range":"Less Than 8ft.",
+            "shot_zone_range":"Less Than 8 ft.",
             "Jump":Jump1,
             "Layup": Layup1,
             "Others": Others1
         },
-        {"shot-zone-range":"8-16 ft.",
+        {"shot_zone_range":"8-16 ft.",
             "Jump":Jump12,
             "Layup": Layup12,
             "Others": Others12
@@ -236,11 +127,7 @@ function updateBarchart() {
         d.total = d.counts[d.counts.length - 1].y1;
     });
 
-    player1_count.sort(function (a, b) {
-        return b.total - a.total;
-    });
-
-    var tenderData2 = [];
+    //var tenderData2 = [];
     var player2_count = [];
     var Jump2 = 0; var Layup2= 0; var Others2= 0;
     var Jump22 = 0; var Layup22 = 0; var Others22 = 0;
@@ -248,13 +135,14 @@ function updateBarchart() {
     var Jump24 = 0; var Layup24 = 0; var Others24 = 0;
     var Jump25 = 0; var Layup25 = 0; var Others25 = 0;
     for (var k = 0; k < data_update2.length; k++) {
-        tenderData2.push({
+    /*    tenderData2.push({
             "x": Math.ceil((data_update2[k].loc_x + 243) / 10),
             "y": Math.ceil((data_update2[k].loc_y + 17) / 9),
             "made": data_update2[k].shot_made_numeric,
             "attempts": 1
         });
-        if(data[k].shot_zone_range == "Less Than 8ft."){
+        */
+        if(data[k].shot_zone_range == "Less Than 8 ft."){
             if(data[k].shot_type == "Jump"){Jump2 += 1;}
             else if(data[k].shot_type == "Layup"){Layup2 += 1;}
             else if(data[k].shot_type == "Others"){Others2 += 1;}
@@ -281,12 +169,12 @@ function updateBarchart() {
         }
     }
     player2_count.push({
-            "shot_zone_range":"Less Than 8ft.",
+            "shot_zone_range":"Less Than 8 ft.",
             "Jump":Jump2,
             "Layup": Layup2,
             "Others": Others2
         },
-        {"shot-zone-range":"8-16 ft.",
+        {"shot_zone_range":"8-16 ft.",
             "Jump":Jump22,
             "Layup": Layup22,
             "Others": Others22
@@ -307,7 +195,7 @@ function updateBarchart() {
             "Others": Others25
         });
 
-    color.domain(d3.keys(player2_count[0]).filter(function(key) { return key !== "shot_zone_range"; }));
+    //color.domain(d3.keys(player2_count[0]).filter(function(key) { return key !== "shot_zone_range"; }));
     player2_count.forEach(function (d) {
         var y0 = 0;
         d.counts = color.domain().map(function (name) {
@@ -321,8 +209,7 @@ function updateBarchart() {
     var player2 = [];
 
     if (selectValue4 != "All") {
-        svg.selectAll("rect.rect3").remove();
-        svg.selectAll("rect.rect4").remove();
+        svg.selectAll("rect").remove()
         svg.selectAll(".legend").remove();
         var player1_count1 = player1_count.filter(shotzonerange);
         var player2_count1 = player2_count.filter(shotzonerange);
@@ -383,15 +270,13 @@ function updateBarchart() {
             .attr("x", function (d) {
                 return XScale(d.Type);
             })
-            .attr("width", XScale.rangeBand() / 4)
+            .attr("width", XScale.rangeBand() / 2)
             .attr("y", function (d) {
                 return YScale(d.Y);
             })
             .attr("height", function (d) {
                 return height - YScale(d.Y);
             });
-        rec.exit().remove();
-
         rec.exit().remove();
 
         var rec2 = svg.selectAll(".rect2")
@@ -406,9 +291,9 @@ function updateBarchart() {
             .duration(500)
             .attr("class", "rect2")
             .attr("x", function (d) {
-                return XScale(d.Type) * 2.5;
+                return XScale(d.Type) * 4.5;
             })
-            .attr("width", XScale.rangeBand() / 4)
+            .attr("width", XScale.rangeBand() / 2)
             .attr("y", function (d) {
                 return YScale(d.Y);
             })
@@ -469,6 +354,7 @@ function updateBarchart() {
         svg.selectAll("rect.rect3").remove();
         svg.selectAll("rect.rect4").remove();
 
+
         // Update scale domains
         var combine = [player1_count[0], player1_count[1], player1_count[2], player1_count[3], player1_count[4],
             player2_count[0], player2_count[1], player2_count[2], player2_count[3], player2_count[4]];
@@ -513,7 +399,7 @@ function updateBarchart() {
             });
         rec1.enter().append("rect")
             .attr("class", "rect3")
-            .attr("width", x.rangeBand() / 4)
+            .attr("width", x.rangeBand()/2)
             .attr("y", function (d) {
                 return y(d.y1);
             })
@@ -542,8 +428,8 @@ function updateBarchart() {
             });
         rec12.enter().append("rect")
             .attr("class", "rect4")
-            .attr("width", x.rangeBand() / 4)
-            .attr("x", 40)
+            .attr("width", x.rangeBand()/2)
+            .attr("x", 45)
             .attr("y", function (d) {
                 return y(d.y1);
             })
@@ -573,8 +459,8 @@ function updateBarchart() {
             .style("fill", color);
 
         legend1.append("text")
-            .attr("x", width - 24)
-            .attr("y", 9)
+            .attr("x", width - 18)
+            .attr("y", 6)
             .attr("dy", ".35em")
             .style("text-anchor", "end")
             .text(function (d) {
