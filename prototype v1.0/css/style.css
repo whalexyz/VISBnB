@@ -304,46 +304,191 @@ svg#chart-area2{
 }
 
 
-
-
-/*
-path.link {
-    fill: none;
-    stroke-width: 2px;
+/*Tutorials*/
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    /*background-color: rgb(0,0,0);  Black fallback color */
+    background-color: rgba(0,0,0, 0.7); /* Black w/opacity */
+    overflow-y: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
-.node:not(:hover) .nodetext {
+.overlay-content {
+    position: relative;
+    top:25%;
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+.overlay-content h1,h2,h3,p,span{
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.tutorial-text{
+    font-size:18px;
+    word-wrap: break-word;
+}
+
+#tutorial-step-1{
+    text-align: center;
+}
+
+.tutorial-btn{
+    width:150px;
+    height:60px;
+    background-color: Transparent;
+    color:#FFFFFF;
+    text-align: center;
+    font-weight: 500;
+    font-size:24px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #FFFFFF;
+}
+
+.tutorial-btn:hover{
+
+}
+
+.tutorial-btn:active,.tutorial-btn:focus{
+    outline: 0;
+}
+
+.tutorial-step-div{
+    display:none;
+}
+
+#tutorial-step-1{
+    display: block;
+}
+
+#tutorial-step-4{
+    position: relative;
+    top:300px;
+}
+
+
+.expose{
+    possition:relative;
+    z-index:9;
+}
+
+#btn-step-9{
     display: none;
 }
 
-/*
-@font-face {
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(http://fonts.gstatic.com/s/sourcecodepro/v6/mrl8jkM18OlOQN8JLgasDy2Q8seG17bfDXYR_jUsrzg.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+.closebtn{
+    position: absolute;
+    top:-200px;
+    right:50px;
+    background-color: Transparent;
+    color:#FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 100%;
+    text-align: center;
+    width:30px;
+    height:30px
 }
-/*
-@font-face {
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(http://fonts.gstatic.com/s/sourcecodepro/v6/mrl8jkM18OlOQN8JLgasD9V_2ngZ8dMf8fLgjYEouxg.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+
+.tutorial-btn:hover {
+    outline: 0;
+    color: #FFFFFF;
 }
+
 /*
-@font-face {
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 600;
-    src: local('Source Code Pro Semibold'), local('SourceCodePro-Semibold'), url(http://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqVKFh1TDTPrUZWzVp6FtpG8.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+a span .glyphicon{
+    animation:vibrate 0.1s linear 0s infinite;
+    //animation-iteration-count:5;
+    -moz-animation: vibrate 0.1s linear 0s infinite;
+    //-moz-animation-iteration-count:5;
+/* Firefox
+    -webkit-animation: vibrate 0.1s linear 0s infinite;
+    //-webkit-animation-iteration-count:5;
+/* Safari and Chrome
+    -o-animation: vibrate 0.1s linear 0s infinite;
+    //-o-animation-iteration-count:5;
+/* Opera
 }
-/*
-@font-face {
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 600;
-    src: local('Source Code Pro Semibold'), local('SourceCodePro-Semibold'), url(http://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqSOFnW3Jk0f09zW_Yln67Ac.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+
+@keyframes vibrate {
+    0% {
+        margin-top: 0px;
+    }
+    25% {
+        margin-top: -2px;
+    }
+    50% {
+        margin-top: 0px;
+    }
+    75% {
+        margin-top: 2px;
+    }
+    100% {
+        margin-top: 0px;
+    }
 }
+@-moz-keyframes vibrate
+    /* Firefox
+{
+    0% {
+        margin-top: 0px;
+    }
+    25% {
+        margin-top: -2px;
+    }
+    50% {
+        margin-top: 0px;
+    }
+    75% {
+        margin-top: 2px;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+@-webkit-keyframes vibrate
+    /* Safari and Chrome
+{
+    0% {
+        marigin-top: 0px;
+    }
+    25% {
+        margin-top: -2px;
+    }
+    50% {
+        margin-top: 0px;
+    }
+    75% {
+        margin-top: 2px;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+@-o-keyframes vibrate
+    /* Opera
+{
+    0% {
+        margin-top: 0px;
+    }
+    25% {
+        margin-top: -2px;
+    }
+    50% {
+        margin-top: 0px;
+    }
+    75% {
+        margin-top: 2px;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+*/
+

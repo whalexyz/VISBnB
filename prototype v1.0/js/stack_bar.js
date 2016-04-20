@@ -469,5 +469,11 @@ function updateBarchart() {
 
         legend1.exit().remove();
     }
+    /*d3.select("#stack-chart-area")
+        .select('.x-axis')
+        .selectAll('.tick')
+        .on('click',function(d){
+            console.log(d);
+        });*/
 
-};
+}

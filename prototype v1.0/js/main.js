@@ -54,6 +54,13 @@ function matchSelect(){
 }
 
 $(".match-button").click(function(){
+    if(this.id=="match3"){
+        //if(this.class)
+        if($("#match3").attr("class").indexOf("expose")!=-1){
+            console.log($("#match3").attr("class"));
+            $("#btn-step-9").trigger("click");
+        }
+    }
     if(this.id!="match-overall"){
         matchSeriesId=parseInt(this.id.replace("match",""));
         setMatchId();
@@ -213,4 +220,9 @@ function displayScore(){
     //d3.select("#team1-score").text(score1).style("color",gswColor);
     //d3.select("#team2-score").text(score2).style("color",teamColors[sliderValue-1]);
 }
+
+
+
+
+
 

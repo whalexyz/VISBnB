@@ -32,6 +32,9 @@
                         <a class="page-scroll" href="#intro">Home Page</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#story" id="tutorial">Tutorials</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#story">Story Telling</a>
                     </li>
                     <li>
@@ -59,13 +62,103 @@
             </a>
         </div>
     </section>
+    <div id="tutorials-mask-div" class="overlay">
+        <div class="overlay-content">
+            <button class="closebtn"><span class="glyphicon glyphicon-remove"></span></button>
+            <div class="tutorial-step-div" id="tutorial-step-1">
+                <h1>Hi!</h1>
+                <p class="tutorial-text">Welcome to visit our website.</p>
+                <p class="tutorial-text">We are so glad to introduce our website to you!</p>
+                <button class="btn tutorial-btn" id="btn-step-1">Let's start</button>
+            </div>
+            <div class="tutorial-step-div" id="tutorial-step-2">
+                <h1>Cheer for the Warriors!</h1>
+                <p class="tutorial-text">Golden State Warriors is such a great team that they won the NBA champions last year.</p>
+                <p class="tutorial-text">In this project, you can explore how well Warriors played in the playoffs of season 2014-2015.</p>
+                <button class="btn tutorial-btn" id="btn-step-2">Got It</button>
+            </div>
+            <div class="tutorial-step-div" id="tutorial-step-3">
+                <h1>Get to know our web page</h1>
+                <p class="tutorial-text">This page is showing stats of each match that the Warriors played in playoffs stage.</p>
+                <button class="btn tutorial-btn" id="btn-step-3">Next</button>
+            </div>
+            <div class="tutorial-step-div" id="tutorial-step-4">
+                <div class="tutorial-location-div" id="location-div-1">
+                    <h1>What do these graphs mean?</h1>
+                    <p class="tutorial-text">This court chart shows locations where each team attempted shots in the match:</p>
+                    <ul>
+                        <li>
+                            <p class="tutorial-text">hexagons in dark colors represent shots made a goal </p>
+                        </li>
+                        <li>
+                            <p class="tutorial-text">missing shots are in slight colors </p>
+                        </li>
+                    </ul>
+
+                    <button class="btn tutorial-btn" id="btn-step-4">Next</button>
+                </div>
+            </div>
+            <div class="tutorial-step-div" id="tutorial-step-5">
+                <div class="tutorial-location-div" id="location-div-2">
+                    <h1>What do these graphs mean?</h1>
+                    <p class="tutorial-text">This bar chart shows the boxscore of the two teams</p>
+                    <button class="btn tutorial-btn" id="btn-step-5">Next</button>
+                </div>
+            </div>
+            <div class="tutorial-step-div" id="tutorial-step-6">
+                <h1>How to select stage?</h1>
+                <p class="tutorial-text">
+                    You can drag the slider bar in the top.
+                </p>
+                <button class="btn tutorial-btn" id="btn-step-6">Have a Try</button>
+            </div>
+            <div class="tutorial-step-div" id="tutorial-step-7">
+                <h1>Excellent!</h1>
+                <p class="tutorial-text">
+                    You have already change the stage. Now have a look at how to choose certain match.
+                </p>
+                <button class="btn tutorial-btn" id="btn-step-7">Take a Look</button>
+            </div>
+            <div class="tutorial-step-div" id="tutorial-step-8">
+                <h1>Match buttons</h1>
+                <p class="tutorial-text">The match buttons show the matches in current stage, representing matches in sequence.</p>
+                <p class="tutorial-text">In each stage, there are supposed to be 7 matches. If one team makes 4 wins, this team win this stage and get into the next stage.</p>
+                <p class="tutorial-text">The blue buttons with 'W' mean the Warriors win these matches.</p>
+                <p class="tutorial-text">Buttons in other color with 'L' mean the Warriors lose.</p>
+                <p class="tutorial-text">Gray buttons show canceled matches due to one team winning the stage already.</p>
+                <p class="tutorial-text">Yellow button will give you the overall average boxscore of this stage.</p>
+                <button class="btn tutorial-btn" id="btn-step-8">Show me</button>
+            </div>
+            <div class="tutorial-step-div" id="tutorial-step-9">
+                <h1>Your turn</h1>
+                <p class="tutorial-text">
+                    Please click on the highlight button and have a look at the results.
+                </p>
+                <p class="tutorial-text">
+                    See how the Warriors beat Houston Rockets in the 3rd match.
+                </p>
+                <button class="btn tutorial-btn" id="btn-step-9"></button>
+            </div>
+            <div class="tutorial-step-div" id="tutorial-step-10">
+                <h1>Done!</h1>
+                <p class="tutorial-text">
+                    Now you know how to play around with our website.
+                </p>
+                <p class="tutorial-text">
+                    Have fun with your exploration.
+                </p>
+                <button class="btn tutorial-btn" id="btn-step-10">Explore</button>
+            </div>
+        </div>
+    </div>
     <section id="story">
         <div class="section-head">
-            <h3>How Did Golden State Warriors Win the Playoffs?</h3>
+            <h3 id="title-1">How Did Golden State Warriors Win the Playoffs?</h3>
         </div>
         <div class="chart-container">
             <div class="timeline-chart" id="team-timeline-chart">
                 <input id="timeline" type="text"
+
                        data-provide="slider"
                        data-slider-ticks="[1, 2, 3, 4]"
                        data-slider-ticks-labels='["Stage 1", "Stage 2", "Stage 3", "Stage 4"]'
@@ -88,7 +181,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-2 col-left">
+                    <div class="col-lg-2 col-left" id="team1-div">
                         <img id="team1-img" class="team-img" src="img/1610612744.png"/>
                         <h3 class="team-title" id="team1-title">Golden State Warriors</h3>
                         <div class="score-div" id="score-div-1"></div>
@@ -103,7 +196,7 @@
                             <svg></svg>
                         </div>
                     </div>
-                    <div class="col-lg-2">
+                    <div class="col-lg-2" id="team2-div">
                         <img class="team-img" id="team2-img"/>
                         <h3 class="team-title" id="team2-title"></h3>
                         <div class="score-div" id="score-div-2"></div>
@@ -111,8 +204,6 @@
                 </div>
 
             </div>
-
-
         </div>
         <div class="page-scroll">
             <a class="page-scroll section-page-scroll" id="page-scroll-story" href="#player">
@@ -194,5 +285,6 @@
     <script src="js/bootstrap-slider.js"></script>
     <script src="js/stack_bar.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/tutorials.js"></script>
 </body>
 </html>

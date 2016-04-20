@@ -162,4 +162,5 @@ function updateStatBarchart(){
 
     stat.exit()
         .remove();
+
 }
