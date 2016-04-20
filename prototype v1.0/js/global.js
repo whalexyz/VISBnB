@@ -103,3 +103,31 @@ var team_selectValue1;
 var team_selectValue2;
 
 
+// general shooting chart size
+var courtWidth = 50;
+var visibleCourtLength = 37.375;
+var threePointSideRadius = 22;
+var keyWidth = 16;
+var colorLegendTitle = 'Field Goal';
+var colorLegendStartLabel_team = "Missed";
+var colorLegendEndLabel_team = "Made";
+var colorLegendStartLabel = "Low";
+var colorLegendEndLabel = "High";
+var largestHexagonRadius = 0.75;
+var colorXMid = courtWidth - (threePointSideRadius - keyWidth / 2) / 2 - (courtWidth / 2 - threePointSideRadius);
+var basketProtrusionLength = 4;
+var colorYStart = visibleCourtLength - basketProtrusionLength/3;
+
+
+var hexagonRadiusSizes = [0,.25, .4, .6,.75];
+var sizeRange = hexagonRadiusSizes.slice(-5);
+var sizeLengendWidth = 0;
+for (var c = 0, d = sizeRange.length; c < d; ++c) {
+    sizeLengendWidth += sizeRange[c] * 2;
+}
+var sizeXMid = (threePointSideRadius - keyWidth / 2) / 2 +
+    (courtWidth / 2 - threePointSideRadius);
+var sizeYStart = visibleCourtLength - basketProtrusionLength/3;
+var sizeLegendTitle='Frequency';
+var sizeLegendSmallLabel='Low';
+var sizeLegendLargeLabel='High';

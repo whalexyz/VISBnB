@@ -233,7 +233,91 @@ function onchange4(){
     updateBarchart();
 }
 
+var colorXStart =  colorXMid - (5 * largestHexagonRadius);
+var colorXStart1 = colorXStart;
+var hexbin = d3.hexbin();
+var hexagon = hexbin.hexagon(largestHexagonRadius);
+var hexbin1 = d3.hexbin();
+var hexagon1 = hexbin1.hexagon(largestHexagonRadius);
 
+
+// Text: color legend for the right court:
+var colorLegend = d3.selectAll("#chart-area").append('g')
+    .classed('legend', true);
+colorLegend.append("text")
+    .classed('legend-title', true)
+    .attr("x", colorXMid-colorXMid)
+    .attr("y", colorYStart + 20 - largestHexagonRadius * 2)
+    .attr("text-anchor", "middle")
+    .text(colorLegendTitle);
+colorLegend.append("text")
+    .attr("x", colorXStart-colorXMid)
+    .attr("y", colorYStart + 20)
+    .attr("text-anchor", "end")
+    .text(colorLegendStartLabel);
+colorLegend.append("text")
+    .attr("x", colorXStart-colorXMid + 5 * 2 * largestHexagonRadius)
+    .attr("y", colorYStart + 20)
+    .attr("text-anchor", "start")
+    .text(colorLegendEndLabel);
+
+// Text: color legend for the left court:
+var colorLegend1 = d3.selectAll("#chart-area").append('g')
+    .attr("class","shooting_legend")
+    .classed('legend', true);
+colorLegend1.append("text")
+    .classed('legend-title', true)
+    .attr("x", colorXMid + 7.5)
+    .attr("y", colorYStart + 20 - largestHexagonRadius * 2)
+    .attr("text-anchor", "middle")
+    .text(colorLegendTitle);
+colorLegend1.append("text")
+    .attr("x", colorXStart1+ 7.5)
+    .attr("y", colorYStart + 20)
+    .attr("text-anchor", "end")
+    .text(colorLegendStartLabel);
+colorLegend1.append("text")
+    .attr("x", colorXStart1+ 7.5 + 5 * 2 * largestHexagonRadius)
+    .attr("y", colorYStart + 20)
+    .attr("text-anchor", "start")
+    .text(colorLegendEndLabel);
+
+// Draw size legend for the full court:
+var sizeXStart = sizeXMid - (sizeLengendWidth / 2);
+var sizeLegend = d3.selectAll("#chart-area").append('g')
+    .classed('legend', true);
+sizeLegend.append("text")
+    .classed('legend-title', true)
+    .attr("x", sizeXMid+15)
+    .attr("y", sizeYStart  + 20- largestHexagonRadius * 2)
+    .attr("text-anchor", "middle")
+    .text(sizeLegendTitle);
+sizeLegend.append("text")
+    .attr("x", sizeXStart+15)
+    .attr("y", sizeYStart + 20)
+    .attr("text-anchor", "end")
+    .text(sizeLegendSmallLabel);
+
+var size = sizeLegend.selectAll('path').data(sizeRange);
+size
+    .enter()
+    .append('path')
+    .attr('d', function (d) { return hexbin.hexagon(d); })
+    .attr("transform", function (d, i) {
+        sizeXStart += d * 2;
+        return "translate(" +
+            (sizeXStart - d+15) + ", " +
+            (sizeYStart + 20) + ")";
+    })
+    .style('fill', 'gray');
+size.exit().remove();
+
+// Text: size legend for the full court:
+sizeLegend.append("text")
+    .attr("x", sizeXStart+15)
+    .attr("y", sizeYStart + 20)
+    .attr("text-anchor", "start")
+    .text(sizeLegendLargeLabel);
 
 
 function updateVisualization(){
@@ -382,6 +466,21 @@ function updateVisualization(){
             }
         });
 
+// Draw hexagon color legend for the right court:
+
+    var legend = colorLegend.selectAll('path').data(heatRange);
+    legend
+        .enter()
+        .append('path')
+        .attr('d', hexagon)
+        .attr("transform", function (d, i) {
+            return "translate(" +
+                (colorXStart-colorXMid + ((1 + i*2) *largestHexagonRadius)) + ", " +
+                (colorYStart + 20) + ")";
+        })
+        .style('fill', function (d, i) { return d; });
+    legend.exit().remove();
+
     if(selectValue){
         setTimeout(function(){
             court_right
@@ -422,6 +521,21 @@ function updateVisualization(){
                 bin.z2 = (totalZ + (point.z2 * attempts)) / bin.attempts;
             }
         });
+
+
+// Draw hexagon color legend for the left court:
+    var legend1 = colorLegend1.selectAll('path').data(heatRange2);
+    legend1
+        .enter()
+        .append('path')
+        .attr('d', hexagon1)
+        .attr("transform", function (d, i) {
+            return "translate(" +
+                (colorXStart1 + 7.5+ ((1 + i*2) *largestHexagonRadius)) + ", " +
+                (colorYStart + 20) + ")";
+        })
+        .style('fill', function (d, i) { return d; });
+    legend1.exit().remove();
 
     if(selectValue2){
         setTimeout(function(){

@@ -1,4 +1,3 @@
-
 function team_filter(variable) {
     return variable.game_id == matchId;
 }
@@ -54,6 +53,60 @@ function teamOnchange(){
     updateTeamVisualiteam_zation()
 }
  */
+
+
+// Text: team color legend for court right:
+var team_colorXStart = colorXMid - (2 * largestHexagonRadius);
+var team_hexbin = d3.hexbin();
+var team_hexagon = team_hexbin.hexagon(largestHexagonRadius);
+
+var team_colorLegend = d3.selectAll("#chart-area2").append('g')
+    .classed('legend', true);
+team_colorLegend.append("text")
+    .classed('legend-title', true)
+    .attr("x", colorXMid -colorXMid)
+    .attr("y", colorYStart + 20 - largestHexagonRadius * 2)
+    .attr("text-anchor", "middle")
+    .text(colorLegendTitle);
+team_colorLegend.append("text")
+    .attr("x", team_colorXStart -colorXMid-0.5)
+    .attr("y", colorYStart + 20)
+    .attr("text-anchor", "end")
+    .text(colorLegendStartLabel_team);
+team_colorLegend.append("text")
+    .attr("x", team_colorXStart  -colorXMid + 0.5 + 2 * 2 * largestHexagonRadius)
+    .attr("y", colorYStart + 20)
+    .attr("text-anchor", "start")
+    .text(colorLegendEndLabel_team);
+
+
+
+// Text: team color legend for court left:
+var team_colorXStart1 = colorXMid - (2 * largestHexagonRadius);
+var team_hexbin1 = d3.hexbin();
+var team_hexagon1 = team_hexbin1.hexagon(largestHexagonRadius);
+
+var team_colorLegend1 = d3.selectAll("#chart-area2").append('g')
+    .classed('legend', true);
+team_colorLegend1.append("text")
+    .classed('legend-title', true)
+    .attr("x", colorXMid + 7.5)
+    .attr("y", colorYStart + 20 - largestHexagonRadius * 2)
+    .attr("text-anchor", "middle")
+    .text(colorLegendTitle);
+team_colorLegend1.append("text")
+    .attr("x", team_colorXStart1 + 7)
+    .attr("y", colorYStart + 20)
+    .attr("text-anchor", "end")
+    .text(colorLegendStartLabel_team);
+team_colorLegend1.append("text")
+    .attr("x", team_colorXStart1 + 8 + 2 * 2 * largestHexagonRadius)
+    .attr("y", colorYStart + 20)
+    .attr("text-anchor", "start")
+    .text(colorLegendEndLabel_team);
+
+
+
 function updateTeamVisualiteam_zation(gameid){
     team_court_func();
     //console.log(gameid);
@@ -215,6 +268,19 @@ function updateTeamVisualiteam_zation(gameid){
             }
         });
 
+    // Draw team color legend for court right:
+    var team_legend = team_colorLegend.selectAll('path').data(team_heatRange);
+    team_legend
+        .enter()
+        .append('path')
+        .attr('d', team_hexagon)
+        .attr("transform", function (d, i) {
+            return "translate(" +
+                (team_colorXStart  -colorXMid + ((1 + i*2) *largestHexagonRadius)) + ", " +
+                (colorYStart + 20) + ")";
+        })
+        .style('fill', function (d, i) { return d; });
+    team_legend.exit().remove();
 
         setTimeout(function(){
             team_court_right
@@ -251,18 +317,26 @@ function updateTeamVisualiteam_zation(gameid){
             }
         });
 
+    // Draw team color legend for court left:
+    var team_legend1 = team_colorLegend1.selectAll('path').data(team_heatRange2);
+    team_legend1
+        .enter()
+        .append('path')
+        .attr('d', team_hexagon1)
+        .attr("transform", function (d, i) {
+            return "translate(" +
+                (team_colorXStart1 + 7.5 + ((1 + i*2) *largestHexagonRadius)) + ", " +
+                (colorYStart + 20) + ")";
+        })
+        .style('fill', function (d, i) { return d; });
+    team_legend1.exit().remove();
 
         setTimeout(function(){
             team_court_left
                 .draw(team_tenderData2);
         }, 250);
-
-
-
-
 }
 
 function team_court_func(){
-    //d3.select(".team-shot-chart").select("svg").html();
     d3.selectAll(".team-shot-chart").remove();
 }

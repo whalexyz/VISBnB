@@ -22,10 +22,10 @@
             this.drawCourt();
 
             // add title
-            this.drawTitle();
+            //this.drawTitle();
 
             // draw legend
-            this.drawLegend();
+            //this.drawLegend();
 
             // add data
             this.drawShots();

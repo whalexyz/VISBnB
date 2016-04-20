@@ -302,7 +302,11 @@ svg#chart-area2{
 #player2-img {
     left:-30px;
 }
+/* Shooting legend
 
+text.shooting_legend{
+    font-size:10px;
+} */
 
 /*Tutorials*/
 .overlay {
