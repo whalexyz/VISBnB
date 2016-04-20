@@ -436,7 +436,7 @@
         // bin size with regards to courth width/height (ft)
         hexagonRadius: .8,
         // discrete hexagon size values that radius value is mapped to
-        hexagonRadiusSizes: [0,.25,.5,.75],
+        hexagonRadiusSizes: [0,.75],
         // how many points in a bin to consider it while building radius scale
         hexagonRadiusThreshold: 0,
         // method to determine radius value to be used in radius scale

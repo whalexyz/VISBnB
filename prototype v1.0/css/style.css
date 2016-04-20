@@ -71,6 +71,7 @@ h1,h2,h3,h4{
 /* section */
 section{
     margin:0 50px 0 0;
+    padding-top:50px;
 }
 
 
@@ -202,6 +203,10 @@ button.disabled {
     text-align: center;
 }
 
+#match-overall{
+    background-color: #FDB927;
+}
+
 /* team titles */
 
 .team-title{
@@ -227,6 +232,14 @@ button.disabled {
 .score-text{
     font-family: 'Oswald', sans-serif;
     font-size:72px;
+}
+
+#stat-title{
+    margin-top:5px;
+    margin-bottom:5px;
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+    font-size:32px;
 }
 
 /* shooting chart */
@@ -283,6 +296,7 @@ svg#chart-area2{
 #player1-img,#player2-img{
     width:160px;
     height:auto;
+    borer-radius:100%
 }
 
 #player2-img {

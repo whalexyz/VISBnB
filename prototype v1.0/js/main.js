@@ -5,6 +5,7 @@ stage 3: 41400311-15
 stage 4: 41400401-06
     */
 
+loopNum=4;
 matchSelect();
 
 //var scoreSVG = d3.select(".score-div").append("svg").attr("width", 160).attr("height", 160);
@@ -19,7 +20,6 @@ $('#timeline').slider().on('change',function(value){
 });
 
 function matchSelect(){
-    var loopNum;
     switch (sliderValue){
         case 1:
             loopNum=4;
@@ -44,32 +44,49 @@ function matchSelect(){
         if($(this).is(".disabled")){
             $(this).removeClass("disabled")
         }
-        if (this.id.replace("match","")>loopNum){
+        if (this.id.replace("match","")>loopNum&&this.id.replace("match","")!="-overall"){
             $(this).addClass("disabled");
         }
     });
-    $("#match1").trigger("click");
-    console.log("start");
+
+    $("#match-overall").trigger("click");
+    //console.log("start");
 }
 
 $(".match-button").click(function(){
-    matchSeriesId=parseInt(this.id.replace("match",""));
-    setMatchId();
+    if(this.id!="match-overall"){
+        matchSeriesId=parseInt(this.id.replace("match",""));
+        setMatchId();
+        afterBtnClickUpdate(matchId);
+    }else{
+        var matchids=[];
+        for (var i=1;i<=loopNum;i++){
+            matchids.push("00" + (i+ gameIdBase).toString());
+        }
+        matchSeriesId=8;
+        //teamShootingChartId=matchids;
+        setMatchId();
+        afterBtnClickUpdate(matchids);
+        //updateTeamVisualiteam_zation(matchids);
+    }
+    //afterBtnClickUpdate();
 });
 
 
-function setMatchId(){
-    matchId="00"+(matchSeriesId+gameIdBase).toString();
-    opId=opList[sliderValue-1];
-    statNames[1]=refIdToName[opId];
+function setMatchId() {
+    matchId = "00" + (matchSeriesId + gameIdBase).toString();
+    opId = opList[sliderValue - 1];
+    statNames[1] = refIdToName[opId];
+}
 
-    updateTeamVisualiteam_zation(matchId);
+function afterBtnClickUpdate(gameid){
+    updateTeamVisualiteam_zation(gameid);
     selectStatData();
     displayScore();
 }
 
 //load stat bar chart data
-d3.csv("data/gamelog.csv",function(error,csv){
+d3.csv("data/gamelog_average.csv",function(error,csv){
     csv.forEach(function(d){
         if (error) throw error;
         // Convert numeric values to 'numbers'
@@ -89,6 +106,7 @@ d3.csv("data/gamelog.csv",function(error,csv){
         d.pts_y=+d.pts_y;
     });
     allStat=csv;
+    statDataFlag=true;
     displayScore();
     setButton();
     selectStatData();
@@ -107,8 +125,8 @@ d3.csv("data/team_shots.csv", function(error, csv) {
     });
     // Store csv data in global variable
     team_data = csv;
-
-    updateTeamVisualiteam_zation(matchId);
+    $("#match-overall").trigger("click");
+    //updateTeamVisualiteam_zation(matchId);
 });
 
 function setButton(){
@@ -120,7 +138,7 @@ function setButton(){
         if(value.wl_x=="W"){
             buttonColor=gswColor;
             buttonText="W";
-        }else{
+        }else if(value.wl_x=="L"){
             buttonColor=teamColors[sliderValue-1];
             buttonText="L";
         }
@@ -135,6 +153,20 @@ function displayScore(){
     //console.log(allStat);
     var score1=scores[0].pts_x;
     var score2=scores[0].pts_y;
+    //$("#match-title").text(scores[0].matchup_x);
+    if (matchSeriesId != 8) {
+        var textColor;
+        if(scores[0].wl_x=="W"){
+            textColor=gswColor;
+        }else{
+            textColor=teamColors[sliderValue-1];
+        }
+        $("#stat-title").text("Match " + matchSeriesId.toString()).css('color',textColor);
+    } else {
+
+        $("#stat-title").text("Overall Stats").css("color","#FDB927");
+    }
+
     scoreSVG1.selectAll("text")
         .data([score1])
         .enter()

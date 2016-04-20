@@ -3,10 +3,13 @@
  */
 var sliderValue=1;
 var gameIdBase=41400140;
-var matchSeriesId=1;
-var matchId="0041400141";
-var playids;
+var matchSeriesId=8;
+var matchId="0041400148";
+//var playids;
 var gswColor="#006BB6";
+var loopNum;
+var statDataFlag=false;
+
 
 var scoreSVG1 = d3.select("#score-div-1").append("svg").attr("width", 160).attr("height", 160);
 var scoreSVG2 = d3.select("#score-div-2").append("svg").attr("width", 160).attr("height", 160);

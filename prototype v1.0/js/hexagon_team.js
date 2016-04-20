@@ -56,9 +56,21 @@ function teamOnchange(){
  */
 function updateTeamVisualiteam_zation(gameid){
     team_court_func();
+    //console.log(gameid);
     //team_selectValue = d3.select('#team-select1').property('value');
     //team_data_update = team_data.filter(team_filter);
-    team_data_update = team_data.filter(function(d){return d.game_id==gameid});
+    if (typeof(gameid)=="string"){
+        team_data_update = team_data.filter(function(d){return d.game_id==gameid});
+
+    }else{
+        team_data_update=[];
+        for (var i=0;i<gameid.length;i++){
+            //console.log(gameid[i]);
+            var temp= team_data.filter(function(d){return d.game_id==gameid[i]});
+            team_data_update=team_data_update.concat(temp);
+        }
+    }
+    //console.log(team_data_update);
     team_selectValue1 = team_data_update.filter(function(d){return d.team_id=="1610612744"});
     team_selectValue2 = team_data_update.filter(function(d){return d.team_id!="1610612744"});
 
@@ -168,7 +180,7 @@ function updateTeamVisualiteam_zation(gameid){
     var team_court = d3.select("#team-shooting-chart")
         .select("svg")
         .attr("width",800)
-        .attr("height", 400)
+        .attr("height", 350)
         .attr("viewBox", "0 0 60 60");
 
     team_tenderData2 = team_finalData2;
