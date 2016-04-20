@@ -15,12 +15,12 @@ var scoreSVG1 = d3.select("#score-div-1").append("svg").attr("width", 160).attr(
 var scoreSVG2 = d3.select("#score-div-2").append("svg").attr("width", 160).attr("height", 160);
 //for the stat bar chart
 var allStat;
-var boxscore_data=[{statType:"fgm",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
-    {statType:"reb",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
-    {statType:"ast",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
-    {statType:"stl",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
-    {statType:"blk",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
-    {statType:"tov",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]}];
+var boxscore_data=[{statType:"Goal",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
+    {statType:"Rebounce",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
+    {statType:"Assist",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
+    {statType:"Steal",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
+    {statType:"Block",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
+    {statType:"Turnover",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]}];
 var opList=["1610612740","1610612763","1610612745","1610612739"];
 var opId=opList[sliderValue-1];
 var refIdToName={"1610612744":"Golden State Warriors", "1610612745":"Houston Rockets","1610612740":"New Orleans Pelicans","1610612763":"Memphis Grizzlies","1610612739":"Cleveland Cavaliers"};

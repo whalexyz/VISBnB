@@ -16,6 +16,7 @@
     var team_BasketballShotChart = d3.chart('team_BasketballShotChart', {
 
         initialize: function () {
+            //console.log(this)
             this.calculateVisibleCourtLength();
 
             var base = this.base
