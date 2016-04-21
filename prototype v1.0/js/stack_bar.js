@@ -61,7 +61,7 @@ var legend1=svg.selectAll(".legend1")
     .enter().append("g")
     .attr("class", "legend1")
     .attr("transform", function (d, i) {
-        return "translate(0," + i * 20 + ")";
+        return "translate(0," + (i * 20+10) + ")";
     });
 
 
@@ -74,7 +74,7 @@ legend1.append("rect")
     .style("fill", lineupcolor1);
 
 legend1.append("text")
-    .attr("x", width - 38)
+    .attr("x", width - 40)
     .attr("y", 10)
     .attr("dy", ".35em")
     .style("text-anchor", "end")
@@ -87,7 +87,7 @@ var legend2=svg.selectAll(".legend2")
     .enter().append("g")
     .attr("class", "legend2")
     .attr("transform", function (d, i) {
-        return "translate(0," + i * 20 + ")";
+        return "translate(0," +(i * 20+10) + ")";
     });
 
 legend2.append("rect")
@@ -101,17 +101,18 @@ var stacktext=svg.append("g")
     .append("text")
     .attr("class","y-label")
     .attr("text-anchor","middle")
-    .attr("x",50)
-    .attr("y",0)
-    .style("font-size","18px")
-    .text("Shot Made");
+    .attr("x",40)
+    .attr("y",-5)
+    .style("font-size","12px")
+    .attr("transform","rotate(90)")
+    .text("Shot Attempted");
 
 
 var titletext=svg.append("g")
     .append("text")
     .attr("class","stacktext")
-    .attr("text-anchor","middle")
-    .attr("x",width/2)
+    .attr("text-anchor","end")
+    .attr("x",width)
     .attr("y",0)
     .style("font-size","18px");
 
@@ -735,8 +736,8 @@ function updateBarchart3(){
         .duration(500)
         .call(stackyaxis);
 
-    //console.log(tmpplayer1[0]);
-    //console.log(tmpplayer2[0]);
+    console.log(tmpplayer1[0]);
+    console.log(tmpplayer2[0]);
 
 
 
@@ -834,8 +835,8 @@ function updateBarchart4(){
         return d.shot_zone_range==selectValue4;
     })
     //console.log("Hello")
-    //console.log(selectValue4)
-    //console.log(tmptmpplayer1)
+    console.log(selectValue4)
+    console.log(tmptmpplayer1)
 
         if(selectValue3=="Jump"){
 
@@ -852,7 +853,7 @@ function updateBarchart4(){
         }
 
 
-    //console.log(tmpplayer1)
+    console.log(tmpplayer1)
 
 
 
@@ -869,7 +870,7 @@ function updateBarchart4(){
 
 
     var max=Math.max((tmpplayer1.y1-tmpplayer1.y0),(tmpplayer2.y1-tmpplayer2.y0));
-    console.log(max)
+  //  console.log(max)
     stackx.domain([selectValue4]);
     stacky.domain([0,max]);
 
@@ -896,17 +897,16 @@ function updateBarchart4(){
 
 
     var rec1 = svg.selectAll(".rect3")
-        .data(tmpplayer1);
+        .data([tmpplayer1])
 //console.log("Hello")
-    rec1.enter().append("rect")
+    rec1.enter()
+        .append("rect")
         .attr("class", "rect3");
     rec1.transition()
         .duration(500)
-        .attr("width", stackx.rangeBand()/2)
+        .attr("width", stackx.rangeBand()/4)
         .attr("x",function(d){
-           // console.log(stackx(d.shot_zone_range))
-            //return stackx(d.shot_zone_range);
-            return 20;
+            return stackx(d.shot_zone_range)+stackx.rangeBand()/4;
         })
         .attr("y", function (d) {
             no= d.y1- d.y0
@@ -918,9 +918,8 @@ function updateBarchart4(){
         })
         .style("fill", function (d) {
             return lineupcolor1(d.name);
-        }
+        })
 
-);
     rec1.exit().transition().remove();
 
 
@@ -929,15 +928,15 @@ function updateBarchart4(){
 
 
     var rec2 = svg.selectAll(".rect4")
-        .data(tmpplayer2);
+        .data([tmpplayer2]);
 
     rec2.enter().append("rect")
         .attr("class", "rect4");
     rec2.transition()
         .duration(500)
-        .attr("width", stackx.rangeBand()/2)
+        .attr("width", stackx.rangeBand()/4)
         .attr("x",function(d){
-            //console.log(stackx(d.shot_zone_range))
+            console.log(stackx(d.shot_zone_range))
             return stackx(d.shot_zone_range);
         })
         .attr("y", function (d) {
