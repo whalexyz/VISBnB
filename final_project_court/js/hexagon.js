@@ -127,7 +127,7 @@ function onchange2(){
 
 function onchange3(){
     court_func();
-    selectValue3 = d3.select('#select3').property('value');
+  //  selectValue3 = d3.select('#select3').property('value');
 
     if (selectValue4){
         data = data_origin.filter(shotzonerange).filter(shottype);
@@ -140,7 +140,7 @@ function onchange3(){
 
 function onchange4(){
     court_func();
-    selectValue4 = d3.select('#select4').property('value');
+   // selectValue4 = d3.select('#select4').property('value');
 
     if (selectValue3){
         data = data_origin.filter(shottype).filter(shotzonerange);
