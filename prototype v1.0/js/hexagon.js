@@ -407,11 +407,19 @@ function updateVisualization(){
         z.push(a.values.shootingPercentage);
     });
 
-    var meanShot = (z.reduce(function(a, b){return a+b;}))/ z.length;
-    console.log(meanShot)
+    var meanShot;
     var z_square = [];
-    for (var j = 0; j < z.length; j++) {z_square[j] = z[j]*z[j]}
-    var shotSTDV = Math.sqrt((z_square.reduce(function(a,b){return a+b})- z.length*meanShot*meanShot)/ z.length);
+    var shotSTDV;
+    for (var j = 0; j < z.length; j++) {z_square[j] = z_square[0]}
+    if (z.length == 0){
+        meanShot = 0;
+        shotSTDV = 0;
+    }
+    else{
+        meanShot= (z.reduce(function(a, b){return a+b;}))/ z.length;
+        for (var j = 0; j < z.length; j++) {z_square[j] = z[j]*z[j]}
+        shotSTDV = Math.sqrt((z_square.reduce(function(a,b){return a+b})- z.length*meanShot*meanShot)/ z.length);
+    }
 
     var finalData = [];
     coll.forEach(function (a) {
@@ -425,10 +433,20 @@ function updateVisualization(){
         z2.push(a.values.shootingPercentage);
     });
 
-    var meanShot2 = (z2.reduce(function(a, b){return a+b;}))/ z2.length;
+    var meanShot2;
     var z_square2 = [];
-    for (var l = 0; l < z2.length; l++) {z_square2[l] = z2[l]*z2[l]}
-    var shotSTDV2 = Math.sqrt((z_square2.reduce(function(a,b){return a+b})- z2.length*meanShot2*meanShot2)/ z2.length);
+    var shotSTDV2;
+    for (var l = 0; l < z2.length; l++) {z_square2[l] = z_square2[0]}
+    if (z2.length == 0){
+        meanShot2 = 0;
+        shotSTDV2 = 0;
+    }
+    else{
+        meanShot2= (z2.reduce(function(a, b){return a+b;}))/ z2.length;
+        for (var l = 0; l < z2.length; l++) {z_square2[l] = z2[l]*z2[l]}
+        shotSTDV2 = Math.sqrt((z_square2.reduce(function(a,b){return a+b})- z2.length*meanShot2*meanShot2)/ z2.length);
+    }
+
 
     var finalData2 = [];
     coll2.forEach(function (a) {

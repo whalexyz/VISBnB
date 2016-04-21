@@ -735,8 +735,8 @@ function updateBarchart3(){
         .duration(500)
         .call(stackyaxis);
 
-    console.log(tmpplayer1[0]);
-    console.log(tmpplayer2[0]);
+    //console.log(tmpplayer1[0]);
+    //console.log(tmpplayer2[0]);
 
 
 
@@ -834,8 +834,8 @@ function updateBarchart4(){
         return d.shot_zone_range==selectValue4;
     })
     //console.log("Hello")
-    console.log(selectValue4)
-    console.log(tmptmpplayer1)
+    //console.log(selectValue4)
+    //console.log(tmptmpplayer1)
 
         if(selectValue3=="Jump"){
 
@@ -852,7 +852,7 @@ function updateBarchart4(){
         }
 
 
-    console.log(tmpplayer1)
+    //console.log(tmpplayer1)
 
 
 
@@ -897,7 +897,7 @@ function updateBarchart4(){
 
     var rec1 = svg.selectAll(".rect3")
         .data(tmpplayer1);
-console.log("Hello")
+//console.log("Hello")
     rec1.enter().append("rect")
         .attr("class", "rect3");
     rec1.transition()
@@ -937,7 +937,7 @@ console.log("Hello")
         .duration(500)
         .attr("width", stackx.rangeBand()/2)
         .attr("x",function(d){
-            console.log(stackx(d.shot_zone_range))
+            //console.log(stackx(d.shot_zone_range))
             return stackx(d.shot_zone_range);
         })
         .attr("y", function (d) {
