@@ -11,6 +11,9 @@ var selectValue2="LeBron James";
 var selectValue3="All";
 var selectValue4="All";
 
+var player1_count = [];
+var player2_count = [];
+
 function player_filter(variable) {
     return variable.player_name == selectValue;
 }
@@ -129,6 +132,9 @@ function loadData(){
             d3.select("#player2-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].player+".png");
         });
 */
+        data_update = data.filter(player_filter);
+        data_update2 = data.filter(player_filter2);
+
         updateVisualization();
         updateBarchart();
 })}
@@ -165,9 +171,11 @@ function onchange1(){
     console.log(playerid)
     d3.select("#player1-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].person_id+".png");
 
+
+    updateBarchart();
     updateVisualization();
     updateRadarVisualization1();
-    updateBarchart();
+
     //filterlineup1();
 }
 
@@ -177,60 +185,65 @@ function onchange2(){
     data_update2 = data.filter(player_filter2);
     var playerid=data_update2.filter(function(d){return d.player_name==selectValue2});
     d3.select("#player2-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].person_id+".png");
-
+    updateBarchart();
     updateVisualization();
     updateRadarVisualization2();
-    updateBarchart();
+
     //filterlineup2();
 }
 
 function onchange3(){
     court_func();
-    selectValue3 = d3.select('#select3').property('value');
+    data_update = data.filter(player_filter);
+    data_update2 = data.filter(player_filter2);
+   // selectValue3 = d3.select('#select3').property('value');
     if(selectValue3 == "All"){
         if (selectValue4 != "All"){
-            data = data_origin.filter(shotzonerange);
+            data_update = data_update.filter(shotzonerange);
+            data_update2=data_update2.filter(shotzonerange)
         }
-        else{data = data_origin;}
+        else{}
     }
     else{
         if (selectValue4 != "All"){
-            data = data_origin.filter(shotzonerange).filter(shottype);
+            data_update = data_update.filter(shotzonerange).filter(shottype);
+            data_update2=data_update2.filter(shotzonerange).filter(shottype);
         }
 
-        else{data = data_origin.filter(shottype);}
+        else{
+            data_update = data_update.filter(shottype);
+        data_update2=data_update2.filter(shottype)}
     }
-
-    updateVisualization();
     updateBarchart();
+    updateVisualization();
+
 }
 
 function onchange4(){
     court_func();
-    selectValue4 = d3.select('#select4').property('value');
-    if(selectValue4 == "All") {
-        if (selectValue3 != "All") {
-            data = data_origin.filter(shottype);
+    data_update = data.filter(player_filter);
+    data_update2 = data.filter(player_filter2);
+   // selectValue4 = d3.select('#select4').property('value');
+    if(selectValue3 == "All"){
+        if (selectValue4 != "All"){
+            data_update = data_update.filter(shotzonerange);
+            data_update2=data_update2.filter(shotzonerange)
         }
-
-        else {
-            data = data_origin;
-        }
+        else{}
     }
     else{
-        if (selectValue3 != "All") {
-            data = data_origin.filter(shottype).filter(shotzonerange);
+        if (selectValue4 != "All"){
+            data_update = data_update.filter(shotzonerange).filter(shottype);
+            data_update2=data_update2.filter(shotzonerange).filter(shottype);
         }
 
-        else {
-            data = data_origin.filter(shotzonerange);
-        }
+        else{
+            data_update = data_update.filter(shottype);
+            data_update2=data_update2.filter(shottype)}
     }
-    updateVisualization();
 
-    data_update = data_update.filter(shotzonerange);
-    data_update2 = data_update2.filter(shotzonerange);
     updateBarchart();
+    updateVisualization();
 }
 
 var colorXStart =  colorXMid - (5 * largestHexagonRadius);
@@ -322,8 +335,6 @@ sizeLegend.append("text")
 
 function updateVisualization(){
     court_func();
-    selectValue = d3.select('#select1').property('value');
-    data_update = data.filter(player_filter);
 
     var tenderData = [];
     for (var i = 0; i < data_update.length; i++) {
@@ -335,8 +346,7 @@ function updateVisualization(){
         });
     }
 
-    selectValue2 = d3.select('#select2').property('value');
-    data_update2 = data.filter(player_filter2);
+
 
     var tenderData2 = [];
     for (var k = 0; k < data_update2.length; k++) {
