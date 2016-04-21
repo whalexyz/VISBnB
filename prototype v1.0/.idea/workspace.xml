@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c06b01a1-0c70-4691-9ee5-3f00addeac2c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/basketball_court.js" afterPath="$PROJECT_DIR$/js/basketball_court.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/hexagon.js" afterPath="$PROJECT_DIR$/js/hexagon.js" />
     </list>
     <ignored path="prototype v1.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.984252">
+            <state vertical-scroll-proportion="-52.5">
               <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
               <folding />
             </state>
@@ -81,8 +82,18 @@
       <file leaf-file-name="hexagon.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/hexagon.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="321" column="0" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.8888888">
+              <caret line="406" column="26" selection-start-line="406" selection-start-column="26" selection-end-line="406" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stack_bar.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/stack_bar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5458861">
+              <caret line="747" column="37" selection-start-line="747" selection-start-column="37" selection-end-line="747" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -92,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/js/basketball_court.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="451" column="37" selection-start-line="447" selection-start-column="8" selection-end-line="451" selection-end-column="37" />
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -101,7 +112,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-21.875">
               <caret line="304" column="18" selection-start-line="304" selection-start-column="18" selection-end-line="304" selection-end-column="18" />
               <folding />
             </state>
@@ -130,16 +141,16 @@
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/js/lineup.js" />
         <option value="$PROJECT_DIR$/js/traditional_stat_barchart.js" />
-        <option value="$PROJECT_DIR$/js/stack_bar.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/tutorials.js" />
         <option value="$PROJECT_DIR$/js/basketball_court_team.js" />
-        <option value="$PROJECT_DIR$/js/basketball_court.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/global.js" />
-        <option value="$PROJECT_DIR$/js/hexagon.js" />
         <option value="$PROJECT_DIR$/js/hexagon_team.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/basketball_court.js" />
+        <option value="$PROJECT_DIR$/js/hexagon.js" />
+        <option value="$PROJECT_DIR$/js/stack_bar.js" />
       </list>
     </option>
   </component>
@@ -314,7 +325,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="23" width="1241" height="777" extended-state="6" />
+    <frame x="39" y="23" width="1241" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12213115" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -690,13 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/stack_bar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8634294">
-          <caret line="478" column="1" selection-start-line="478" selection-start-column="1" selection-end-line="478" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/traditional_stat_barchart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.63774735">
@@ -729,10 +733,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/hexagon.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="321" column="0" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
+        <state vertical-scroll-proportion="-52.5">
+          <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.875">
+          <caret line="304" column="18" selection-start-line="304" selection-start-column="18" selection-end-line="304" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -740,23 +752,23 @@
     <entry file="file://$PROJECT_DIR$/js/basketball_court.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="451" column="37" selection-start-line="447" selection-start-column="8" selection-end-line="451" selection-end-column="37" />
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/hexagon.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="304" column="18" selection-start-line="304" selection-start-column="18" selection-end-line="304" selection-end-column="18" />
+        <state vertical-scroll-proportion="-3.8888888">
+          <caret line="406" column="26" selection-start-line="406" selection-start-column="26" selection-end-line="406" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/stack_bar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.984252">
-          <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.5458861">
+          <caret line="747" column="37" selection-start-line="747" selection-start-column="37" selection-end-line="747" selection-end-column="37" />
           <folding />
         </state>
       </provider>

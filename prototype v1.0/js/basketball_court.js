@@ -26,7 +26,6 @@
 
             // draw legend
             //this.drawLegend();
-
             // add data
             this.drawShots();
         },

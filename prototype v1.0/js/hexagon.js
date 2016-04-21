@@ -408,6 +408,7 @@ function updateVisualization(){
     });
 
     var meanShot = (z.reduce(function(a, b){return a+b;}))/ z.length;
+    console.log(meanShot)
     var z_square = [];
     for (var j = 0; j < z.length; j++) {z_square[j] = z[j]*z[j]}
     var shotSTDV = Math.sqrt((z_square.reduce(function(a,b){return a+b})- z.length*meanShot*meanShot)/ z.length);
