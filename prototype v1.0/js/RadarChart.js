@@ -37,6 +37,8 @@ var RadarChart = {
 	}
 	//cfg.maxValue = Math.max(cfg.maxValue, d3.max(d, function(i){return d3.max(i.map(function(o){return o.value;}))}));
 	cfg.maxValue=1;
+
+	  console.log(d[0])
 	var allAxis = (d[0].map(function(i, j){return i.axis}));
 	var total = allAxis.length;
 	var radius = cfg.factor*Math.min(cfg.w/2, cfg.h/2);
@@ -49,7 +51,7 @@ var RadarChart = {
 			.attr("height", cfg.h+cfg.ExtraWidthY)
 			.append("g")
 			.attr("transform", "translate(" + cfg.TranslateX + "," + cfg.TranslateY + ")");
-			;
+
 
 	var tooltip;
 	
@@ -57,7 +59,7 @@ var RadarChart = {
 	for(var j=0; j<cfg.levels-1; j++){
 	  var levelFactor = cfg.factor*radius*((j+1)/cfg.levels);
 	  g.selectAll(".levels")
-	   .data(allAxis)
+	   .data(d[0])
 	   .enter()
 	   .append("svg:line")
 	   .attr("x1", function(d, i){return levelFactor*(1-cfg.factor*Math.sin(i*cfg.radians/total));})
@@ -91,7 +93,7 @@ var RadarChart = {
 	series = 0;
 
 	var axis = g.selectAll(".axis")
-			.data(allAxis)
+			.data(d[0])
 			.enter()
 			.append("g")
 			.attr("class", "axis");
@@ -103,7 +105,7 @@ var RadarChart = {
 		.attr("y2", function(d, i){return cfg.h/2*(1-cfg.factor*Math.cos(i*cfg.radians/total));})
 		.attr("class", "line")
 		.style("stroke", function(d,i){
-			if(d=="Personal Fouls"||d=="Turnovers"){
+			if(d.axis=="Personal Fouls"|| d.axis=="Turnovers"){
 				return "red"
 			}
 			else{
@@ -112,9 +114,18 @@ var RadarChart = {
 		})
 		.style("stroke-width", "1px");
 
+	  var radartip = d3.tip()
+		  .attr('class', 'd3-tip')
+		  .offset([-10, 0])
+		  .html(function(d) {
+			  console.log(d)
+			  return "<p><strong>"+d.axis+" </strong>:"+ d.description+"</p>"
+		  });
+
+	  axis.call(radartip)
 	  axis.append("text")
 		  .attr("class", "legend")
-		  .text(function(d){return d})
+		  .text(function(d){return d.axis})
 		  .style("font-family", "sans-serif")
 		  .style("font-size", "11px")
 		  .attr("text-anchor", "middle")
@@ -123,13 +134,15 @@ var RadarChart = {
 		  .attr("x", function(d, i){return cfg.w/2*(1-cfg.factorLegend*Math.sin(i*cfg.radians/total))-60*Math.sin(i*cfg.radians/total);})
 		  .attr("y", function(d, i){return cfg.h/2*(1-Math.cos(i*cfg.radians/total))-20*Math.cos(i*cfg.radians/total);})
 		  .style("fill", function(d,i){
-			  if(d=="Personal Fouls"||d=="Turnovers"){
+			  if(d.axis=="Personal Fouls"|| d.axis=="Turnovers"){
 				  return "red"
 			  }
 			  else{
 				  return "black"
 			  }
-		  });
+		  })
+		  .on("mouseover", radartip.show)
+		  .on("mouseleave", radartip.hide);
 
  
 	d.forEach(function(y, x){

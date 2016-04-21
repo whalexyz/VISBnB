@@ -6,12 +6,14 @@ function updateRadarVisualization1(){
 		return(d.player_name==selectValue)
 	});
 	d1=radardata1.map(function(d){
-		a=[{axis:"Assists",value: d.ast},
-			{axis:"Blocks",value: d.blk},
-			{axis:"Personal Fouls",value: d.pf},
-			{axis:"Rebounds",value: d.reb},
-			{axis:"Turnovers",value: d.tov},
-			{axis:"Steals",value: d.stl}];
+		a=[{axis:"Assists",value: d.ast,description:"An assist occurs when a player completes a pass to a teammate that directly leads to a made field goal."},
+			{axis:"Blocks",value: d.blk,description:"A block occurs whenand offensive player attempts a shot, and the defense player tips the ball, " +
+			"blocking their chance to score."},
+			{axis:"Personal Fouls",value: d.pf,description:"The total number of fouls that a player or team has committed"},
+			{axis:"Rebounds",value: d.reb,description:"A rebound occurs when a player recovers the ball after a  missed shot. This statistic is the " +
+			"number of total rebounds a player or team has collected on either offense of defense."},
+			{axis:"Turnovers",value: d.tov,description:"A turnover occurs when the team on offense loses the ball to the defense."},
+			{axis:"Steals",value: d.stl,description:"A steal occurs when a defensive player takes the ball from a player on offense, causing a turnover."}];
 		return a
 	});
 
@@ -100,12 +102,15 @@ function updateRadarVisualization2(){
 		return(d.player_name==selectValue2)
 	})
 	d2=radardata2.map(function(d){
-		a=[{axis:"Assists",value: d.ast},
-			{axis:"Blocks",value: d.blk},
-			{axis:"Personal Fouls",value: d.pf},
-			{axis:"Rebounds",value: d.reb},
-			{axis:"Turnovers",value: d.tov},
-			{axis:"Steals",value: d.stl}]
+		a=[{axis:"Assists",value: d.ast,description:"An assist occurs when a player completes a pass to a teammate that directly leads to a made field goal."},
+			{axis:"Blocks",value: d.blk,description:"A block occurs whenand offensive player attempts a shot, and the defense player tips the ball, " +
+			"blocking their chance to score."},
+			{axis:"Personal Fouls",value: d.pf,description:"The total number of fouls that a player or team has committed"},
+			{axis:"Rebounds",value: d.reb,description:"A rebound occurs when a player recovers the ball after a  missed shot. This statistic is the " +
+			"number of total rebounds a player or team has collected on either offense of defense."},
+			{axis:"Turnovers",value: d.tov,description:"A turnover occurs when the team on offense loses the ball to the defense."},
+			{axis:"Steals",value: d.stl,description:"A steal occurs when a defensive player takes the ball from a player on offense, causing a turnover."}];
+
 		return a
 	});
 	var w = 200,
