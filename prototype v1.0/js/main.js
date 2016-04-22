@@ -90,6 +90,7 @@ function afterBtnClickUpdate(gameid){
     updateTeamVisualiteam_zation(gameid);
     selectStatData();
     displayScore();
+    updateDonut(gameid);
 }
 
 //load stat bar chart data
@@ -178,7 +179,7 @@ function displayScore(){
         .data([score1])
         .enter()
         .append("text")
-        .attr("class","score-text").attr("x",40).attr("y",92).attr("fill",gswColor)
+        .attr("class","score-text").attr("x",0).attr("y",20).attr("fill",gswColor).style("text-anchor","middle")
         .text(function(d){return d});
 
     //console.log(scoreSVG.selectAll("text").enter());
@@ -197,7 +198,7 @@ function displayScore(){
         .data([score2])
         .enter()
         .append("text")
-        .attr("class","score-text").attr("x",40).attr("y",92).attr("y",92)
+        .attr("class","score-text").attr("x",0).attr("y",20).style("text-anchor","middle")
         .text(function(d){return d});
 
     //console.log(scoreSVG.selectAll("text").enter());
@@ -221,8 +222,223 @@ function displayScore(){
     //d3.select("#team2-score").text(score2).style("color",teamColors[sliderValue-1]);
 }
 
+//by Yufei
+
+
+
+function updateDonut(gameid){
+    var donutData_GSW;
+    var donutData_op;
+
+    if (typeof(gameid)=="string"){
+        donutData_GSW = team_data.filter(function(d){return d.game_id==gameid&& d.team_id=="1610612744"&& d.shot_made_numeric==1});
+        donutData_op = team_data.filter(function(d){return d.game_id==gameid&& d.team_id !="1610612744"&& d.shot_made_numeric==1});
+
+    }else{
+        donutData_GSW=[];
+        donutData_op=[];
+        for (var i=0;i<gameid.length;i++) {
+            //console.log(gameid[i]);
+            var temp1 = team_data.filter(function (d) {
+                return (d.game_id == gameid[i] && d.team_id=="1610612744")
+            });
+            var temp2 = team_data.filter(function (d) {
+                return (d.game_id == gameid[i] && d.team_id!="1610612744")
+            });
+            donutData_GSW=donutData_GSW.concat(temp1);
+            donutData_op=donutData_op.concat(temp2);
+        }
+    }
+
+
+    var donut_d1=0; var donut_d2=0; var donut_d3=0;
+
+    donutData_GSW.forEach(function(d){
+        //console.log(d);
+        if (d.shot_distance < 8){
+            donut_d1 +=1;
+        }else if(d.shot_distance >= 8 && d.shot_distance < 24){
+            donut_d2 +=1;
+        }else{
+            donut_d3 +=1;
+        }
+    });
+
+    var donut_d1_op=0; var donut_d2_op=0; var donut_d3_op=0;
+
+    donutData_op.forEach(function(d){
+        //console.log(d);
+        if (d.shot_distance < 8){
+            donut_d1_op +=1;
+        }else if(d.shot_distance >= 8 && d.shot_distance < 24){
+            donut_d2_op +=1;
+        }else{
+            donut_d3_op +=1;
+        }
+    });
+    var percentage_d1=donut_d1/(donut_d1+donut_d2+donut_d3);
+    var percentage_d2=donut_d2/(donut_d1+donut_d2+donut_d3);
+    var percentage_d3=donut_d3/(donut_d1+donut_d2+donut_d3);
+
+    var percentage_d1_op=donut_d1_op/(donut_d1_op+donut_d2_op+donut_d3_op);
+    var percentage_d2_op=donut_d2_op/(donut_d1_op+donut_d2_op+donut_d3_op);
+    var percentage_d3_op=donut_d3_op/(donut_d1_op+donut_d2_op+donut_d3_op);
+
+    var percentageFormat = d3.format("%");
+
+    var radius = 110;
+    var donut1=[{Distance:"<8ft",count:donut_d1,per:percentageFormat(percentage_d1)},{Distance:"8-24",count:donut_d2,per:percentageFormat(percentage_d2)},{Distance:">24",count:donut_d3,per:percentageFormat(percentage_d3)}];
+    var donut2=[{Distance:"<8ft",count:donut_d1_op,per:percentageFormat(percentage_d1_op)},{Distance:"8-24",count:donut_d2_op,per:percentageFormat(percentage_d2_op)},{Distance:">24",count:donut_d3_op,per:percentageFormat(percentage_d3_op)}];
+
+
+    //console.log(donut1);
+    var donut_arc = d3.svg.arc()
+        .outerRadius(radius - 10)
+        .innerRadius(radius - 50);
+
+
+    var donut_pie = d3.layout.pie()
+        .sort(null)
+        .value(function(d) { return d.count; });
+
+
+    var path = g.selectAll("path")
+        .data(donut_pie(donut1));
+    path.enter().append("path")
+        .attr("class","piechart")
+        .attr("fill", function(d,i){ return donut_color(d.data.Distance); })
+        .each(function(d){ this._current = d; })
+        .attr("d", donut_arc);
+
+    path.transition()
+        .duration(500)
+        .attr("d", donut_arc)
+        .attrTween("d", arcTween);
+
+    var legend_list=["<8ft","8-24ft",">24ft"];
+
+    //GSW label
+    var t=g.selectAll("text.label")
+        .data(donut_pie(donut1));
+    t.enter().append("text")
+        .attr("class","label");
+
+    t.transition().duration(500)
+        .attr("transform", function(d) {
+            d.outerRadius = radius-10; // Set Outer Coordinate
+            d.innerRadius = (radius - 30);
+            return "translate(" + donut_arc.centroid(d) + ")"; })
+        .style("text-anchor", "middle")
+        .attr("dy", ".35em")
+        .style('fill', 'white')
+        .style("font-size", "10px")
+        .attr("font-family","Arial")
+        .text(function(d) { return d.data.per;});
+
+    //GSW legend
+    var legend1=scoreSVG1.selectAll(".legend1")
+        .data(donut_color.domain().slice().reverse())
+        .enter().append("g")
+        .attr("class", "legend1")
+        .attr("transform", function (d, i) {
+            return "translate(-150," + (i * 20-115) + ")";
+        });
+
+    legend1.append("rect")
+        .attr("class", "rect-legend1")
+        .attr("x", 250 )
+        .attr("width", 12)
+        .attr("height", 12)
+        .style("fill", donut_color);
+
+    var text1=scoreSVG1.selectAll("text.legend1")
+        .data(donut_color.domain().slice().reverse());
+    text1.enter().append("text");
+    text1.transition().duration(500)
+        .attr("x", 250 - 99)
+        .attr("y", function(d, i){ return  (i*20)-110 ;})
+        .attr("dy", ".35em")
+        .attr("class","legend1")
+        .style("text-anchor", "end")
+        .text(function (d,i) {return legend_list[i];
+        });
 
 
 
 
+    //op donut
+    var donut_color_op = d3.scale.ordinal()
+        .range(teamTocolor[donutData_op[0].team_id]);
+
+    //console.log(teamTocolor[donutData_op[0].team_id].slice().reverse());
+
+    //var g2 = scoreSVG2.append('g');
+    var path2 = g2.selectAll("path")
+        .data(donut_pie(donut2));
+    path2.enter().append("path")
+        .attr("class","piechart")
+        .each(function(d){ this._current = d; });
+    //.attr("d", donut_arc);
+    path2.attr("fill", function(d,i){ return donut_color_op(d.data.Distance); })
+        .transition()
+        .duration(500)
+        .attr("d", donut_arc)
+        .attrTween("d", arcTween);
+
+    //op donut text
+
+    var t2=g2.selectAll("text.label2")
+        .data(donut_pie(donut2));
+    t2.enter().append("text")
+        .attr("class","label2");
+
+    t2.transition().duration(500)
+        .attr("transform", function(d) {
+            //d.outerRadius = radius-10; // Set Outer Coordinate
+            //d.innerRadius = (radius - 50)/2;
+            return "translate(" + donut_arc.centroid(d) + ")"; })
+        .style("text-anchor", "middle")
+        .attr("dy", ".35em")
+        .style('fill', 'white')
+        .attr("font-family","Arial")
+        .style("font-size", "10px")
+        .text(function(d) { return d.data.per;});
+
+    //legend op
+    scoreSVG2.selectAll(".legend2").remove();
+    var legend2=scoreSVG2.selectAll(".legend2")
+        .data(teamTocolor[donutData_op[0].team_id].slice().reverse())
+        .enter().append("g")
+        .attr("class", "legend2")
+        .attr("transform", function (d, i) {
+            return "translate(-60," + (i * 20-110) + ")";
+        });
+
+    legend2.append("rect").attr("class", "rect-legend2")
+        .attr("x", 250-50 )
+        .attr("width", 12)
+        .attr("height", 12)
+        .style("fill", donut_color_op);
+
+    var text2=scoreSVG2.selectAll("text.legend2")
+        .data(teamTocolor[donutData_op[0].team_id].slice().reverse());
+    text2.enter().append("text");
+    text2
+        .attr("x",  135)
+        .attr("y", function(d, i){ return  (i*20)-104 ;})
+        .attr("dy", ".35em")
+        .attr("class","legend2")
+        .style("text-anchor", "end")
+        .text(function (d,i) {return legend_list[i];
+        });
+
+    function arcTween(a) {
+        var i = d3.interpolate(this._current, a);
+        this._current = i(0);
+        return function(t) {
+            return donut_arc(i(t));
+        };
+    }
+
+}
 

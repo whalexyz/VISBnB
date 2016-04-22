@@ -236,7 +236,7 @@ button.disabled {
 */
 .score-text{
     font-family: 'Oswald', sans-serif;
-    font-size:72px;
+    font-size:50px;
 }
 
 #stat-title{
@@ -298,6 +298,8 @@ svg#chart-area2{
     display: none;
 }
 */
+
+
 .player-div{
     text-align:center;
 }

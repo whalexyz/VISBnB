@@ -4,38 +4,38 @@ function selectStatData(){
     //console.log(selectMatchStat);
     boxscore_data.forEach(function(d) {
         switch (d.statType){
-            case "Goal":
+            case "Goals":
                 d.teamValue[0]["teamId"]=refIdToName[selectMatchStat[0].team_id_x];
                 d.teamValue[0]["value"]=selectMatchStat[0].fgm_x;
                 d.teamValue[1]["teamId"]=refIdToName[selectMatchStat[0].team_id_y];
                 d.teamValue[1]["value"]=selectMatchStat[0].fgm_y;
                 //console.log(selectMatchStat[0].fgm_y);
                 break;
-            case "Rebounce":
+            case "Rebounds":
                 d.teamValue[0]["teamId"]=refIdToName[selectMatchStat[0].team_id_x];
                 d.teamValue[0]["value"]=selectMatchStat[0].reb_x;
                 d.teamValue[1]["teamId"]=refIdToName[selectMatchStat[0].team_id_y];
                 d.teamValue[1]["value"]=selectMatchStat[0].reb_y;
                 break;
-            case "Assist":
+            case "Assists":
                 d.teamValue[0]["teamId"]=refIdToName[selectMatchStat[0].team_id_x];
                 d.teamValue[0]["value"]=selectMatchStat[0].ast_x;
                 d.teamValue[1]["teamId"]=refIdToName[selectMatchStat[0].team_id_y];
                 d.teamValue[1]["value"]=selectMatchStat[0].ast_y;
                 break;
-            case "Steal":
+            case "Steals":
                 d.teamValue[0]["teamId"]=refIdToName[selectMatchStat[0].team_id_x];
                 d.teamValue[0]["value"]=selectMatchStat[0].stl_x;
                 d.teamValue[1]["teamId"]=refIdToName[selectMatchStat[0].team_id_y];
                 d.teamValue[1]["value"]=selectMatchStat[0].stl_y;
                 break;
-            case "Block":
+            case "Blocks":
                 d.teamValue[0]["teamId"]=refIdToName[selectMatchStat[0].team_id_x];
                 d.teamValue[0]["value"]=selectMatchStat[0].blk_x;
                 d.teamValue[1]["teamId"]=refIdToName[selectMatchStat[0].team_id_y];
                 d.teamValue[1]["value"]=selectMatchStat[0].blk_y;
                 break;
-            case "Turnover":
+            case "Turnovers":
                 d.teamValue[0]["teamId"]=refIdToName[selectMatchStat[0].team_id_x];
                 d.teamValue[0]["value"]=selectMatchStat[0].tov_x;
                 d.teamValue[1]["teamId"]=refIdToName[selectMatchStat[0].team_id_y];

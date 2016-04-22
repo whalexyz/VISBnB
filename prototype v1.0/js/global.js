@@ -10,17 +10,31 @@ var gswColor="#006BB6";
 var loopNum;
 var statDataFlag=false;
 
+//by yufei change to scoreSVG1 scoreSVG2
+var donut_team_data;
+var scoreSVG1 = d3.select("#score-div-1").append("svg").attr("width", 350).attr("height", 250)
+    .append("g")
+    .attr("transform", "translate(" + 100 + "," + 250 / 2 + ")");
+var scoreSVG2 = d3.select("#score-div-2").append("svg").attr("width", 350).attr("height", 250)
+    .append("g")
+    .attr("transform", "translate(" + 100 + "," + 250 / 2 + ")");
 
-var scoreSVG1 = d3.select("#score-div-1").append("svg").attr("width", 160).attr("height", 160);
-var scoreSVG2 = d3.select("#score-div-2").append("svg").attr("width", 160).attr("height", 160);
+
+var teamTocolor= {1610612740:["#1a85ff","#004799","#002B5C"],1610612763:["#35bee3","#15809d","#0F586C"],1610612745:["#f9b8c8","#ee2b5b","#CE1141"],1610612739:["#b3004a","#860038","#4d0020"]};
+var g = scoreSVG1.append('g')
+    .attr("class","g1");
+var g2 = scoreSVG2.append('g');
+var donut_color = d3.scale.ordinal()
+    .range(["#006bb6", "#1a9fff", "#b3dfff"]);
+
 //for the stat bar chart
 var allStat;
-var boxscore_data=[{statType:"Goal",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
-    {statType:"Rebounce",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
-    {statType:"Assist",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
-    {statType:"Steal",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
-    {statType:"Block",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
-    {statType:"Turnover",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]}];
+var boxscore_data=[{statType:"Goals",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
+    {statType:"Rebounds",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
+    {statType:"Assists",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
+    {statType:"Steals",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
+    {statType:"Blocks",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]},
+    {statType:"Turnovers",teamValue:[{teamId:"",value:0},{teamId:"",value:0}]}];
 var opList=["1610612740","1610612763","1610612745","1610612739"];
 var opId=opList[sliderValue-1];
 var refIdToName={"1610612744":"Golden State Warriors", "1610612745":"Houston Rockets","1610612740":"New Orleans Pelicans","1610612763":"Memphis Grizzlies","1610612739":"Cleveland Cavaliers"};
