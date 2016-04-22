@@ -16,7 +16,12 @@ light orange #FD8D3C:
 h1,h2,h3,h4{
     font-family: 'Roboto', sans-serif;
 }
+h6{
+    font-family: "Palatino";
+    font-size: large;
+    text-align:justify;
 
+}
 /* navbar */
 .navbar .navbar-right{
     background-color: rgba(247,247,247,0.4); /* #f7f7f7*/
