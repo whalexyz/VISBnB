@@ -119,9 +119,10 @@ function loadData(){
 
         var playerid=data.filter(function(d){return d.player_name==selectValue});
         d3.select("#player1-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].person_id+".png");
+        updateTeammateData(playerid[0].person_id,1);
         playerid=data.filter(function(d){return d.player_name==selectValue2});
         d3.select("#player2-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].person_id+".png");
-
+        updateTeammateData(playerid[0].person_id,2);
         /*
         d3.csv("data/playerid.csv", function(error, csv) {
             //"http://stats.nba.com/media/players/230x185/"+playerid+".png"
@@ -170,7 +171,7 @@ function onchange1(){
     var playerid=data_update.filter(function(d){return d.player_name==selectValue});
     console.log(playerid)
     d3.select("#player1-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].person_id+".png");
-
+    updateTeammateData(playerid[0].person_id,1);
 
     updateBarchart();
     updateVisualization();
@@ -185,6 +186,8 @@ function onchange2(){
     data_update2 = data.filter(player_filter2);
     var playerid=data_update2.filter(function(d){return d.player_name==selectValue2});
     d3.select("#player2-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].person_id+".png");
+    updateTeammateData(playerid[0].person_id,2);
+
     updateBarchart();
     updateVisualization();
     updateRadarVisualization2();
@@ -459,8 +462,8 @@ function updateVisualization(){
     var heatRange = ['#ffffcc','#a1dab4','#41b6c4','#2c7fb8','#253494'];
     var court = d3.select("#player-shooting-chart")
         .select("svg")
-        .attr("width",1000)
-        .attr("height", 600)
+        .attr("width",800)
+        .attr("height", 480)
         .attr("viewBox", "0 0 60 60");
 
     tenderData2 = finalData2;

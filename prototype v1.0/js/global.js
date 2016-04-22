@@ -131,3 +131,10 @@ var sizeYStart = visibleCourtLength - basketProtrusionLength/3;
 var sizeLegendTitle='Frequency';
 var sizeLegendSmallLabel='Low';
 var sizeLegendLargeLabel='High';
+
+
+//teammate data load
+d3.csv("data/ranklineup.csv", function (error, csv) {
+    lineupData=csv;
+
+});
