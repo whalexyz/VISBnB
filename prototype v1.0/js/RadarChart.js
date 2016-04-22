@@ -38,7 +38,6 @@ var RadarChart = {
 	//cfg.maxValue = Math.max(cfg.maxValue, d3.max(d, function(i){return d3.max(i.map(function(o){return o.value;}))}));
 	cfg.maxValue=1;
 
-	  console.log(d[0])
 	var allAxis = (d[0].map(function(i, j){return i.axis}));
 	var total = allAxis.length;
 	var radius = cfg.factor*Math.min(cfg.w/2, cfg.h/2);

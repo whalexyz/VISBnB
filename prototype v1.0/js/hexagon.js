@@ -168,6 +168,7 @@ function onchange1(){
     court_func();
     selectValue = d3.select('#select1').property('value');
     data_update = data.filter(player_filter);
+    console.log(data_update[0]);
     var playerid=data_update.filter(function(d){return d.player_name==selectValue});
     console.log(playerid)
     d3.select("#player1-img").attr("src","http://stats.nba.com/media/players/230x185/"+playerid[0].person_id+".png");
