@@ -17,6 +17,10 @@ $(".tutorial-btn").click(function(){
     $(currentDivId).css("display","none");
     $(nextDivId).css("display","block");
     switch (stepId){
+        case "2":
+            $("#story-btn").trigger("click");
+            //$("#team-shooting-chart").addClass("expose");
+            break;
         case "3":
             $("#team-shooting-chart").css("position","relative");
             $("#team-shooting-chart").addClass("expose");
