@@ -317,6 +317,9 @@ svg#chart-area2{
     height: 160px;
     padding-top:20px;
     display:block;
+    //background-image: url(../img/1610612744.png);
+    //background-size: 180px 180px;
+    //background-position: center;
 }
 
 #player1-wrapper,#player2-wrapper:hover{
