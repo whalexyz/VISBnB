@@ -4,7 +4,7 @@ stage 2: 41400221-26
 stage 3: 41400311-15
 stage 4: 41400401-06
     */
-
+var matchids;
 loopNum=4;
 matchSelect();
 
@@ -66,7 +66,7 @@ $(".match-button").click(function(){
         setMatchId();
         afterBtnClickUpdate(matchId);
     }else{
-        var matchids=[];
+        matchids=[];
         for (var i=1;i<=loopNum;i++){
             matchids.push("00" + (i+ gameIdBase).toString());
         }

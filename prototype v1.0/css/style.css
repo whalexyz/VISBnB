@@ -137,7 +137,7 @@ div.page-scroll{
 }
 
 a.section-page-scroll{
-    color: #FFF;
+    color: #006BB6;
     text-shadow: none;
     font-size: 60px;
     line-height: 60px;
@@ -149,6 +149,9 @@ a.section-page-scroll{
     border-color: #000;
     border-style: none;
     text-shadow: -1px 0 1px #000;
+}
+#page-scroll-intro span{
+    color: #FFFFFF;
 }
 #page-scroll-intro span:hover{
     cursor:pointer;
@@ -170,7 +173,7 @@ a.section-page-scroll{
     text-align: center;
 }
 
-#page-scroll-story{
+.glyphicon-menu-down,.glyphicon-menu-up{
     color:#006BB6;
 }
 
@@ -181,6 +184,9 @@ a.section-page-scroll{
 }
 
 /*timeline*/
+#timeline-label{
+    color:#006BB6;
+}
 #team-timeline-chart{
     text-align: center;
 }
@@ -209,6 +215,7 @@ button.disabled {
 }
 
 #match-overall{
+    text-align: center;
     background-color: #FDB927;
 }
 

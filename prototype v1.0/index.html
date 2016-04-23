@@ -154,10 +154,15 @@
     </div>
     <section id="story">
         <div class="section-head">
-            <h3 id="title-1">How Did Golden State Warriors Win the Playoffs?</h3>
+            <h3 id="title-1">How Did Golden State Warriors Win the Playoffs?
+            </h3>
+            <a class="page-scroll section-page-scroll" id="page-scroll-story" href="#player">
+                <span class="glyphicon glyphicon-menu-down"></span>
+            </a>
         </div>
         <div class="chart-container">
             <div class="timeline-chart" id="team-timeline-chart">
+
                 <input id="timeline" type="text"
 
                        data-provide="slider"
@@ -171,6 +176,8 @@
 
             </div>
             <div class="row">
+                <p id="timeline-label">Select Playoff Stage<span class="glyphicon glyphicon-menu-up"></span>Match<span class="glyphicon glyphicon-menu-down"></span>
+                </p>
                 <button type="button" class="btn match-button" id="match-overall" title="Overall">All</button>
                 <button type="button" class="btn match-button" id="match1" title="Match 1">1</button>
                 <button type="button" class="btn match-button" id="match2" title="Match 2">2</button>
@@ -209,14 +216,15 @@
             </div>
         </div>
         <div class="page-scroll">
-            <a class="page-scroll section-page-scroll" id="page-scroll-story" href="#player">
-                <span class="glyphicon glyphicon-menu-down"></span>
-            </a>
+
         </div>
     </section>
     <section id="player">
         <div class="section-head">
             <h3>How Sharp is Golden State Warriors' Blade?</h3>
+            <a class="page-scroll section-page-scroll" id="page-scroll-player" href="#story">
+                <span class="glyphicon glyphicon-menu-down"></span>
+            </a>
         </div>
         <div class="chart-container">
             <div class="bar-chart" id="stack-chart-area"></div>
@@ -286,9 +294,7 @@
             </div>
         </div>
         <div class="page-scroll">
-            <a class="page-scroll section-page-scroll" id="page-scroll-player" href="#story">
-                <span class="glyphicon glyphicon-menu-down"></span>
-            </a>
+
         </div>
     </section>
 
