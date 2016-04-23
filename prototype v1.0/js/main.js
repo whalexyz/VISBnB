@@ -138,19 +138,19 @@ d3.csv("data/team_shots.csv", function(error, csv) {
 });
 
 function setButton(){
-    d3.selectAll(".disabled").style("background-color","#333").text("");
+    d3.selectAll(".disabled").style("background-color","#333");
     var results=allStat.filter(function(d){return d.team_id_y==opId});
     results.forEach(function(value,index){
         //console.log(index);
         var buttonColor,buttonText;
         if(value.wl_x=="W"){
             buttonColor=gswColor;
-            buttonText="W";
+            //buttonText="W";
         }else if(value.wl_x=="L"){
             buttonColor=teamColors[sliderValue-1];
-            buttonText="L";
+            //buttonText="L";
         }
-        d3.select("#match"+(index+1).toString()).style("background-color",buttonColor).text(buttonText);
+        d3.select("#match"+(index+1).toString()).style("background-color",buttonColor);
     });
     //d3.select(".match-button").text(refIdToName[opId]).style("color",teamColors[sliderValue-1]);
 }
@@ -255,9 +255,9 @@ function updateDonut(gameid){
 
     donutData_GSW.forEach(function(d){
         //console.log(d);
-        if (d.shot_distance < 8){
+        if (parseInt(d.shot_distance) < 8){
             donut_d1 +=1;
-        }else if(d.shot_distance >= 8 && d.shot_distance < 24){
+        }else if(parseInt(d.shot_distance) >= 8 && parseInt(d.shot_distance) < 24){
             donut_d2 +=1;
         }else{
             donut_d3 +=1;
@@ -268,9 +268,9 @@ function updateDonut(gameid){
 
     donutData_op.forEach(function(d){
         //console.log(d);
-        if (d.shot_distance < 8){
+        if (parseInt(d.shot_distance) < 8){
             donut_d1_op +=1;
-        }else if(d.shot_distance >= 8 && d.shot_distance < 24){
+        }else if(parseInt(d.shot_distance) >= 8 && parseInt(d.shot_distance) < 24){
             donut_d2_op +=1;
         }else{
             donut_d3_op +=1;
