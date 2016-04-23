@@ -7,51 +7,53 @@ function gsw(variable){
 function opponent(variable){
     return variable.team_name != "Golden State Warriors"
 }
+
+
 /*
-loadTeamData();
+ loadTeamData();
 
-function loadTeamData(){
-    d3.csv("data/team_shots.csv", function(error, csv) {
-        csv.forEach(function(d) {
+ function loadTeamData(){
+ d3.csv("data/team_shots.csv", function(error, csv) {
+ csv.forEach(function(d) {
 
-            // Convert numeric values to 'numbers'
-            d.loc_x = +d.loc_x * 10;
-            d.loc_y = (+d.loc_y-5.25)*10;
-            d.period = +d.period;
-            d.shot_made_numeric = +d.shot_made_numeric;
+ // Convert numeric values to 'numbers'
+ d.loc_x = +d.loc_x * 10;
+ d.loc_y = (+d.loc_y-5.25)*10;
+ d.period = +d.period;
+ d.shot_made_numeric = +d.shot_made_numeric;
 
-        });
-        // Store csv data in global variable
-        team_data = csv;
+ });
+ // Store csv data in global variable
+ team_data = csv;
 
-    /*
-        var team_select = d3.select('#team-selection1')
-            .append('select')
-            .attr('id','team-select1')
-            .on('change',teamOnchange);
+ /*
+ var team_select = d3.select('#team-selection1')
+ .append('select')
+ .attr('id','team-select1')
+ .on('change',teamOnchange);
 
-        team_select
-            .selectAll('option')
-            .data(d3.map(team_data, function(d){return d.game_id;}).keys())
-            .enter()
-            .append('option')
-            .text(function(d){return d;})
-            .attr("value", function(d){return d;});
+ team_select
+ .selectAll('option')
+ .data(d3.map(team_data, function(d){return d.game_id;}).keys())
+ .enter()
+ .append('option')
+ .text(function(d){return d;})
+ .attr("value", function(d){return d;});
 
-        team_select.property("value", "0041400221");
+ team_select.property("value", "0041400221");
 
 
 
-        updateTeamVisualiteam_zation();
-    })}
+ updateTeamVisualiteam_zation();
+ })}
 
-function teamOnchange(){
-    team_court_func();
-    team_selectValue = d3.select('#team-select1').property('value');
-    team_data_update = team_data.filter(team_filter);
+ function teamOnchange(){
+ team_court_func();
+ team_selectValue = d3.select('#team-select1').property('value');
+ team_data_update = team_data.filter(team_filter);
 
-    updateTeamVisualiteam_zation()
-}
+ updateTeamVisualiteam_zation()
+ }
  */
 
 
@@ -199,14 +201,14 @@ function updateTeamVisualiteam_zation(gameid){
         team_z.push(a.values.shootingPercentage);
     });
 
-    var meanShot = (team_z.reduce(function(a, b){return a+b;}))/ team_z.length;
+    //var meanShot = (team_z.reduce(function(a, b){return a+b;}))/ team_z.length;
     var team_z_square = [];
     for (var j = 0; j < team_z.length; j++) {team_z_square[j] = team_z[j]*team_z[j]}
-    var shotSTDV = Math.sqrt((team_z_square.reduce(function(a,b){return a+b})- team_z.length*meanShot*meanShot)/ team_z.length);
+    //var shotSTDV = Math.sqrt((team_z_square.reduce(function(a,b){return a+b})- team_z.length*meanShot*meanShot)/ team_z.length);
 
     var team_finalData = [];
     team_coll.forEach(function (a) {
-        var k = (a.values.shootingPercentage - meanShot) / shotSTDV;
+        var k = (a.values.shootingPercentage);
         team_finalData.push({"x": a.key[0], "y": a.key[1], "team_z": k, "made": a.values.made, "attempts": a.values.attempts})
     });
 
@@ -216,17 +218,16 @@ function updateTeamVisualiteam_zation(gameid){
         team_z2.push(a.values.shootingPercentage);
     });
 
-    var meanShot2 = (team_z2.reduce(function(a, b){return a+b;}))/ team_z2.length;
+    //var meanShot2 = (team_z2.reduce(function(a, b){return a+b;}))/ team_z2.length;
     var team_z_square2 = [];
     for (var l = 0; l < team_z2.length; l++) {team_z_square2[l] = team_z2[l]*team_z2[l]}
-    var shotSTDV2 = Math.sqrt((team_z_square2.reduce(function(a,b){return a+b})- team_z2.length*meanShot2*meanShot2)/ team_z2.length);
+    //var shotSTDV2 = Math.sqrt((team_z_square2.reduce(function(a,b){return a+b})- team_z2.length*meanShot2*meanShot2)/ team_z2.length);
 
     var team_finalData2 = [];
     team_coll2.forEach(function (a) {
-        var k2 = (a.values.shootingPercentage - meanShot2) / shotSTDV2;
+        var k2 = (a.values.shootingPercentage);
         team_finalData2.push({"x": a.key[0], "y": a.key[1], "team_z2": k2, "made": a.values.made, "attempts": a.values.attempts})
     });
-
 
     team_tenderData = team_finalData;
     var team_heatRange = ['#a1dab4','#253494'];
@@ -247,11 +248,12 @@ function updateTeamVisualiteam_zation(gameid){
             title: "",
             // instead of makes/attempts, use team_z
             hexagonFillValue: function (d) {
+
                 return d.team_z;
             },
             // switch heat scale domain to [-2.5, 2.5] to reflect range of team_z values
             heatScale: d3.scale.quantile()
-                .domain([-2.5, 2.5])
+                .domain([0, 1])
                 .range(team_heatRange),
 
             // update our binning algorithm to properly join team_z values
@@ -282,10 +284,10 @@ function updateTeamVisualiteam_zation(gameid){
         .style('fill', function (d, i) { return d; });
     team_legend.exit().remove();
 
-        setTimeout(function(){
-            team_court_right
-                .draw(team_tenderData);
-        }, 250);
+    setTimeout(function(){
+        team_court_right
+            .draw(team_tenderData);
+    }, 250);
 
 
     var team_court_left = team_court.append("g")
@@ -296,11 +298,12 @@ function updateTeamVisualiteam_zation(gameid){
             title: "",
             // instead of makes/attempts, use team_z
             hexagonFillValue: function (d) {
+                console.log(team_z2)
                 return d.team_z2;
             },
             // switch heat scale domain to [-2.5, 2.5] to reflect range of team_z values
             heatScale: d3.scale.quantile()
-                .domain([-2.5, 2.5])
+                .domain([0, 1])
                 .range(team_heatRange2),
 
             // update our binning algorithm to properly join team_z values
@@ -331,10 +334,10 @@ function updateTeamVisualiteam_zation(gameid){
         .style('fill', function (d, i) { return d; });
     team_legend1.exit().remove();
 
-        setTimeout(function(){
-            team_court_left
-                .draw(team_tenderData2);
-        }, 250);
+    setTimeout(function(){
+        team_court_left
+            .draw(team_tenderData2);
+    }, 250);
 }
 
 function team_court_func(){

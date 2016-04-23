@@ -420,7 +420,7 @@
         // d3 scale for hexagon colors
         heatScale: d3.scale.quantize()
             .domain([0, 1])
-            .range(['#5458A2', '#6689BB', '#FADC97', '#F08460', '#B02B48']),
+            .range(['#5458A2', '#B02B48']),
         // height of svg
         height: undefined,
         // method of aggregating points into a bin
@@ -433,7 +433,7 @@
         // how many points does a bin need to be visualized
         hexagonBinVisibleThreshold: 0,
         // method to determine value to be used with specified heatScale
-        hexagonFillValue: function(d) {  return d.made/d.attempts; },
+        hexagonFillValue: function(d) {  return d.made+1-d.attempts; },
         // bin size with regards to courth width/height (ft)
         hexagonRadius: .8,
         // discrete hexagon size values that radius value is mapped to
