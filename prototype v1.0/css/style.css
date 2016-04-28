@@ -298,14 +298,23 @@ svg#chart-area2{
 
 }
 
-#radar-chart1.svg{
+#radar-chart1 svg{
     /*padding-left:20px;*/
     padding-top:20px;
     position: relative;
+
+    left: 5%;
+    -webkit-transform: translateX(-5%);
+    -ms-transform: translateX(-5%);
+    transform: translateX(-5%);
 }
-#radar-chart2.svg{
+#radar-chart2 svg{
     padding-top:20px;
     position: relative;
+    left: 35%;
+    -webkit-transform: translateX(-35%);
+    -ms-transform: translateX(-35%);
+    transform: translateX(-35%);
 }
 
 /*For test*/
