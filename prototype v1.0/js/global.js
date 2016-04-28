@@ -15,6 +15,7 @@ var donut_team_data;
 var scoreSVG1 = d3.select("#score-div-1").append("svg").attr("width", 350).attr("height", 250)
     .append("g")
     .attr("transform", "translate(" + 100 + "," + 250 / 2 + ")");
+
 var scoreSVG2 = d3.select("#score-div-2").append("svg").attr("width", 350).attr("height", 250)
     .append("g")
     .attr("transform", "translate(" + 100 + "," + 250 / 2 + ")");

@@ -13,7 +13,7 @@ dark red:#F03B20
 light orange #FD8D3C:
 */
 /*overall*/
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5{
     font-family: 'Roboto', sans-serif;
 }
 h6{
@@ -241,6 +241,11 @@ button.disabled {
     display: none;
 }
 */
+.donut-title{
+    color:#006BB6;
+    font-weight:bold;
+}
+
 .score-text{
     font-family: 'Oswald', sans-serif;
     font-size:50px;
@@ -504,97 +509,6 @@ text.shooting_legend{
     outline: 0;
     color: #FFFFFF;
 }
-
-/*
-a span .glyphicon{
-    animation:vibrate 0.1s linear 0s infinite;
-    //animation-iteration-count:5;
-    -moz-animation: vibrate 0.1s linear 0s infinite;
-    //-moz-animation-iteration-count:5;
-/* Firefox
-    -webkit-animation: vibrate 0.1s linear 0s infinite;
-    //-webkit-animation-iteration-count:5;
-/* Safari and Chrome
-    -o-animation: vibrate 0.1s linear 0s infinite;
-    //-o-animation-iteration-count:5;
-/* Opera
-}
-
-@keyframes vibrate {
-    0% {
-        margin-top: 0px;
-    }
-    25% {
-        margin-top: -2px;
-    }
-    50% {
-        margin-top: 0px;
-    }
-    75% {
-        margin-top: 2px;
-    }
-    100% {
-        margin-top: 0px;
-    }
-}
-@-moz-keyframes vibrate
-    /* Firefox
-{
-    0% {
-        margin-top: 0px;
-    }
-    25% {
-        margin-top: -2px;
-    }
-    50% {
-        margin-top: 0px;
-    }
-    75% {
-        margin-top: 2px;
-    }
-    100% {
-        margin-top: 0px;
-    }
-}
-@-webkit-keyframes vibrate
-    /* Safari and Chrome
-{
-    0% {
-        marigin-top: 0px;
-    }
-    25% {
-        margin-top: -2px;
-    }
-    50% {
-        margin-top: 0px;
-    }
-    75% {
-        margin-top: 2px;
-    }
-    100% {
-        margin-top: 0px;
-    }
-}
-@-o-keyframes vibrate
-    /* Opera
-{
-    0% {
-        margin-top: 0px;
-    }
-    25% {
-        margin-top: -2px;
-    }
-    50% {
-        margin-top: 0px;
-    }
-    75% {
-        margin-top: 2px;
-    }
-    100% {
-        margin-top: 0px;
-    }
-}
-*/
 
 
 .d3-tip {
