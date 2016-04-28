@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a8a5922-4959-4070-a0aa-cc5a17e5a622" name="Default" comment="update css">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototype v1.0/css/style.css" afterPath="$PROJECT_DIR$/prototype v1.0/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototype v1.0/index1.html" afterPath="$PROJECT_DIR$/prototype v1.0/index1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototype v1.0/js/script.js" afterPath="$PROJECT_DIR$/prototype v1.0/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototype v1.0/js/teammates.js" afterPath="$PROJECT_DIR$/prototype v1.0/js/teammates.js" />
-    </list>
+    <list default="true" id="6a8a5922-4959-4070-a0aa-cc5a17e5a622" name="Default" comment="update css" />
     <ignored path="VISBnB.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +34,8 @@
       <file leaf-file-name="index1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prototype v1.0/index1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40867993">
-              <caret line="254" column="36" selection-start-line="254" selection-start-column="35" selection-end-line="254" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.517179">
+              <caret line="254" column="36" selection-start-line="254" selection-start-column="36" selection-end-line="254" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -837,8 +831,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prototype v1.0/index1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40867993">
-          <caret line="254" column="36" selection-start-line="254" selection-start-column="35" selection-end-line="254" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.517179">
+          <caret line="254" column="36" selection-start-line="254" selection-start-column="36" selection-end-line="254" selection-end-column="36" />
           <folding />
         </state>
       </provider>
