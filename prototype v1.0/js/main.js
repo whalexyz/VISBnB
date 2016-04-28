@@ -15,6 +15,7 @@ $('#timeline').slider().on('change',function(value){
     opId=opList[sliderValue-1];
     d3.select("#team2-img").attr("src","img/"+opId+".png");
     d3.select("#team2-title").text(refIdToName[opId]).style("color",teamColors[sliderValue-1]);
+    d3.select("#donut-title2").style("color",teamColors[sliderValue-1]);
     matchSelect();
     setButton();
 });
