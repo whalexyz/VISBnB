@@ -494,7 +494,7 @@ text.shooting_legend{
 
 .closebtn{
     position: absolute;
-    top:-200px;
+    top:80px;
     right:50px;
     background-color: Transparent;
     color:#FFFFFF;
