@@ -298,7 +298,7 @@ function updateTeamVisualiteam_zation(gameid){
             title: "",
             // instead of makes/attempts, use team_z
             hexagonFillValue: function (d) {
-                console.log(team_z2)
+                //console.log(team_z2)
                 return d.team_z2;
             },
             // switch heat scale domain to [-2.5, 2.5] to reflect range of team_z values

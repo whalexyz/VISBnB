@@ -292,11 +292,14 @@ svg#chart-area2{
 }
 
 #radar-chart1.svg{
-    padding-left:50px;
+    /*padding-left:20px;*/
+    width:80%;
     padding-top:20px;
+    position: absolute;
 }
 #radar-chart2.svg{
     padding-top:20px;
+    position: absolute;
 }
 
 /*For test*/
@@ -305,6 +308,17 @@ svg#chart-area2{
     display: none;
 }
 */
+#select1, #select2{
+    width: 268px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 1;
+    border-radius: 0;
+    height: 34px;
+    background-color: transparent;
+    color: #000;
+}
 
 
 .player-div{
