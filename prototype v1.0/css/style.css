@@ -273,6 +273,8 @@ button.disabled {
 }
 
 #player-shooting-chart{
+    position: relative;
+    align-content: center;
     height:600px;
     width:800px;
 }
@@ -293,13 +295,12 @@ svg#chart-area2{
 
 #radar-chart1.svg{
     /*padding-left:20px;*/
-    width:80%;
     padding-top:20px;
-    position: absolute;
+    position: relative;
 }
 #radar-chart2.svg{
     padding-top:20px;
-    position: absolute;
+    position: relative;
 }
 
 /*For test*/
@@ -330,7 +331,6 @@ svg#chart-area2{
     height:100px;
     border-radius: 50%;
     border:2px solid #26282A;
-    display:none;
 }
 
 #player1-wrapper,#player2-wrapper{
@@ -338,9 +338,10 @@ svg#chart-area2{
     height: 160px;
     padding-top:20px;
     display:block;
-    //background-image: url(../img/1610612744.png);
-    //background-size: 180px 180px;
-    //background-position: center;
+}
+.player1-teammate-wrapper,.player2-teammate-wrapper{
+    opacity: 0;
+
 }
 
 #player1-wrapper,#player2-wrapper:hover{

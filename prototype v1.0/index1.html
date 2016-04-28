@@ -44,7 +44,7 @@
                     <a class="page-scroll" href="">Process Book</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="">About Us</a>
+                    <a class="page-scroll" href="#about">About Us</a>
                 </li>
             </ul>
         </div>
@@ -176,7 +176,7 @@
 
         </div>
         <div class="row">
-            <p id="timeline-label">Select Playoff Stage<span class="glyphicon glyphicon-menu-up"></span>Match<span class="glyphicon glyphicon-menu-down"></span>
+            <p id="timeline-label">Select Playoff Stage<span class="glyphicon glyphicon-menu-up"></span>&nbsp&nbsp Match<span class="glyphicon glyphicon-menu-down"></span>
             </p>
             <button type="button" class="btn match-button" id="match-overall" title="Overall">All</button>
             <button type="button" class="btn match-button" id="match1" title="Match 1">1</button>
@@ -235,7 +235,7 @@
                 </div>
             </form>
             <div class="row">
-                <div class="col-lg-2 player-div">
+                <div class="col-sm-2 player-div">
                     <div class="player-img-wrapper" id="player1-wrapper">
                         <img id="player1-img"/>
                     </div>
@@ -251,20 +251,12 @@
                     <div class="player-img-wrapper player1-teammate-wrapper" id="player1-teammate-wrapper4">
                         <img class="teammate player1-teammate" id="player1-teammate-4"/>
                     </div>
-                    <svg id="blank" width = "160" height="200" x = 0 y = 0>
-                        <div class="radar-chart" id="player-radar-chart">
-                            <div id="radar-chart1"></div>
-                        </div>
-                    </svg>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-sm-8">
                     <div class="bar-chart" id="stack-chart-area"></div>
                         <svg id="chart-area" width = "2" height="2"></svg>
-                    <div class="shooting-chart" id="player-shooting-chart">
-                        <svg id="chart-area" width = "2" height="2"></svg>
-                    </div>
                 </div>
-                <div class="col-lg-2 player-div">
+                <div class="col-sm-2 player-div">
                     <div class="player-img-wrapper" id="player2-wrapper">
                         <img id="player2-img"/>
                     </div>
@@ -280,11 +272,23 @@
                     <div class="player-img-wrapper player2-teammate-wrapper" id="player2-teammate-wrapper4">
                         <img class="teammate player2-teammate" id="player2-teammate-4"/>
                     </div>
-                    <svg id="blank" width = "160" height="200">
-                        <div class="radar-chart" id="player-radar-chart2">
-                            <div id="radar-chart2"></div>
-                        </div>
-                    </svg>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2 player-div">
+                    <div class="radar-chart" id="player-radar-chart">
+                        <div id="radar-chart1"></div>
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                    <div class="shooting-chart" id="player-shooting-chart">
+                        <svg id="chart-area" width = "2" height="2"></svg>
+                    </div>
+                </div>
+                <div class="col-sm-3 player-div">
+                    <div class="radar-chart" id="player-radar-chart2">
+                        <div id="radar-chart2"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -294,7 +298,34 @@
 
     </div>
 </section>
+<section id="about">
+    <div class="section-head">
+        <h3>About Us</h3>
+        <br>
+    </div>
 
+    <div class="border row">
+        <div class="col-md-2"></div>
+        <div class="col-md-2">
+            <img src="img/Zhuyun.png" width="200" height="230" class="right">
+        </div>
+        <div class="col-md-2">
+            <img src="img/HJ.png" width="200" height="230" class="center">
+        </div>
+        <div class="col-md-2">
+            <img src="img/Chi-suan.png" width="200" height="230" class="center">
+        </div>
+        <div class="col-md-2">
+            <img src="img/Yufei.png" width="200" height="230" class="center">
+        </div>
+
+    </div>
+    <div class="page-scroll">
+        <a class="page-scroll section-page-scroll" id="page-scroll-aboutus" href=" ">
+            <span class="glyphicon glyphicon-menu-up"></span>
+        </a >
+    </div>
+</section>
 
 
 <script src="js/jquery.min.js"></script>

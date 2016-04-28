@@ -9,27 +9,27 @@ var show1=false;
 var show2=false;
 $("#player1-img").click(function(){
     if(!show1){
-        $("#player1-teammate-wrapper1").fadeIn(200);
+        $("#player1-teammate-wrapper1").animate({"opacity": 1});
         setTimeout(function() {
-            $("#player1-teammate-wrapper2").fadeIn(200)
+            $("#player1-teammate-wrapper2").animate({"opacity": 1});
         },200);
         setTimeout(function() {
-            $("#player1-teammate-wrapper3").fadeIn(200)
+            $("#player1-teammate-wrapper3").animate({"opacity": 1});
         },400);
         setTimeout(function() {
-            $("#player1-teammate-wrapper4").fadeIn(200)
+            $("#player1-teammate-wrapper4").animate({"opacity": 1});
         },600);
         show1=true;
     }else{
-        $("#player1-teammate-wrapper4").fadeOut(200);
+        $("#player1-teammate-wrapper4").animate({"opacity": 0});
         setTimeout(function() {
-            $("#player1-teammate-wrapper3").fadeOut(200)
+            $("#player1-teammate-wrapper3").animate({"opacity": 0});
         },200);
         setTimeout(function() {
-            $("#player1-teammate-wrapper2").fadeOut(200)
+            $("#player1-teammate-wrapper2").animate({"opacity": 0});
         },400);
         setTimeout(function() {
-            $("#player1-teammate-wrapper1").fadeOut(200)
+            $("#player1-teammate-wrapper1").animate({"opacity": 0});
         },600);
         show1=false;
     }
@@ -37,27 +37,27 @@ $("#player1-img").click(function(){
 
 $("#player2-img").click(function(){
     if(!show2){
-        $("#player2-teammate-wrapper1").fadeIn(200);
+        $("#player2-teammate-wrapper1").animate({"opacity": 1});
         setTimeout(function() {
-            $("#player2-teammate-wrapper2").fadeIn(200)
+            $("#player2-teammate-wrapper2").animate({"opacity": 1});
         },200);
         setTimeout(function() {
-            $("#player2-teammate-wrapper3").fadeIn(200)
+            $("#player2-teammate-wrapper3").animate({"opacity": 1});
         },400);
         setTimeout(function() {
-            $("#player2-teammate-wrapper4").fadeIn(200)
+            $("#player2-teammate-wrapper4").animate({"opacity": 1});
         },600);
         show2=true;
     }else{
-        $("#player2-teammate-wrapper4").fadeOut(200);
+        $("#player2-teammate-wrapper4").animate({"opacity": 0});
         setTimeout(function() {
-            $("#player2-teammate-wrapper3").fadeOut(200)
+            $("#player2-teammate-wrapper3").animate({"opacity": 0});
         },200);
         setTimeout(function() {
-            $("#player2-teammate-wrapper2").fadeOut(200)
+            $("#player2-teammate-wrapper2").animate({"opacity": 0});
         },400);
         setTimeout(function() {
-            $("#player2-teammate-wrapper1").fadeOut(200)
+            $("#player2-teammate-wrapper1").animate({"opacity": 0});
         },600);
         show2=false;
     }
