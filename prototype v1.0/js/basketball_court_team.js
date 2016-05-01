@@ -25,12 +25,6 @@
             // draw base court
             this.drawCourt();
 
-            // add title
-            //this.drawTitle();
-
-            // draw legend
-            //this.drawLegend();
-
             // add data
             this.drawShots();
         },
@@ -174,111 +168,6 @@
                 .attr("cy", -5)
                 .attr("r", basketWidth)
 
-        },
-
-        // add title to svg
-        drawTitle: function () {
-            this.base.append("text")
-                .classed('shot-chart-title', true)
-                .attr("x", (this._courtWidth / 2))
-                .attr("y", (this._courtLength / 2 - this._visibleCourtLength) / 3)
-                .attr("text-anchor", "middle")
-                .text(this._title);
-        },
-
-        // add legends to svg
-        drawLegend: function () {
-            var courtWidth = this._courtWidth,
-                visibleCourtLength = this._visibleCourtLength,
-                heatScale = this._heatScale,
-                hexagonRadiusSizes = this._hexagonRadiusSizes,
-                hexagonFillValue = this._hexagonFillValue,
-                keyWidth = this._keyWidth,
-                basketProtrusionLength = this._basketProtrusionLength;
-
-            var heatRange = heatScale.range();
-            var largestHexagonRadius = hexagonRadiusSizes[hexagonRadiusSizes.length - 1];
-            var colorXMid = courtWidth -
-                (threePointSideRadius - keyWidth / 2) / 2 -
-                (courtWidth / 2 - threePointSideRadius);
-            var colorXStart = colorXMid - (heatRange.length * largestHexagonRadius);
-            var colorYStart = visibleCourtLength - basketProtrusionLength/3;
-            var hexbin = d3.hexbin();
-            var hexagon = hexbin.hexagon(largestHexagonRadius);
-            var colorLegend = this.base.append('g')
-                .classed('legend', true);
-            colorLegend.append("text")
-                .classed('legend-title', true)
-                .attr("x", colorXMid)
-                .attr("y", colorYStart - largestHexagonRadius * 2)
-                .attr("text-anchor", "middle")
-                .text(this._colorLegendTitle);
-            colorLegend.append("text")
-                .attr("x", colorXStart)
-                .attr("y", colorYStart)
-                .attr("text-anchor", "end")
-                .text(this._colorLegendStartLabel);
-            colorLegend.append("text")
-                .attr("x", colorXStart + heatRange.length * 2 * largestHexagonRadius)
-                .attr("y", colorYStart)
-                .attr("text-anchor", "start")
-                .text(this._colorLegendEndLabel);
-
-            var legend = colorLegend.selectAll('path').data(heatRange);
-            legend
-                .enter()
-                .append('path')
-                .attr('d', hexagon)
-                .attr("transform", function (d, i) {
-                    return "translate(" +
-                        (colorXStart + ((1 + i*2) *largestHexagonRadius)) + ", " +
-                        (colorYStart) + ")";
-                })
-                .style('fill', function (d, i) { return d; });
-            legend.exit().remove();
-
-
-            var sizeRange = hexagonRadiusSizes.slice(-1);
-            var sizeLengendWidth = 0;
-            for (var i = 0, l = sizeRange.length; i < l; ++i) {
-                sizeLengendWidth += sizeRange[i] * 2;
-            }
-            var sizeXMid = (threePointSideRadius - keyWidth / 2) / 2 +
-                (courtWidth / 2 - threePointSideRadius);
-            var sizeXStart = sizeXMid - (sizeLengendWidth / 2);
-            var sizeYStart = visibleCourtLength - basketProtrusionLength/3;
-            var sizeLegend = this.base.append('g')
-                .classed('legend', true);
-            sizeLegend.append("text")
-                .classed('legend-title', true)
-                .attr("x", sizeXMid)
-                .attr("y", sizeYStart - largestHexagonRadius * 2)
-                .attr("text-anchor", "middle")
-                .text(this._sizeLegendTitle);
-            sizeLegend.append("text")
-                .attr("x", sizeXStart)
-                .attr("y", sizeYStart)
-                .attr("text-anchor", "end")
-                .text(this._sizeLegendSmallLabel);
-            var size = sizeLegend.selectAll('path').data(sizeRange);
-            size
-                .enter()
-                .append('path')
-                .attr('d', function (d) { return hexbin.hexagon(d); })
-                .attr("transform", function (d, i) {
-                    sizeXStart += d * 2;
-                    return "translate(" +
-                        (sizeXStart - d) + ", " +
-                        sizeYStart + ")";
-                })
-                .style('fill', 'white');
-            size.exit().remove();
-
-            sizeLegend.append("text")
-                .attr("x", sizeXStart)
-                .attr("y", sizeYStart)
-                .attr("text-anchor", "start")
-                .text(this._sizeLegendLargeLabel);
         },
 
         // draw hexagons on court

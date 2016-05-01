@@ -9,54 +9,6 @@ function opponent(variable){
 }
 
 
-/*
- loadTeamData();
-
- function loadTeamData(){
- d3.csv("data/team_shots.csv", function(error, csv) {
- csv.forEach(function(d) {
-
- // Convert numeric values to 'numbers'
- d.loc_x = +d.loc_x * 10;
- d.loc_y = (+d.loc_y-5.25)*10;
- d.period = +d.period;
- d.shot_made_numeric = +d.shot_made_numeric;
-
- });
- // Store csv data in global variable
- team_data = csv;
-
- /*
- var team_select = d3.select('#team-selection1')
- .append('select')
- .attr('id','team-select1')
- .on('change',teamOnchange);
-
- team_select
- .selectAll('option')
- .data(d3.map(team_data, function(d){return d.game_id;}).keys())
- .enter()
- .append('option')
- .text(function(d){return d;})
- .attr("value", function(d){return d;});
-
- team_select.property("value", "0041400221");
-
-
-
- updateTeamVisualiteam_zation();
- })}
-
- function teamOnchange(){
- team_court_func();
- team_selectValue = d3.select('#team-select1').property('value');
- team_data_update = team_data.filter(team_filter);
-
- updateTeamVisualiteam_zation()
- }
- */
-
-
 // Text: team color legend for court right:
 var team_colorXStart = colorXMid - (2 * largestHexagonRadius);
 var team_hexbin = d3.hexbin();
@@ -111,9 +63,6 @@ team_colorLegend1.append("text")
 
 function updateTeamVisualiteam_zation(gameid){
     team_court_func();
-    //console.log(gameid);
-    //team_selectValue = d3.select('#team-select1').property('value');
-    //team_data_update = team_data.filter(team_filter);
     if (typeof(gameid)=="string"){
         team_data_update = team_data.filter(function(d){return d.game_id==gameid});
 

@@ -156,11 +156,15 @@
     <div class="section-head">
         <h3 id="title-1">How Did Golden State Warriors Win the Playoffs?
         </h3>
-        <a class="page-scroll section-page-scroll" id="page-scroll-story" href="#player">
-            <span class="glyphicon glyphicon-menu-down"></span>
-        </a>
+        <div class = "container" id = "story_start_text">
+            <br>
+            <h6>Golden state warriors are the Champions of NBA in 2014-15 season. Congratulations to them!</h6>
+            <h6>Some professional commenters think the warriors are leading the League to a new stage, for their innovative strategy of making good use of three-point shots. They pay less attention to mid-range shots (8-24 feet) and more focus on three-point shots and under-basket shots.</h6>
+            <h6>Have a look at the playoff matches they played in last season and notice the score distance distribution of both teams.</h6></div>
     </div>
+
     <div class="chart-container">
+        <p id="timeline-label">Select Playoff Stage</p>
         <div class="timeline-chart" id="team-timeline-chart">
 
             <input id="timeline" type="text"
@@ -175,9 +179,9 @@
                    data-slider-tooltip="hide" />
 
         </div>
+        <br>
         <div class="row">
-            <p id="timeline-label">Select Playoff Stage<span class="glyphicon glyphicon-menu-up"></span>&nbsp&nbsp Match<span class="glyphicon glyphicon-menu-down"></span>
-            </p>
+            <p id="timeline-label1">Match</p>
             <button type="button" class="btn match-button" id="match-overall" title="Overall">All</button>
             <button type="button" class="btn match-button" id="match1" title="Match 1">1</button>
             <button type="button" class="btn match-button" id="match2" title="Match 2">2</button>
@@ -187,6 +191,16 @@
             <button type="button" class="btn match-button" id="match6" title="Match 6">6</button>
             <button type="button" class="btn match-button" id="match7" title="Match 7">7</button>
         </div>
+        <br>
+        <div class = "container" id = "story_team">
+            <h6 id = "change_stage_text_onclick"></h6>
+            <h6 id = "change_match_text_onclick"></h6>
+        </div>
+        <a class="page-scroll section-page-scroll" id="page-scroll-story" href="#player">
+            <span class="glyphicon glyphicon-collapse-down"></span>
+        </a>
+        <br>
+        <br>
         <div class="container">
             <div class="row">
                 <div class="col-lg-2 col-left" id="team1-div">
@@ -212,8 +226,8 @@
                     <div class="score-div" id="score-div-2"></div>
                 </div>
             </div>
-
         </div>
+        <br>
     </div>
     <div class="page-scroll">
 
@@ -222,9 +236,6 @@
 <section id="player">
     <div class="section-head">
         <h3>How Sharp is Golden State Warriors' Blade?</h3>
-        <a class="page-scroll section-page-scroll" id="page-scroll-player" href="#about">
-            <span class="glyphicon glyphicon-menu-down"></span>
-        </a>
     </div>
     <div class="chart-container">
         <div class="container-fluid">
@@ -235,7 +246,7 @@
                 </div>
             </form>
             <div class="row">
-                <div class="col-sm-2 player-div">
+                <div class="col-lg-2 player-div">
                     <div class="player-img-wrapper" id="player1-wrapper">
                         <img id="player1-img"/>
                     </div>
@@ -255,14 +266,14 @@
                         <div id="radar-chart1"></div>
                     </div>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-lg-8">
                     <div class="bar-chart" id="stack-chart-area"></div>
-                        <svg id="chart-area" width = "2" height="2"></svg>
+                    <svg id="chart-area" width = "2" height="2"></svg>
                     <div class="shooting-chart" id="player-shooting-chart">
                         <svg id="chart-area" width = "2" height="2"></svg>
                     </div>
                 </div>
-                <div class="col-sm-2 player-div">
+                <div class="col-lg-2 player-div">
                     <div class="player-img-wrapper" id="player2-wrapper">
                         <img id="player2-img"/>
                     </div>
@@ -283,9 +294,11 @@
                     </div>
                 </div>
             </div>
-
+            <a class="page-scroll section-page-scroll" id="page-scroll-player" href="#about">
+                <span class="glyphicon glyphicon-collapse-down"></span>
+            </a>
         </div>
-        </div>
+    </div>
     </div>
     <div class="page-scroll">
 

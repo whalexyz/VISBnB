@@ -153,3 +153,36 @@ d3.csv("data/ranklineup.csv", function (error, csv) {
     lineupData=csv;
 
 });
+
+
+var stage_story = [
+    {"text":"From start to finish in this season, the Golden State Warriors (W67-L15) have been the best team in NBA. " +
+    "The deserving MVP Stephen Curry and Steve Kerr lead team has evolved from a jump shooting fan favorite to a bonafide terror, " +
+    "closing the door on games in the third quarter on a routine and borderline-rude basis. " +
+    "At the end of the day it was amazing that the New Orleans Pelicans were able to get the play-off ticket. " +
+    "The Pelicans’ youth and relative playoff inexperience won’t be able to respond well enough to overcome " +
+    "those deficits enough times to win four games. Unsurprisingly, the Golden State won the first round within 4 games.","match_id":"0041400148"},
+    {"text":"Through the regular season and first play-off round, the Warriors proved their shooting, defense, " +
+    "mental toughness — all the qualities that made them such a formidable regular season team, " +
+    "really — will carry over to the playoffs without too many problems. " +
+    "The Golden State relied on their 3- point shoots to kill the game. " +
+    "Memphis Grizzlies is one of the league's best inside scoring teams and defense teams. " +
+    "Grizzlies had to get position closer to the basket quicker and beat the Warriors to " +
+    "their preferred position and need players to knock down some perimeter shots to force " +
+    "Golden State to back somebody out defensively. ","match_id":"0041400228"},
+    {"text":"Houston has fought back from the brink of elimination before when everyone was ruling them out, " +
+    "coming back from a 3-1 series deficit in the last round against the Clippers. " +
+    "Both teams make lots of 3-point shots and few long 2-point shots. " +
+    "Performance of Harden and Howard has a great influence on the game. " +
+    "In this round, the Warriors did a nice job of keeping Harden off of the foul line and forced him into committing turnovers. " +
+    "And a big issue going forward is going to be Dwight Howard's health. He failed to play well in this round. " +
+    "At last the Golden State warriors beat Houston Rockets in 5 games.","match_id":"0041400318"},
+    {"text":"Great player (LeBron James) vs. great team. " +
+    "We have never seen so many individual-based facts associated with a team as I have with the Cavaliers these playoffs. " +
+    "Everything is 'LeBron James' record when leading a series 2-0 is . . .  or 'LeBron's fifth straight trip to the Finals.' " +
+    "But that's how singularly significant he is in this league, reflective of a man who has won 17 of his past 19 playoff series. " +
+    "Then again, the Spurs hung one of those L's on him with outstanding team play in the 2014 Finals, " +
+    "and great team play in every facet has been the hallmark of these 2014-15 Warriors. " +
+    "History tells you the better team wins a best-of-seven series. But there's that nagging question: Can you beat a great player in his prime four times? " +
+    "Games proved that James failed to defeat a team without any great teammates. Love and Irvin both got injured on their way to final and championship.","match_id":"0041400408"}
+];

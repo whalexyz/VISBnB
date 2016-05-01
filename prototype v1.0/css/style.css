@@ -14,14 +14,19 @@ light orange #FD8D3C:
 */
 /*overall*/
 h1,h2,h3,h4,h5{
-    font-family: 'Roboto', sans-serif;
+    font-family: "AtlasGroteskWeb","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 h6{
-    font-family: "Palatino";
+    font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;;
     font-size: large;
-    text-align:justify;
-
+    text-align: justify;
 }
+
+#story_start_text, #story_team{
+    height:180px;
+    width:900px;
+}
+
 /* navbar */
 .navbar .navbar-right{
     background-color: rgba(247,247,247,0.4); /* #f7f7f7*/
@@ -148,7 +153,6 @@ a.section-page-scroll{
     border-width: 0px;
     border-color: #000;
     border-style: none;
-    text-shadow: -1px 0 1px #000;
 }
 #page-scroll-intro span{
     color: #FFFFFF;
@@ -160,10 +164,10 @@ a.section-page-scroll{
     text-align: center;
 }
 .section-head h3{
-    color: #006BB6;
+    color: black;
     text-shadow: none;
-    font-size: 48px;
-    line-height: 48px;
+    font-size: 42px;
+    line-height: 42px;
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0);
     text-decoration: none;
@@ -174,8 +178,15 @@ a.section-page-scroll{
 }
 
 .glyphicon-menu-down,.glyphicon-menu-up{
-    color:#006BB6;
+    color:white;
+    text-shadow: 1px 0.5px #006BB6;
 }
+.glyphicon-collapse-down{
+    color:#006BB6;
+    font-size:40px;
+    left:45%;
+}
+
 
 
 /* chart*/
@@ -184,7 +195,7 @@ a.section-page-scroll{
 }
 
 /*timeline*/
-#timeline-label{
+#timeline-label, #timeline-label1{
     color:#006BB6;
 }
 #team-timeline-chart{
@@ -301,7 +312,6 @@ svg#chart-area2{
 #radar-chart1 svg{
     /*padding-left:20px;*/
     padding-top:20px;
-    position: relative;
 
     left: 5%;
     -webkit-transform: translateX(-5%);
@@ -310,11 +320,10 @@ svg#chart-area2{
 }
 #radar-chart2 svg{
     padding-top:20px;
-    position: relative;
-    left: 35%;
-    -webkit-transform: translateX(-35%);
-    -ms-transform: translateX(-35%);
-    transform: translateX(-35%);
+    left: 25%;
+    -webkit-transform: translateX(-25%);
+    -ms-transform: translateX(-25%);
+    transform: translateX(-25%);
 }
 
 /*For test*/

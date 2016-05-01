@@ -18,6 +18,7 @@ $('#timeline').slider().on('change',function(value){
     d3.select("#donut-title2").style("color",teamColors[sliderValue-1]);
     matchSelect();
     setButton();
+    ;
 });
 
 function matchSelect(){
@@ -52,6 +53,7 @@ function matchSelect(){
 
     $("#match-overall").trigger("click");
     //console.log("start");
+
 }
 
 $(".match-button").click(function(){
@@ -75,9 +77,11 @@ $(".match-button").click(function(){
         //teamShootingChartId=matchids;
         setMatchId();
         afterBtnClickUpdate(matchids);
+        show_stage_story();
         //updateTeamVisualiteam_zation(matchids);
     }
     //afterBtnClickUpdate();
+
 });
 
 
@@ -95,31 +99,40 @@ function afterBtnClickUpdate(gameid){
 }
 
 //load stat bar chart data
-d3.csv("data/gamelog_average.csv",function(error,csv){
-    csv.forEach(function(d){
-        if (error) throw error;
-        // Convert numeric values to 'numbers'
-        d.fgm_x=+d.fgm_x;
-        d.reb_x=+d.reb_x;
-        d.ast_x=+d.ast_x;
-        d.stl_x=+d.stl_x;
-        d.blk_x=+d.blk_x;
-        d.tov_x=+d.tov_x;
-        d.pts_x=+d.pts_x;
-        d.fgm_y=+d.fgm_y;
-        d.reb_y=+d.reb_y;
-        d.ast_y=+d.ast_y;
-        d.stl_y=+d.stl_y;
-        d.blk_y=+d.blk_y;
-        d.tov_y=+d.tov_y;
-        d.pts_y=+d.pts_y;
+queue()
+    .defer(d3.csv,"data/gamelog_average.csv")
+    .defer(d3.csv,"data/story.csv")
+    .await(function(error, data1, data2){
+        data1.forEach(function(d){
+            if (error) throw error;
+            // Convert numeric values to 'numbers'
+            d.fgm_x=+d.fgm_x;
+            d.reb_x=+d.reb_x;
+            d.ast_x=+d.ast_x;
+            d.stl_x=+d.stl_x;
+            d.blk_x=+d.blk_x;
+            d.tov_x=+d.tov_x;
+            d.pts_x=+d.pts_x;
+            d.fgm_y=+d.fgm_y;
+            d.reb_y=+d.reb_y;
+            d.ast_y=+d.ast_y;
+            d.stl_y=+d.stl_y;
+            d.blk_y=+d.blk_y;
+            d.tov_y=+d.tov_y;
+            d.pts_y=+d.pts_y;
+        });
+        for(var i = 0; i<data2.length; i++){
+            data1[i].story= data2[i].story;
+        }
+        allStat=data1;
+        statDataFlag=true;
+        displayScore();
+        setButton();
+        selectStatData();
+        show_stage_story();
+
     });
-    allStat=csv;
-    statDataFlag=true;
-    displayScore();
-    setButton();
-    selectStatData();
-});
+
 
 //team-shooting-chart
 d3.csv("data/team_shots.csv", function(error, csv) {
@@ -135,6 +148,7 @@ d3.csv("data/team_shots.csv", function(error, csv) {
     // Store csv data in global variable
     team_data = csv;
     $("#match-overall").trigger("click");
+    show_stage_story()
     //updateTeamVisualiteam_zation(matchId);
 });
 
@@ -152,8 +166,11 @@ function setButton(){
             //buttonText="L";
         }
         d3.select("#match"+(index+1).toString()).style("background-color",buttonColor);
+        show_stage_story()
     });
     //d3.select(".match-button").text(refIdToName[opId]).style("color",teamColors[sliderValue-1]);
+
+
 }
 
 function displayScore(){
@@ -441,5 +458,17 @@ function updateDonut(gameid){
         };
     }
 
+}
+
+
+function show_match_story(){
+        var match_story = allStat.filter(function(d){return d.game_id==matchids});
+        d3.select("#change_match_text_onclick").text(match_story[0].story);
+
+}
+
+function show_stage_story(){
+    var stage = stage_story.filter(function(d){return d.match_id==matchId});
+    d3.select("#change_stage_text_onclick").text(stage[0].text);
 }
 
