@@ -463,12 +463,7 @@ function updateDonut(gameid){
 }
 
 
-function show_match_story(gameid){
-        var match_story = allStat.filter(function(d){return d.game_id==gameid});
 
-        d3.select("#change_match_text_onclick").text(match_story[0].story);
-
-}
 
 function show_stage_story(){
     var stage = stage_story.filter(function(d){return d.match_id==matchId});

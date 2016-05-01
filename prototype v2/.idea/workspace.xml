@@ -2,197 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c06b01a1-0c70-4691-9ee5-3f00addeac2c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../prototype v2/.idea/.name" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Final_project_radar/data/player_radar_playoff.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Final_project_radar/data/player_radar_regular.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Final_project_radar/data/radar.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/allstars_shot_final.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/new5.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/.idea/encodings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/../prototype v2/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/prototype v1.0.iml" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/.idea/final_project.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../prototype v2/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../prototype v2/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Final_project_radar/.idea/.name" afterPath="$PROJECT_DIR$/../prototype v2/Final_project_radar/.idea/.name" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Final_project_radar/.idea/2.iml" afterPath="$PROJECT_DIR$/../prototype v2/Final_project_radar/.idea/2.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Final_project_radar/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../prototype v2/Final_project_radar/.idea/encodings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Final_project_radar/.idea/misc.xml" afterPath="$PROJECT_DIR$/../prototype v2/Final_project_radar/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Final_project_radar/.idea/modules.xml" afterPath="$PROJECT_DIR$/../prototype v2/Final_project_radar/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Final_project_radar/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../prototype v2/Final_project_radar/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Final_project_radar/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Final_project_radar/css/style.css" afterPath="$PROJECT_DIR$/../prototype v2/Final_project_radar/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Final_project_radar/data/newradardata.csv" afterPath="$PROJECT_DIR$/../prototype v2/Final_project_radar/data/newradardata.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Final_project_radar/js/RadarChart.js" afterPath="$PROJECT_DIR$/../prototype v2/Final_project_radar/js/RadarChart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Final_project_radar/js/d3.v3.min.js" afterPath="$PROJECT_DIR$/../prototype v2/Final_project_radar/js/d3.v3.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Final_project_radar/js/script.js" afterPath="$PROJECT_DIR$/../prototype v2/Final_project_radar/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Final_project_radar/radar.html" afterPath="$PROJECT_DIR$/../prototype v2/Final_project_radar/radar.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/VISBnB-master.zip" afterPath="$PROJECT_DIR$/../prototype v2/VISBnB-master.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-slider.min.css" afterPath="$PROJECT_DIR$/../prototype v2/css/bootstrap-slider.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/../prototype v2/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/../prototype v2/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/../prototype v2/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/../prototype v2/css/bootstrap-theme.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/../prototype v2/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/../prototype v2/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/../prototype v2/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/../prototype v2/css/bootstrap.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/d3.basketball-shot-chart.css" afterPath="$PROJECT_DIR$/../prototype v2/css/d3.basketball-shot-chart.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/../prototype v2/css/font-awesome.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/newstyle.css" afterPath="$PROJECT_DIR$/../prototype v2/css/newstyle.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/scrolling-nav.css" afterPath="$PROJECT_DIR$/../prototype v2/css/scrolling-nav.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/slider.css" afterPath="$PROJECT_DIR$/../prototype v2/css/slider.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/../prototype v2/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/final_shot_data.csv" afterPath="$PROJECT_DIR$/../prototype v2/data/final_shot_data.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/gamelog.csv" afterPath="$PROJECT_DIR$/../prototype v2/data/gamelog.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/gamelog_average.csv" afterPath="$PROJECT_DIR$/../prototype v2/data/gamelog_average.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/marvel.json" afterPath="$PROJECT_DIR$/../prototype v2/data/marvel.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/newradardata.csv" afterPath="$PROJECT_DIR$/../prototype v2/data/newradardata.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/player_radar_playoff.csv" afterPath="$PROJECT_DIR$/../prototype v2/Final_project_radar/data/player_radar_playoff.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/player_radar_regular.csv" afterPath="$PROJECT_DIR$/../prototype v2/Final_project_radar/data/player_radar_regular.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/playerid.csv" afterPath="$PROJECT_DIR$/../prototype v2/data/playerid.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/radar.csv" afterPath="$PROJECT_DIR$/../prototype v2/Final_project_radar/data/radar.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/ranklineup.csv" afterPath="$PROJECT_DIR$/../prototype v2/data/ranklineup.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/story.csv" afterPath="$PROJECT_DIR$/../prototype v2/data/story.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/team_shots.csv" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/data/team_shots.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/teamgamelog_2014_15.csv" afterPath="$PROJECT_DIR$/../prototype v2/data/teamgamelog_2014_15.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/.idea/.name" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/.idea/.name" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../prototype v2/.idea/encodings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/.idea/final_project.iml" afterPath="$PROJECT_DIR$/../prototype v2/.idea/prototype v2.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/.idea/misc.xml" afterPath="$PROJECT_DIR$/../prototype v2/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/.idea/modules.xml" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/../prototype v2/Final_project_radar/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/css/d3.basketball-shot-chart.css" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/css/d3.basketball-shot-chart.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/css/style.css" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/data/.~lock.fifa-world-cup.csv#" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/data/.~lock.fifa-world-cup.csv#" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/data/allstars_shot_final.csv" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/data/allstars_shot_final.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/data/final_shot_data.csv" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/data/final_shot_data.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/data/team_shots.csv" afterPath="$PROJECT_DIR$/../prototype v2/data/team_shots.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/../prototype v2/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/../prototype v2/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/../prototype v2/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/../prototype v2/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/../prototype v2/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/index.html" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/index_team.html" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/index_team.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/js/basketball_court.js" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/js/basketball_court.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/js/basketball_court_team.js" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/js/basketball_court_team.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/../prototype v2/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/js/d3.chart.defaults.js" afterPath="$PROJECT_DIR$/../prototype v2/js/d3.chart.defaults.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/js/d3.chart.js" afterPath="$PROJECT_DIR$/../prototype v2/js/d3.chart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/js/d3.min.js" afterPath="$PROJECT_DIR$/../prototype v2/js/d3.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/js/d3.tip.js" afterPath="$PROJECT_DIR$/../prototype v2/js/d3.tip.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/js/datalib.min.js" afterPath="$PROJECT_DIR$/../prototype v2/js/datalib.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/js/hexagon.js" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/js/hexagon.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/js/hexagon_team.js" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/js/hexagon_team.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/js/hexbin.js" afterPath="$PROJECT_DIR$/../prototype v2/js/hexbin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/js/jquery.min.js" afterPath="$PROJECT_DIR$/../prototype v2/js/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/final_project_court/js/jquery.min.map" afterPath="$PROJECT_DIR$/../prototype v2/js/jquery.min.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/HELP-US-OUT.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/css/font-awesome.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/css/font-awesome.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/fonts/FontAwesome.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/animated.less" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/less/animated.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/less/bordered-pulled.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/less/core.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/less/fixed-width.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/less/font-awesome.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/less/icons.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/less/larger.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/less/list.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/less/mixins.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/less/path.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/less/rotated-flipped.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/screen-reader.less" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/less/screen-reader.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/less/stacked.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/less/variables.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_animated.scss" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/scss/_animated.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/scss/_core.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/scss/_fixed-width.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/scss/_icons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/scss/_larger.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/scss/_list.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/scss/_mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/scss/_path.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/scss/_screen-reader.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/scss/_stacked.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/scss/_variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/../prototype v2/font-awesome/scss/font-awesome.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/1610612739.png" afterPath="$PROJECT_DIR$/../prototype v2/img/1610612739.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/1610612740.png" afterPath="$PROJECT_DIR$/../prototype v2/img/1610612740.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/1610612744.png" afterPath="$PROJECT_DIR$/../prototype v2/img/1610612744.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/1610612745.png" afterPath="$PROJECT_DIR$/../prototype v2/img/1610612745.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/1610612763.png" afterPath="$PROJECT_DIR$/../prototype v2/img/1610612763.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Chi-suan.png" afterPath="$PROJECT_DIR$/../prototype v2/img/Chi-suan.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/DwyaneWade.jpg" afterPath="$PROJECT_DIR$/../prototype v2/img/DwyaneWade.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/HJ.png" afterPath="$PROJECT_DIR$/../prototype v2/img/HJ.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/KevinDurant.jpg" afterPath="$PROJECT_DIR$/../prototype v2/img/KevinDurant.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/KobeBryant.jpg" afterPath="$PROJECT_DIR$/../prototype v2/img/KobeBryant.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/LeBronJames.jpg" afterPath="$PROJECT_DIR$/../prototype v2/img/LeBronJames.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/StephenCurry.jpg" afterPath="$PROJECT_DIR$/../prototype v2/img/StephenCurry.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Yufei.png" afterPath="$PROJECT_DIR$/../prototype v2/img/Yufei.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/Zhuyun.png" afterPath="$PROJECT_DIR$/../prototype v2/img/Zhuyun.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/back1.jpg" afterPath="$PROJECT_DIR$/../prototype v2/img/back1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/back2.jpg" afterPath="$PROJECT_DIR$/../prototype v2/img/back2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/back3.jpg" afterPath="$PROJECT_DIR$/../prototype v2/img/back3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/bg1.png" afterPath="$PROJECT_DIR$/../prototype v2/img/bg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/gsw.png" afterPath="$PROJECT_DIR$/../prototype v2/img/gsw.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/ph1.png" afterPath="$PROJECT_DIR$/../prototype v2/img/ph1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/ph2.jpg" afterPath="$PROJECT_DIR$/../prototype v2/img/ph2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/ph3.png" afterPath="$PROJECT_DIR$/../prototype v2/img/ph3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/ph4.png" afterPath="$PROJECT_DIR$/../prototype v2/img/ph4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/ph5.png" afterPath="$PROJECT_DIR$/../prototype v2/img/ph5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index1.html" afterPath="$PROJECT_DIR$/../prototype v2/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/RadarChart.js" afterPath="$PROJECT_DIR$/../prototype v2/js/RadarChart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/basketball_court.js" afterPath="$PROJECT_DIR$/../prototype v2/js/basketball_court.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/basketball_court_team.js" afterPath="$PROJECT_DIR$/../prototype v2/js/basketball_court_team.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap-slider.js" afterPath="$PROJECT_DIR$/../prototype v2/js/bootstrap-slider.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="$PROJECT_DIR$/../prototype v2/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/colorbrewer.js" afterPath="$PROJECT_DIR$/../prototype v2/js/colorbrewer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/d3.chart.defaults.js" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/js/d3.chart.defaults.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/d3.chart.js" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/js/d3.chart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/d3.min.js" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/js/d3.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/d3.tip.js" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/js/d3.tip.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/d3.v3.min.js" afterPath="$PROJECT_DIR$/../prototype v2/js/d3.v3.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/datalib.min.js" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/js/datalib.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/global.js" afterPath="$PROJECT_DIR$/../prototype v2/js/global.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/hexagon.js" afterPath="$PROJECT_DIR$/../prototype v2/js/hexagon.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/hexagon_team.js" afterPath="$PROJECT_DIR$/../prototype v2/js/hexagon_team.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/hexbin.js" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/js/hexbin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery.easing.min.js" afterPath="$PROJECT_DIR$/../prototype v2/js/jquery.easing.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery.min.js" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/js/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery.min.map" afterPath="$PROJECT_DIR$/../prototype v2/final_project_court/js/jquery.min.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/lineup.js" afterPath="$PROJECT_DIR$/../prototype v2/js/lineup.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/lineup1.js" afterPath="$PROJECT_DIR$/../prototype v2/js/lineup1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/lineup2.js" afterPath="$PROJECT_DIR$/../prototype v2/js/lineup2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/../prototype v2/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/queue.min.js" afterPath="$PROJECT_DIR$/../prototype v2/js/queue.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/../prototype v2/js/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/scrolling-nav.js" afterPath="$PROJECT_DIR$/../prototype v2/js/scrolling-nav.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/stack_bar.js" afterPath="$PROJECT_DIR$/../prototype v2/js/stack_bar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/teammates.js" afterPath="$PROJECT_DIR$/../prototype v2/js/teammates.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/traditional_stat_barchart.js" afterPath="$PROJECT_DIR$/../prototype v2/js/traditional_stat_barchart.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/tutorials.js" afterPath="$PROJECT_DIR$/../prototype v2/js/tutorials.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/prototype v1.0.zip" afterPath="$PROJECT_DIR$/../prototype v2/prototype v1.0.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/prototype-1.zip" afterPath="$PROJECT_DIR$/../prototype v2/prototype-1.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/prototype.zip" afterPath="$PROJECT_DIR$/../prototype v2/prototype.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/stack_bar.js" afterPath="$PROJECT_DIR$/../prototype v2/stack_bar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prototype v2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../prototype v2/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prototype v2/js/global.js" afterPath="$PROJECT_DIR$/../prototype v2/js/global.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prototype v2/js/hexagon.js" afterPath="$PROJECT_DIR$/../prototype v2/js/hexagon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prototype v2/js/main.js" afterPath="$PROJECT_DIR$/../prototype v2/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prototype v2/js/script.js" afterPath="$PROJECT_DIR$/../prototype v2/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prototype v2/js/teammates.js" afterPath="$PROJECT_DIR$/../prototype v2/js/teammates.js" />
     </list>
     <ignored path="prototype v1.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -213,21 +28,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../prototype v2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="6.0611205">
-              <caret line="238" column="12" selection-start-line="238" selection-start-column="12" selection-end-line="238" selection-end-column="12" />
+            <state vertical-scroll-proportion="53.156864">
+              <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hexagon_team.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../prototype v2/js/hexagon_team.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.6296296">
+              <caret line="189" column="70" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../prototype v2/js/global.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.1111112">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.8448276">
+              <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hexagon.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../prototype v2/js/hexagon.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="49.51852">
+              <caret line="479" column="71" selection-start-line="479" selection-start-column="71" selection-end-line="479" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -236,21 +71,11 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../prototype v2/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="97" column="24" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
+            <state vertical-scroll-proportion="-6.259259">
+              <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="traditional_stat_barchart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../prototype v2/js/traditional_stat_barchart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.962963">
-              <caret line="73" column="13" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -301,6 +126,9 @@
         <option value="$PROJECT_DIR$/index1.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/d3.basketball-shot-chart.css" />
+        <option value="$PROJECT_DIR$/../prototype v2/js/main.js" />
+        <option value="$PROJECT_DIR$/../prototype v2/js/hexagon.js" />
+        <option value="$PROJECT_DIR$/../prototype v2/js/global.js" />
       </list>
     </option>
   </component>
@@ -311,9 +139,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="57" />
-    <option name="y" value="30" />
+    <option name="y" value="78" />
     <option name="width" value="1180" />
-    <option name="height" value="760" />
+    <option name="height" value="700" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -371,6 +199,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototype v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototype v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -520,15 +362,22 @@
       <option name="project" value="LOCAL" />
       <updated>1461873568175</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="delete unused files">
+      <created>1462109517623</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1462109517623</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="30" width="1180" height="760" extended-state="0" />
-    <editor active="false" />
+    <frame x="57" y="78" width="1180" height="700" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35289043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18550475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.50575656" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.4942434" order="8" side_tool="false" content_ui="tabs" />
@@ -538,7 +387,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -578,7 +426,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add something" />
-    <option name="LAST_COMMIT_MESSAGE" value="add something" />
+    <MESSAGE value="delete unused files" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete unused files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -795,26 +644,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../prototype v2/data/story.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../prototype v2/data/gamelog.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../prototype v2/js/hexagon_team.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6732496">
-          <caret line="294" column="46" selection-start-line="294" selection-start-column="46" selection-end-line="294" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -835,52 +668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../prototype v2/js/traditional_stat_barchart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.962963">
-          <caret line="73" column="13" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../prototype v2/js/hexagon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33215547">
-          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../prototype v2/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../prototype v2/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="24" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../prototype v2/data/marvel.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../prototype v2/js/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1111112">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -895,8 +686,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../prototype v2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.0611205">
-          <caret line="238" column="12" selection-start-line="238" selection-start-column="12" selection-end-line="238" selection-end-column="12" />
+        <state vertical-scroll-proportion="53.156864">
+          <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../prototype v2/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../prototype v2/js/traditional_stat_barchart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41048035">
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../prototype v2/data/story.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15463917">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../prototype v2/js/hexagon_team.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6296296">
+          <caret line="189" column="70" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../prototype v2/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.259259">
+          <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../prototype v2/js/hexagon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="49.51852">
+          <caret line="479" column="71" selection-start-line="479" selection-start-column="71" selection-end-line="479" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../prototype v2/js/global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8448276">
+          <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
           <folding />
         </state>
       </provider>

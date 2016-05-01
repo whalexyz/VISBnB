@@ -52,6 +52,23 @@ function loadData(){
         data_origin = csv;
         data = data_origin;
 
+        var player_color = [];
+        var myJSON = "";
+
+        for (var l = 0; l < d3.map(csv, function(d){return d.team_name;}).keys(); l++) {
+
+            var item = {
+                "team_name": [l].team_name,
+                "color": l
+            };
+
+            player_color.push(item);
+        }
+        console.log(player_color)
+
+        myJSON = JSON.stringify({player_color: player_color});
+
+
         var select = d3.select('#selection1')
             .append('select')
             .attr('id','select1')
