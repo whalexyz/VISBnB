@@ -190,7 +190,8 @@ function displayScore(){
         $("#stat-title").text("Match " + matchSeriesId.toString()).css('color',textColor);
     } else {
 
-        $("#stat-title").text("Overall Stats").css("color","#FDB927");
+        $("#stat-title").text("Overall Stats");
+        //.css("color","#FDB927")
     }
 
     scoreSVG1.selectAll("text")
@@ -339,7 +340,7 @@ function updateDonut(gameid){
     var t=g.selectAll("text.label")
         .data(donut_pie(donut1));
     t.enter().append("text")
-        .attr("class","label");
+        .attr("class","label2");
 
     t.transition().duration(500)
         .attr("transform", function(d) {
