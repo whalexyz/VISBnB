@@ -96,6 +96,7 @@ function afterBtnClickUpdate(gameid){
     selectStatData();
     displayScore();
     updateDonut(gameid);
+    show_stage_story()
 }
 
 //load stat bar chart data
@@ -462,8 +463,9 @@ function updateDonut(gameid){
 }
 
 
-function show_match_story(){
-        var match_story = allStat.filter(function(d){return d.game_id==matchids});
+function show_match_story(gameid){
+        var match_story = allStat.filter(function(d){return d.game_id==gameid});
+
         d3.select("#change_match_text_onclick").text(match_story[0].story);
 
 }
