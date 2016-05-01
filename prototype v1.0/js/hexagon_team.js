@@ -179,7 +179,7 @@ function updateTeamVisualiteam_zation(gameid){
     });
 
     team_tenderData = team_finalData;
-    var team_heatRange = ['#a1dab4','#253494'];
+    var team_heatRange = ['#b3dfff',"#006BB6"];
     var team_court = d3.select("#team-shooting-chart")
         .select("svg")
         .attr("width",800)
@@ -187,8 +187,7 @@ function updateTeamVisualiteam_zation(gameid){
         .attr("viewBox", "0 0 60 60");
 
     team_tenderData2 = team_finalData2;
-    var team_heatRange2 = ['#fecc5c','#bd0026'];
-
+    var team_heatRange2 = [teamTocolor[opId][0], teamTocolor[opId][2]];
     var team_court_right = team_court.append("g")
         .attr("class", "team-court")
         .attr("transform", "rotate(90, 10,10)")
@@ -231,6 +230,7 @@ function updateTeamVisualiteam_zation(gameid){
                 (colorYStart + 20) + ")";
         })
         .style('fill', function (d, i) { return d; });
+
     team_legend.exit().remove();
 
     setTimeout(function(){
@@ -270,7 +270,8 @@ function updateTeamVisualiteam_zation(gameid){
         });
 
     // Draw team color legend for court left:
-    var team_legend1 = team_colorLegend1.selectAll('path').data(team_heatRange2);
+    var team_legend1 = team_colorLegend1.selectAll('.legend').data(team_heatRange2);
+
     team_legend1
         .enter()
         .append('path')
@@ -281,6 +282,7 @@ function updateTeamVisualiteam_zation(gameid){
                 (colorYStart + 20) + ")";
         })
         .style('fill', function (d, i) { return d; });
+
     team_legend1.exit().remove();
 
     setTimeout(function(){

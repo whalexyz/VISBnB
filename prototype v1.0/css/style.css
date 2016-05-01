@@ -17,9 +17,10 @@ h1,h2,h3,h4,h5{
     font-family: "AtlasGroteskWeb","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 h6{
-    font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;;
-    font-size: large;
+    font-family: "Palatino Linotype";
+    font-size: 16px;
     text-align: justify;
+    color: dimgray;
 }
 
 #story_start_text, #story_team{
@@ -196,13 +197,16 @@ a.section-page-scroll{
 
 /*timeline*/
 #timeline-label, #timeline-label1{
-    color:#006BB6;
+    color:black;
 }
 #team-timeline-chart{
     text-align: center;
 }
 .slider.slider-horizontal{
     width:500px;
+}
+.slider.slider-selection{
+    background: orange;
 }
 
 .match-button {

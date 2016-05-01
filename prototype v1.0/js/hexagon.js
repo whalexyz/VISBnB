@@ -501,7 +501,7 @@ function updateVisualization(){
 
 // Draw hexagon color legend for the right court:
 
-    var legend = colorLegend.selectAll('path').data(heatRange);
+    var legend = colorLegend.selectAll('.legend').data(heatRange);
     legend
         .enter()
         .append('path')
