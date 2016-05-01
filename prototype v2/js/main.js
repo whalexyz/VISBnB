@@ -96,7 +96,6 @@ function afterBtnClickUpdate(gameid){
     selectStatData();
     displayScore();
     updateDonut(gameid);
-    show_stage_story()
 }
 
 //load stat bar chart data
@@ -149,7 +148,7 @@ d3.csv("data/team_shots.csv", function(error, csv) {
     // Store csv data in global variable
     team_data = csv;
     $("#match-overall").trigger("click");
-    show_stage_story()
+
     //updateTeamVisualiteam_zation(matchId);
 });
 
@@ -167,7 +166,7 @@ function setButton(){
             //buttonText="L";
         }
         d3.select("#match"+(index+1).toString()).style("background-color",buttonColor);
-        show_stage_story()
+
     });
     //d3.select(".match-button").text(refIdToName[opId]).style("color",teamColors[sliderValue-1]);
 
@@ -341,7 +340,7 @@ function updateDonut(gameid){
     var t=g.selectAll("text.label")
         .data(donut_pie(donut1));
     t.enter().append("text")
-        .attr("class","label2");
+        .attr("class","label");
 
     t.transition().duration(500)
         .attr("transform", function(d) {

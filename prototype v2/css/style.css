@@ -13,6 +13,11 @@ dark red:#F03B20
 light orange #FD8D3C:
 */
 /*overall*/
+/*
+body{
+    background-color: #000;
+}
+*/
 h1,h2,h3,h4,h5,title{
     font-family: "AtlasGroteskWeb","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -289,10 +294,11 @@ button.disabled {
 .hexagon {
     fill: none;
     stroke: #000;
-    stroke-width: .5px;
+    stroke-width: 0.5px;
 }
 
 #player-shooting-chart{
+    left:300px;
     position: relative;
     align-content: center;
     height:600px;
@@ -357,6 +363,10 @@ svg#chart-area2{
     height:100px;
     border-radius: 50%;
     border:2px solid #26282A;
+}
+
+#player1-div{
+    left:200px;
 }
 
 
