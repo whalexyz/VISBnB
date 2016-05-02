@@ -5,6 +5,7 @@
 
 
 $("#tutorial").click(function(){
+    $(".closebtn").trigger("click");
     $("#tutorials-mask-div").css("width","100%");
 });
 
@@ -56,9 +57,43 @@ $(".tutorial-btn").click(function(){
             break;
         case "10":
             $("#team1-div ,#team2-div").removeClass("expose");
+            $("#comparison-btn").trigger("click")
+            //    $("#tutorials-mask-div").css("width","0%");
+            break;
+        case "11":
+            $("#stack-chart-area").css("position","relative");
+            $("#stack-chart-area").addClass("expose");
+            break;
+        case "12":
+            $("#stack-chart-area").removeClass("expose");
+            $("#player-shooting-chart").css("position","relative");
+            $("#player-shooting-chart").addClass("expose");
+            break;
+        case "13":
+            $("#player-shooting-chart").removeClass("expose");
+            $("#player1-div").css("position","relative");
+            $("#player1-div").addClass("expose");
+            $("#player2-div").css("position","relative");
+            $("#player2-div").addClass("expose");
+            break;
+        case "14":
+            $("#player1-div").removeClass("expose");
+            $("#player2-div").removeClass("expose");
+            $("#radar-chart1").css("position","relative");
+            $("#radar-chart1").addClass("expose");
+            $("#radar-chart2").css("position","relative");
+            $("#radar-chart2").addClass("expose");
+            break;
+        case "15":
+            $("#radar-chart1").removeClass("expose");
+            $("#radar-chart2").removeClass("expose");
+            break;
+        case "16":
+
             $("#tutorials-mask-div").css("width","0%");
             break;
     }
+    stepId=1
 });
 
 $(".closebtn").click(function(){

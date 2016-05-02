@@ -524,6 +524,14 @@ text.shooting_legend{
     display: none;
 }
 
+
+#tutorial-step-12{
+    position: relative;
+    top:280px;
+}
+
+
+
 .closebtn{
     position: absolute;
     top:80px;

@@ -38,7 +38,7 @@
                     <a class="page-scroll" href="#story" id="story-btn">Story Telling</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#player">Player Comparison</a>
+                    <a class="page-scroll" href="#player" id="comparison-btn">Player Comparison</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="">Process Book</a>
@@ -140,16 +140,69 @@
             </p>
             <button class="btn tutorial-btn" id="btn-step-9"></button>
         </div>
+
         <div class="tutorial-step-div" id="tutorial-step-10">
+            <h1>Okay!</h1>
+            <p class="tutorial-text">
+                Now you know how to play around with this part.
+            </p>
+            <p class="tutorial-text">
+                Let's explore next part--player comprison!
+            </p>
+            <button class="btn tutorial-btn" id="btn-step-10">Next part</button>
+        </div>
+        <div class="tutorial-step-div" id="tutorial-step-11">
+            <h1>Player comparison</h1>
+            <p class="tutorial-text">
+                This page shows the stats of two players.
+            </p>
+            <button class="btn tutorial-btn" id="btn-step-11">Next</button>
+        </div>
+        <div class="tutorial-step-div" id="tutorial-step-12">
+            <h1>What do this bar chart mean?</h1>
+            <p class="tutorial-text">This bar chart shows times that both players attempted to shoot in different shot ranges with different shot types in the match:</p>
+
+            <p class="tutorial-text">Colors represent shot type. X axis represents shot range. </p>
+
+            <p class="tutorial-text"> You can click on the x-axis to choose one shot range. You can also click on the legend to
+                choose one shot type. It will automatically show the filtered results. Whenever you want to return to the original
+                stack bar chart, you can just click on the title at the upper right corner of the chart.</p>
+            <button class="btn tutorial-btn" id="btn-step-12">Next</button>
+        </div>
+        <div class="tutorial-step-div" id="tutorial-step-13">
+            <h1>What do these graphs mean?</h1>
+            <p class="tutorial-text">This court chart shows the locations both team attempted to shoot in the match:</p>
+            <ul>
+                <li>
+                    <p class="tutorial-text">The size of hexagons represent the frequency of attempted shot. </p>
+                </li>
+                <li>
+                    <p class="tutorial-text">The color of hexagons represent the efficiency of shots in that location.</p>
+                </li>
+            </ul>
+            <button class="btn tutorial-btn" id="btn-step-13">Next</button>
+        </div>
+        <div class="tutorial-step-div" id="tutorial-step-14">
+            <h1>Most frequent lineups</h1>
+            <p class="tutorial-text">If you click on the images, it will show the most frequent lineups for these players. </p>
+            <button class="btn tutorial-btn" id="btn-step-14">Next</button>
+        </div>
+        <div class="tutorial-step-div" id="tutorial-step-15">
+            <h1>What do these radar charts mean?</h1>
+            <p class="tutorial-text">These charts show players' performance in six fields.</p>
+            <button class="btn tutorial-btn" id="btn-step-15">Next</button>
+        </div>
+        <div class="tutorial-step-div" id="tutorial-step-16">
             <h1>Done!</h1>
             <p class="tutorial-text">
-                Now you know how to play around with our website.
+                Now you know how to play around with our webpage.
             </p>
             <p class="tutorial-text">
-                Have fun with your exploration.
+                Let's explore now!
             </p>
-            <button class="btn tutorial-btn" id="btn-step-10">Explore</button>
+            <button class="btn tutorial-btn" id="btn-step-16">Explore!</button>
         </div>
+
     </div>
 </div>
 <section id="story">
@@ -275,7 +328,7 @@
                         <svg id="chart-area" width = "2" height="2"></svg>
                     </div>
                 </div>
-                <div class="col-lg-2 player-div">
+                <div class="col-lg-2 player-div" id="player2-div">
                     <div class="player-img-wrapper" id="player2-wrapper">
                         <img id="player2-img"/>
                     </div>
