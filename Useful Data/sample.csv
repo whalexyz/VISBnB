@@ -1,0 +1,10 @@
+rowid,grid_type,game_id,game_event_id,player_id,player_name,team_id,team_name,period,minutes_remaining,seconds_remaining,event_type,action_type,shot_type,shot_zone_basic,shot_zone_area,shot_zone_range,shot_distance,loc_x,loc_y,shot_attempted_flag,shot_made_flag,shot_made_numeric,shot_value
+1,Shot Chart Detail,21400010,107,203112,Quincy Acy,1610612752,New York Knicks,1,1,22,Made Shot,Jump Shot,2PT Field Goal,Mid-Range,Right Side(R),16-24 ft.,18,18.5,6.75,1,made,1,2
+2,Shot Chart Detail,21400010,112,203112,Quincy Acy,1610612752,New York Knicks,1,0,31,Missed Shot,Jump Shot,2PT Field Goal,Mid-Range,Center(C),16-24 ft.,16,-2.3,21.15,1,missed,0,2
+3,Shot Chart Detail,21400010,396,203112,Quincy Acy,1610612752,New York Knicks,4,10,26,Made Shot,Jump Shot,2PT Field Goal,Mid-Range,Left Side Center(LC),16-24 ft.,17,-7.1,21.45,1,made,1,2
+4,Shot Chart Detail,21400010,436,203112,Quincy Acy,1610612752,New York Knicks,4,6,32,Missed Shot,Jump Shot,2PT Field Goal,Mid-Range,Left Side(L),8-16 ft.,11,-9.7,11.25,1,missed,0,2
+5,Shot Chart Detail,21400010,454,203112,Quincy Acy,1610612752,New York Knicks,4,5,55,Missed Shot,Jump Shot,2PT Field Goal,Mid-Range,Left Side Center(LC),16-24 ft.,19,-14.4,18.15,1,missed,0,2
+6,Shot Chart Detail,21400010,463,203112,Quincy Acy,1610612752,New York Knicks,4,5,4,Made Shot,Layup Shot,2PT Field Goal,Restricted Area,Center(C),Less Than 8 ft.,1,0.4,6.65,1,made,1,2
+7,Shot Chart Detail,21400018,42,203112,Quincy Acy,1610612752,New York Knicks,1,6,5,Missed Shot,Jump Shot,2PT Field Goal,Mid-Range,Center(C),16-24 ft.,20,5.8,25.25,1,missed,0,2
+8,Shot Chart Detail,21400018,55,203112,Quincy Acy,1610612752,New York Knicks,1,4,37,Made Shot,Layup Shot,2PT Field Goal,Restricted Area,Center(C),Less Than 8 ft.,0,0,5.95,1,made,1,2
+9,Shot Chart Detail,21400018,173,203112,Quincy Acy,1610612752,New York Knicks,2,6,49,Made Shot,Layup Shot,2PT Field Goal,Restricted Area,Center(C),Less Than 8 ft.,0,0,5.65,1,made,1,2

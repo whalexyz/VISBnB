@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stacked Bar Chart</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/colorbrewer.css">
+</head>
+
+<body>
+    <form class="form-inline">
+        <div class = "container">
+            <div class = "col-md-6" id = "selection1"></div>
+            <div class = "col-md-6" id = "selection2"></div>
+        </div>
+    </form>
+
+    <div class="container">
+        <!-- Select box to choose the ranking type -->
+        <h1>Stacked bar chart</h1>
+        <div id="chart-area"></div>
+
+    </div>
+    <div>
+        <svg id = "img" width = "5" height = "5"></svg>
+    </div>
+    <form class="form-inline">
+        <div class = "container">
+            <div class = "col-md-6" id = "selection3"></div>
+            <div class = "col-md-6" id = "selection4"></div>
+        </div>
+    </form>
+
+
+    <!-- Load JS libraries -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/queue.min.js"></script>
+    <script src="js/d3.min.js"></script>
+    <script src="js/d3.tip.js"></script>
+    <script src="js/colorbrewer.js"></script>
+    <script src="js/main1.js"></script>
+</body>
+</html>

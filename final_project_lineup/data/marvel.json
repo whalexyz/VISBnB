@@ -1,0 +1,70 @@
+{
+ "name": "marvel",
+ "img": "https://dl.dropboxusercontent.com/u/19954023/marvel_force_chart_img/marvel.png",
+
+   "children": [
+    {
+      "hero": "Spider-Man",
+      "name": "Peter Benjamin Parker", 
+      "link": "http://marvel.com/characters/54/spider-man",
+      "img":  "https://dl.dropboxusercontent.com/u/19954023/marvel_force_chart_img/top_spiderman.png",
+      "size": 40000
+    },
+    {
+      "hero": "CAPTAIN MARVEL",
+      "name": "Carol Danvers", 
+      "link": "http://marvel.com/characters/9/captain_marvel",
+      "img":  "https://dl.dropboxusercontent.com/u/19954023/marvel_force_chart_img/top_captainmarvel.png",
+      "size": 40000
+    },
+    {
+      "hero": "HULK", 
+      "name": "Robert Bruce Banner",
+      "link": "http://marvel.com/characters/25/hulk",
+      "img":  "https://dl.dropboxusercontent.com/u/19954023/marvel_force_chart_img/top_hulk.png",
+      "size": 40000
+    },
+    {
+      "hero": "Black Widow", 
+      "name": "Natalia 'Natasha' Alianovna Romanova",
+      "link": "http://marvel.com/characters/6/black_widow",
+      "img":  "https://dl.dropboxusercontent.com/u/19954023/marvel_force_chart_img/top_blackwidow.png",
+      "size": 40000
+    },
+    {
+      "hero": "Daredevil", 
+      "name": "Matthew Michael Murdock",
+      "link": "http://marvel.com/characters/11/daredevil",
+      "img":  "https://dl.dropboxusercontent.com/u/19954023/marvel_force_chart_img/top_daredevil.png",
+      "size": 40000
+    },
+    {
+      "hero": "Wolverine", 
+      "name": "James Howlett",
+      "link": "http://marvel.com/characters/66/wolverine",
+      "img":  "https://dl.dropboxusercontent.com/u/19954023/marvel_force_chart_img/top_wolverine.png",
+      "size": 40000
+    },
+    {
+      "hero": "Captain America", 
+      "name": "Steven Rogers",
+      "link": "http://marvel.com/characters/8/captain_america",
+      "img":  "https://dl.dropboxusercontent.com/u/19954023/marvel_force_chart_img/top_captainamerica.png",
+      "size": 40000
+    },
+    {
+      "hero": "Iron Man", 
+      "name": "Anthony Edward 'Tony' Stark",
+      "link": "http://marvel.com/characters/29/iron_man",
+      "img":  "https://dl.dropboxusercontent.com/u/19954023/marvel_force_chart_img/top_ironman.png",
+      "size": 40000
+    },
+    {
+      "hero": "THOR", 
+      "name": "Thor Odinson",
+      "link": "http://marvel.com/characters/60/thor",
+      "img":  "https://dl.dropboxusercontent.com/u/19954023/marvel_force_chart_img/top_thor.png",
+      "size": 40000
+    }
+ ]
+}
